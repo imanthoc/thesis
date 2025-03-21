@@ -23,7 +23,7 @@ def create_colormap(er_map):
         row = []
 
         for x in x_ar:
-            p = (int(x), int(y))
+            p = (x, y)
             if p not in er_map:
                 row.append(0)
             else:
@@ -36,13 +36,13 @@ def create_colormap(er_map):
     plt.colorbar(label='value')
     plt.show()
 
-def create_centermap(er_map):
+def create_centermap(avg_er_map):
     zero_x = 600
     zero_y = 300
 
     distance_error_list = []
 
-    for ((p_x, p_y), error) in  er_map.items():
+    for ((p_x, p_y), error) in  avg_er_map.items():
         d = distance(zero_x, zero_y, p_x, p_y)
         distance_error_list.append((d, error))
 
@@ -53,6 +53,25 @@ def create_centermap(er_map):
 
     plt.plot(distance_list, error_list)
     plt.show()
+
+def print_avg_error_per_point(avg_er_map, stddev_map):
+    matrix = []
+
+    x_ar = [x for x in range(0, 1201, 60)]
+    y_ar = [y for y in range(0, 601, 60)]
+
+    for x in x_ar:
+        for y in y_ar:
+            p = (x, y)
+            if p in avg_er_map and p in stddev_map:
+                error = avg_er_map[p]
+                stddev = stddev_map[p]
+
+                row = [x, y, error, stddev]
+                matrix.append(row)
+
+    df = pd.DataFrame(matrix)
+    df.to_csv("error_per_point.csv", index = False, header = ["X", "Y", "AVG Error", "STDDev"])
 
 def create_error_maps(comp):
     cm_df = pd.read_csv(comp).values
@@ -70,15 +89,19 @@ def create_error_maps(comp):
         er_map[gt].append(error)
 
     avg_er_map = {}
+    stddev_map = {}
 
     for point, er_list in er_map.items():
         avg_er_map[point] = statistics.mean(er_list)
+        stddev_map[point] = statistics.stdev(er_list)
 
     for point, avg_er in avg_er_map.items():
         pass #print("[{}, {}] = {}".format(point[0], point[1], avg_er))
 
     create_colormap(avg_er_map)
     create_centermap(avg_er_map)
+
+    print_avg_error_per_point(avg_er_map, stddev_map)
 
 def main():
     if len(sys.argv) != 2:
@@ -88,7 +111,6 @@ def main():
     comp = sys.argv[1]
 
     create_error_maps(comp)
-
 
 if __name__ == "__main__":
     main()
