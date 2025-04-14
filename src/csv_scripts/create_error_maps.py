@@ -60,6 +60,8 @@ def create_histograms(matrix):
 
     plt.show()
 
+    return transpose_matrix
+
 def create_colormap(er_map):
     matrix_acc = []
     matrix_areas = []
@@ -88,16 +90,18 @@ def create_colormap(er_map):
         matrix_acc.append(row_acc)
         matrix_areas.append(row_area)
 
-    plt.pcolormesh(x_ar, y_ar, matrix_acc).set_mouseover(True)
+    plt.pcolormesh(x_ar, y_ar, matrix_acc)#.set_mouseover(True)
     plt.colorbar(label='Error')
     plt.title("Color Error Map")
     plt.show()
 
     plt.title("Area Error Map (er <= 1m, 1 < er <= 3m, er > 3m)")
-    plt.pcolormesh(x_ar, y_ar, matrix_areas).set_mouseover(True)
+    plt.pcolormesh(x_ar, y_ar, matrix_areas)#.set_mouseover(True)
     plt.show()
 
-    create_histograms(matrix_acc)
+    transpose_matrix = create_histograms(matrix_acc)
+
+    return (matrix_acc, matrix_areas, transpose_matrix)
 
 def create_centermap(avg_er_map):
     zero_x = 600
@@ -117,6 +121,34 @@ def create_centermap(avg_er_map):
     plt.plot(distance_list, error_list)
     plt.show()
 
+
+def dump_master_csv(matrix_acc, matrix_areas, transpose_matrix, avg_er_map, stddev_map):
+    print("X,Y,Avg Error per XY, STDev per XY")
+    for point in avg_er_map:
+        print("{},{},{},{}".format(point[0], point[1], avg_er_map[point], stddev_map[point]))
+
+    print("Row,Avg Error per Row, STDev per Row")
+    i = 1
+    for row in matrix_acc:
+        print("{},{},{}".format(i, statistics.mean(row), statistics.stdev(row)))
+        i += 1
+
+    print("Col,Avg Error per Col, STDev per Col")
+    i = 1
+    for line in transpose_matrix:
+        print("{},{},{}".format(i, statistics.mean(line), statistics.stdev(line)))
+        i += 1
+
+    area_a = 0
+    area_b = 0
+    area_c = 0
+    for row in matrix_areas:
+        for value in row:
+            if value == 1: area_a += 1
+            elif value == 2: area_b += 1
+            elif value == 3: area_c += 1
+    print("Area A,Area B,Area C")
+    print("{},{},{}".format(area_a, area_b, area_c))
 
 def create_error_maps(comp):
     cm_df = pd.read_csv(comp).values
@@ -140,11 +172,13 @@ def create_error_maps(comp):
         avg_er_map[point] = statistics.mean(er_list)
         stddev_map[point] = statistics.stdev(er_list)
 
-    for point, avg_er in avg_er_map.items():
-        pass #print("[{}, {}] = {}".format(point[0], point[1], avg_er))
+        if avg_er_map[point] > 552: avg_er_map[point] = 552
+        if stddev_map[point] > 552: stddev_map[point] = 552
 
-    create_colormap(avg_er_map)
+    (matrix_acc, matrix_areas, transpose_matrix) = create_colormap(avg_er_map)
     create_centermap(avg_er_map)
+
+    dump_master_csv(matrix_acc, matrix_areas, transpose_matrix, avg_er_map, stddev_map)
 
 
 def main():
