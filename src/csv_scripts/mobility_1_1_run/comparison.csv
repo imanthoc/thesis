@@ -1,2 +1,1 @@
-Usage:
-python3 compare_cl_gt.py <calculated_path csv> <gt csv>
+GT start, GT end, CL start, CL end, GT x, GT y, CL x, CL y, CL qx, CL qy, distance

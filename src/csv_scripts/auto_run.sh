@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ "$#" -lt 3 ]; then
+    echo "Usage:"
+    echo "./auto_run.sh <raw CSV> <ground truth CSV> <run name>"
+    exit 1
+fi
+
 raw_csv=$1
 gt_csv=$2
 name=$3
