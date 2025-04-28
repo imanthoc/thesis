@@ -13,12 +13,12 @@ def compare_csvs(cl_name, gt_name):
     cl_row = 0
 
     print("GT start, GT end, CL start, CL end, GT x, GT y, CL x, CL y, CL qx, CL qy, distance")
-
     while gt_row < len(gt_df):
         r = gt_df[gt_row]
 
         gt_start = int(r[0])
-        gt_end   = int(r[1])
+        gt_end = int(r[1])
+
         gt_x     = float(r[2])
         gt_y     = float(r[3])
 

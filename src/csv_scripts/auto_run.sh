@@ -16,4 +16,4 @@ mkdir $dir
 
 python3 calculate_path.py $raw_csv > $dir/path.csv
 python3 compare_cl_gt.py $dir/path.csv $gt_csv > $dir/comparison.csv
-python3 create_error_maps.py $dir/comparison.csv
+python3 create_error_maps.py $dir/comparison.csv > $dir/final_error_metrics.csv

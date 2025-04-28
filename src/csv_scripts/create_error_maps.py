@@ -16,17 +16,36 @@ def print_help():
 def create_histograms(matrix):
     transpose_matrix = []
     for col in zip(*matrix):
-        row = [v for v in col]
-        transpose_matrix.append(row)
+        transpose_matrix.append([v for v in col])
 
     row_index_array = [str(i+1) for i in range(len(matrix))]
     col_index_array = [str(i+1) for i in range(len(matrix[0]))]
 
-    avg_error_per_row = [statistics.mean(row) for row in matrix]
-    avg_stdev_per_row = [statistics.stdev(row) for row in matrix]
+    avg_error_per_row = []
+    stdev_per_row = []
 
-    avg_error_per_col = [statistics.mean(row) for row in transpose_matrix]
-    avg_stdev_per_col = [statistics.stdev(row) for row in transpose_matrix]
+    for row in matrix:
+        filtered_row = [v for v in row if v != -1]
+        # if filtered row is not empty
+        if filtered_row:
+            avg_error_per_row.append(statistics.mean(filtered_row))
+            stdev_per_row.append(statistics.stdev(filtered_row))
+        else:
+            avg_error_per_row.append(0)
+            stdev_per_row.append(0)
+
+    avg_error_per_col = []
+    stdev_per_col = []
+
+    for row in transpose_matrix:
+        filtered_row = [v for v in row if v != -1]
+        # if filtered row is not empty
+        if filtered_row:
+            avg_error_per_col.append(statistics.mean(filtered_row))
+            stdev_per_col.append(statistics.stdev(filtered_row))
+        else:
+            avg_error_per_col.append(0)
+            stdev_per_col.append(0)
 
     f = plt.figure()
     avg_plt     = f.add_subplot(121)
@@ -37,7 +56,7 @@ def create_histograms(matrix):
     avg_plt.set_ylabel("Avg Error")
     avg_plt.set_title("Average Error per Row")
 
-    stdev_plt.bar(row_index_array, avg_stdev_per_row)
+    stdev_plt.bar(row_index_array, stdev_per_row)
     stdev_plt.set_xlabel("Row (1-indexed)")
     stdev_plt.set_ylabel("STDev")
     stdev_plt.set_title("STDev per Row")
@@ -53,7 +72,7 @@ def create_histograms(matrix):
     avg_plt.set_ylabel("Avg Error")
     avg_plt.set_title("Average Error per Col")
 
-    stdev_plt.bar(col_index_array, avg_stdev_per_col)
+    stdev_plt.bar(col_index_array, stdev_per_col)
     stdev_plt.set_xlabel("Col (1-indexed)")
     stdev_plt.set_ylabel("STDev")
     stdev_plt.set_title("STDev per Col")
@@ -75,9 +94,10 @@ def create_colormap(er_map):
 
         for x in x_ar:
             p = (x, y)
+
             if p not in er_map:
-                row_acc.append(0)
-                row_area.append(1)
+                row_acc.append(-1)
+                row_area.append(-1)
             else:
                 if er_map[p] > 552: er_map[p] = 552
 
@@ -90,13 +110,18 @@ def create_colormap(er_map):
         matrix_acc.append(row_acc)
         matrix_areas.append(row_area)
 
-    plt.pcolormesh(x_ar, y_ar, matrix_acc)#.set_mouseover(True)
+    try: plt.pcolormesh(x_ar, y_ar, matrix_acc).set_mouseover(True)
+    except: plt.pcolormesh(x_ar, y_ar, matrix_acc)
+
     plt.colorbar(label='Error')
     plt.title("Color Error Map")
     plt.show()
 
+
+    try: plt.pcolormesh(x_ar, y_ar, matrix_areas).set_mouseover(True)
+    except: plt.pcolormesh(x_ar, y_ar, matrix_areas)
+
     plt.title("Area Error Map (er <= 1m, 1 < er <= 3m, er > 3m)")
-    plt.pcolormesh(x_ar, y_ar, matrix_areas)#.set_mouseover(True)
     plt.show()
 
     transpose_matrix = create_histograms(matrix_acc)
@@ -115,17 +140,20 @@ def create_centermap(avg_er_map):
 
     distance_error_list.sort()
 
-    distance_list = [d for (d, e) in distance_error_list]
-    error_list = [e for (d, e) in distance_error_list]
+    distance_list   = [d for (d, e) in distance_error_list]
+    error_list      = [e for (d, e) in distance_error_list]
 
     plt.plot(distance_list, error_list)
     plt.show()
 
 
 def dump_master_csv(matrix_acc, matrix_areas, transpose_matrix, avg_er_map, stddev_map):
+    total_error_list = []
+
     print("X,Y,Avg Error per XY, STDev per XY")
     for point in avg_er_map:
         print("{},{},{},{}".format(point[0], point[1], avg_er_map[point], stddev_map[point]))
+        total_error_list.append(avg_er_map[point])
 
     print("Row,Avg Error per Row, STDev per Row")
     i = 1
@@ -147,8 +175,15 @@ def dump_master_csv(matrix_acc, matrix_areas, transpose_matrix, avg_er_map, stdd
             if value == 1: area_a += 1
             elif value == 2: area_b += 1
             elif value == 3: area_c += 1
+
     print("Area A,Area B,Area C")
     print("{},{},{}".format(area_a, area_b, area_c))
+
+    total_avg_error = statistics.mean(total_error_list)
+    total_stdev     = statistics.stdev(total_error_list)
+    print("Total AVG error,Total STDev")
+    print("{},{}".format(total_avg_error, total_stdev))
+
 
 def create_error_maps(comp):
     cm_df = pd.read_csv(comp).values
