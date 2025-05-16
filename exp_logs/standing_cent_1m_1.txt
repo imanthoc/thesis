@@ -1,0 +1,399 @@
+RSSI: -59 AZ: 4 timestamp: 4513669 seq_num: 8628
+
+RSSI: -60 AZ: 4 timestamp: 4513719 seq_num: 8629
+
+RSSI: -56 AZ: 4 timestamp: 4513769 seq_num: 8630
+
+RSSI: -59 AZ: 4 timestamp: 4513819 seq_num: 8631
+
+RSSI: -57 AZ: 4 timestamp: 4513869 seq_num: 8632
+
+RSSI: -56 AZ: 4 timestamp: 4513919 seq_num: 8633
+
+RSSI: -56 AZ: 4 timestamp: 4513969 seq_num: 8634
+
+RSSI: -60 AZ: 4 timestamp: 4514019 seq_num: 8635
+
+RSSI: -55 AZ: 4 timestamp: 4514069 seq_num: 8636
+
+RSSI: -55 AZ: 4 timestamp: 4514119 seq_num: 8637
+
+RSSI: -55 AZ: 4 timestamp: 4514169 seq_num: 8638
+
+RSSI: -61 AZ: 4 timestamp: 4514219 seq_num: 8639
+
+RSSI: -55 AZ: 4 timestamp: 4514269 seq_num: 8640
+
+RSSI: -56 AZ: 4 timestamp: 4514319 seq_num: 8641
+
+RSSI: -53 AZ: 4 timestamp: 4514369 seq_num: 8642
+
+RSSI: -56 AZ: 4 timestamp: 4514419 seq_num: 8643
+
+RSSI: -57 AZ: 5 timestamp: 4514469 seq_num: 8644
+
+RSSI: -61 AZ: 5 timestamp: 4514519 seq_num: 8645
+
+RSSI: -57 AZ: 5 timestamp: 4514569 seq_num: 8646
+
+RSSI: -61 AZ: 5 timestamp: 4514619 seq_num: 8647
+
+RSSI: -61 AZ: 5 timestamp: 4514669 seq_num: 8648
+
+RSSI: -56 AZ: 5 timestamp: 4514719 seq_num: 8649
+
+RSSI: -57 AZ: 5 timestamp: 4514769 seq_num: 8650
+
+RSSI: -58 AZ: 5 timestamp: 4514819 seq_num: 8651
+
+RSSI: -56 AZ: 5 timestamp: 4514869 seq_num: 8652
+
+RSSI: -56 AZ: 5 timestamp: 4514919 seq_num: 8653
+
+RSSI: -57 AZ: 5 timestamp: 4514969 seq_num: 8654
+
+RSSI: -56 AZ: 5 timestamp: 4515019 seq_num: 8655
+
+RSSI: -60 AZ: 5 timestamp: 4515069 seq_num: 8656
+
+RSSI: -61 AZ: 5 timestamp: 4515119 seq_num: 8657
+
+RSSI: -57 AZ: 5 timestamp: 4515169 seq_num: 8658
+
+RSSI: -56 AZ: 1 timestamp: 4515219 seq_num: 8659
+
+RSSI: -55 AZ: 1 timestamp: 4515269 seq_num: 8660
+
+RSSI: -55 AZ: 1 timestamp: 4515319 seq_num: 8661
+
+RSSI: -55 AZ: 2 timestamp: 4515369 seq_num: 8662
+
+RSSI: -61 AZ: 2 timestamp: 4515419 seq_num: 8663
+
+RSSI: -61 AZ: 2 timestamp: 4515469 seq_num: 8664
+
+RSSI: -61 AZ: 2 timestamp: 4515519 seq_num: 8665
+
+RSSI: -55 AZ: 2 timestamp: 4515569 seq_num: 8666
+
+RSSI: -59 AZ: 2 timestamp: 4515619 seq_num: 8667
+
+RSSI: -60 AZ: 2 timestamp: 4515669 seq_num: 8668
+
+RSSI: -61 AZ: 2 timestamp: 4515719 seq_num: 8669
+
+RSSI: -61 AZ: 2 timestamp: 4515769 seq_num: 8670
+
+RSSI: -57 AZ: 3 timestamp: 4515819 seq_num: 8671
+
+RSSI: -60 AZ: 3 timestamp: 4515869 seq_num: 8672
+
+RSSI: -59 AZ: 3 timestamp: 4515919 seq_num: 8673
+
+RSSI: -60 AZ: 3 timestamp: 4515969 seq_num: 8674
+
+RSSI: -59 AZ: 3 timestamp: 4516019 seq_num: 8675
+
+RSSI: -57 AZ: 3 timestamp: 4516069 seq_num: 8676
+
+RSSI: -60 AZ: 3 timestamp: 4516119 seq_num: 8677
+
+RSSI: -59 AZ: 3 timestamp: 4516169 seq_num: 8678
+
+RSSI: -56 AZ: 3 timestamp: 4516219 seq_num: 8679
+
+RSSI: -57 AZ: 3 timestamp: 4516269 seq_num: 8680
+
+RSSI: -58 AZ: 3 timestamp: 4516319 seq_num: 8681
+
+RSSI: -59 AZ: 3 timestamp: 4516369 seq_num: 8682
+
+RSSI: -57 AZ: 3 timestamp: 4516419 seq_num: 8683
+
+RSSI: -61 AZ: 4 timestamp: 4516469 seq_num: 8684
+
+RSSI: -54 AZ: 4 timestamp: 4516519 seq_num: 8685
+
+RSSI: -57 AZ: 4 timestamp: 4516569 seq_num: 8686
+
+RSSI: -59 AZ: 4 timestamp: 4516619 seq_num: 8687
+
+RSSI: -55 AZ: 4 timestamp: 4516669 seq_num: 8688
+
+RSSI: -55 AZ: 4 timestamp: 4516719 seq_num: 8689
+
+RSSI: -55 AZ: 4 timestamp: 4516769 seq_num: 8690
+
+RSSI: -61 AZ: 4 timestamp: 4516819 seq_num: 8691
+
+RSSI: -59 AZ: 4 timestamp: 4516869 seq_num: 8692
+
+RSSI: -59 AZ: 4 timestamp: 4516919 seq_num: 8693
+
+RSSI: -61 AZ: 4 timestamp: 4516969 seq_num: 8694
+
+RSSI: -59 AZ: 4 timestamp: 4517019 seq_num: 8695
+
+RSSI: -61 AZ: 4 timestamp: 4517069 seq_num: 8696
+
+RSSI: -60 AZ: 4 timestamp: 4517119 seq_num: 8697
+
+RSSI: -60 AZ: 4 timestamp: 4517169 seq_num: 8698
+
+RSSI: -54 AZ: 4 timestamp: 4517219 seq_num: 8699
+
+RSSI: -57 AZ: 4 timestamp: 4517269 seq_num: 8700
+
+RSSI: -57 AZ: 4 timestamp: 4517319 seq_num: 8701
+
+RSSI: -56 AZ: 4 timestamp: 4517369 seq_num: 8702
+
+RSSI: -60 AZ: 4 timestamp: 4517469 seq_num: 8704
+
+RSSI: -57 AZ: 4 timestamp: 4517519 seq_num: 8705
+
+RSSI: -55 AZ: 4 timestamp: 4517569 seq_num: 8706
+
+RSSI: -60 AZ: 5 timestamp: 4517619 seq_num: 8707
+
+RSSI: -58 AZ: 4 timestamp: 4517669 seq_num: 8708
+
+RSSI: -56 AZ: 5 timestamp: 4517719 seq_num: 8709
+
+RSSI: -58 AZ: 4 timestamp: 4517769 seq_num: 8710
+
+RSSI: -60 AZ: 5 timestamp: 4517819 seq_num: 8711
+
+RSSI: -58 AZ: 4 timestamp: 4517869 seq_num: 8712
+
+RSSI: -61 AZ: 5 timestamp: 4517919 seq_num: 8713
+
+RSSI: -61 AZ: 5 timestamp: 4517969 seq_num: 8714
+
+RSSI: -59 AZ: 5 timestamp: 4518019 seq_num: 8715
+
+RSSI: -60 AZ: 5 timestamp: 4518069 seq_num: 8716
+
+RSSI: -59 AZ: 5 timestamp: 4518119 seq_num: 8717
+
+RSSI: -60 AZ: 5 timestamp: 4518169 seq_num: 8718
+
+RSSI: -59 AZ: 5 timestamp: 4518219 seq_num: 8719
+
+RSSI: -55 AZ: 5 timestamp: 4518269 seq_num: 8720
+
+RSSI: -56 AZ: 5 timestamp: 4518319 seq_num: 8721
+
+RSSI: -59 AZ: 4 timestamp: 4518369 seq_num: 8722
+
+RSSI: -57 AZ: 4 timestamp: 4518419 seq_num: 8723
+
+RSSI: -57 AZ: 4 timestamp: 4518469 seq_num: 8724
+
+RSSI: -59 AZ: 4 timestamp: 4518519 seq_num: 8725
+
+RSSI: -55 AZ: 4 timestamp: 4518569 seq_num: 8726
+
+RSSI: -57 AZ: 4 timestamp: 4518619 seq_num: 8727
+
+RSSI: -61 AZ: 5 timestamp: 4518669 seq_num: 8728
+
+RSSI: -59 AZ: 4 timestamp: 4518719 seq_num: 8729
+
+RSSI: -55 AZ: 4 timestamp: 4518769 seq_num: 8730
+
+RSSI: -61 AZ: 4 timestamp: 4518819 seq_num: 8731
+
+RSSI: -61 AZ: 5 timestamp: 4518869 seq_num: 8732
+
+RSSI: -56 AZ: 5 timestamp: 4518919 seq_num: 8733
+
+RSSI: -58 AZ: 5 timestamp: 4518969 seq_num: 8734
+
+RSSI: -59 AZ: 5 timestamp: 4519019 seq_num: 8735
+
+RSSI: -61 AZ: 5 timestamp: 4519119 seq_num: 8737
+
+RSSI: -58 AZ: 5 timestamp: 4519169 seq_num: 8738
+
+RSSI: -58 AZ: 5 timestamp: 4519269 seq_num: 8740
+
+RSSI: -55 AZ: 5 timestamp: 4519319 seq_num: 8741
+
+RSSI: -58 AZ: 5 timestamp: 4519369 seq_num: 8742
+
+RSSI: -58 AZ: 5 timestamp: 4519419 seq_num: 8743
+
+RSSI: -56 AZ: 5 timestamp: 4519469 seq_num: 8744
+
+RSSI: -59 AZ: 5 timestamp: 4519519 seq_num: 8745
+
+RSSI: -58 AZ: 5 timestamp: 4519569 seq_num: 8746
+
+RSSI: -60 AZ: 5 timestamp: 4519619 seq_num: 8747
+
+RSSI: -59 AZ: 5 timestamp: 4519669 seq_num: 8748
+
+RSSI: -58 AZ: 5 timestamp: 4519719 seq_num: 8749
+
+RSSI: -58 AZ: 5 timestamp: 4519769 seq_num: 8750
+
+RSSI: -56 AZ: 5 timestamp: 4519819 seq_num: 8751
+
+RSSI: -55 AZ: 5 timestamp: 4519869 seq_num: 8752
+
+RSSI: -61 AZ: 5 timestamp: 4519919 seq_num: 8753
+
+RSSI: -59 AZ: 5 timestamp: 4519969 seq_num: 8754
+
+RSSI: -58 AZ: 5 timestamp: 4520019 seq_num: 8755
+
+RSSI: -55 AZ: 5 timestamp: 4520069 seq_num: 8756
+
+RSSI: -58 AZ: 5 timestamp: 4520119 seq_num: 8757
+
+RSSI: -55 AZ: 5 timestamp: 4520169 seq_num: 8758
+
+RSSI: -55 AZ: 5 timestamp: 4520219 seq_num: 8759
+
+RSSI: -60 AZ: 5 timestamp: 4520269 seq_num: 8760
+
+RSSI: -59 AZ: 5 timestamp: 4520319 seq_num: 8761
+
+RSSI: -58 AZ: 5 timestamp: 4520369 seq_num: 8762
+
+RSSI: -60 AZ: 5 timestamp: 4520419 seq_num: 8763
+
+RSSI: -55 AZ: 5 timestamp: 4520469 seq_num: 8764
+
+RSSI: -61 AZ: 5 timestamp: 4520519 seq_num: 8765
+
+RSSI: -59 AZ: 5 timestamp: 4520569 seq_num: 8766
+
+RSSI: -59 AZ: 5 timestamp: 4520619 seq_num: 8767
+
+RSSI: -58 AZ: 5 timestamp: 4520669 seq_num: 8768
+
+RSSI: -59 AZ: 5 timestamp: 4520719 seq_num: 8769
+
+RSSI: -59 AZ: 5 timestamp: 4520769 seq_num: 8770
+
+RSSI: -60 AZ: 5 timestamp: 4520819 seq_num: 8771
+
+RSSI: -58 AZ: 5 timestamp: 4520869 seq_num: 8772
+
+RSSI: -57 AZ: 5 timestamp: 4520919 seq_num: 8773
+
+RSSI: -58 AZ: 5 timestamp: 4520969 seq_num: 8774
+
+RSSI: -55 AZ: 5 timestamp: 4521019 seq_num: 8775
+
+RSSI: -58 AZ: 5 timestamp: 4521069 seq_num: 8776
+
+RSSI: -60 AZ: 5 timestamp: 4521119 seq_num: 8777
+
+RSSI: -60 AZ: 5 timestamp: 4521169 seq_num: 8778
+
+RSSI: -60 AZ: 5 timestamp: 4521219 seq_num: 8779
+
+RSSI: -57 AZ: 5 timestamp: 4521269 seq_num: 8780
+
+RSSI: -59 AZ: 5 timestamp: 4521319 seq_num: 8781
+
+RSSI: -62 AZ: 5 timestamp: 4521369 seq_num: 8782
+
+RSSI: -57 AZ: 5 timestamp: 4521419 seq_num: 8783
+
+RSSI: -60 AZ: 5 timestamp: 4521469 seq_num: 8784
+
+RSSI: -55 AZ: 5 timestamp: 4521519 seq_num: 8785
+
+RSSI: -61 AZ: 5 timestamp: 4521569 seq_num: 8786
+
+RSSI: -59 AZ: 5 timestamp: 4521619 seq_num: 8787
+
+RSSI: -55 AZ: 5 timestamp: 4521669 seq_num: 8788
+
+RSSI: -59 AZ: 5 timestamp: 4521719 seq_num: 8789
+
+RSSI: -61 AZ: 5 timestamp: 4521769 seq_num: 8790
+
+RSSI: -55 AZ: 5 timestamp: 4521819 seq_num: 8791
+
+RSSI: -60 AZ: 5 timestamp: 4521869 seq_num: 8792
+
+RSSI: -60 AZ: 5 timestamp: 4521919 seq_num: 8793
+
+RSSI: -60 AZ: 5 timestamp: 4521969 seq_num: 8794
+
+RSSI: -56 AZ: 5 timestamp: 4522019 seq_num: 8795
+
+RSSI: -60 AZ: 5 timestamp: 4522069 seq_num: 8796
+
+RSSI: -59 AZ: 5 timestamp: 4522119 seq_num: 8797
+
+RSSI: -59 AZ: 5 timestamp: 4522169 seq_num: 8798
+
+RSSI: -61 AZ: 5 timestamp: 4522219 seq_num: 8799
+
+RSSI: -57 AZ: 5 timestamp: 4522269 seq_num: 8800
+
+RSSI: -60 AZ: 5 timestamp: 4522319 seq_num: 8801
+
+RSSI: -59 AZ: 5 timestamp: 4522369 seq_num: 8802
+
+RSSI: -60 AZ: 5 timestamp: 4522419 seq_num: 8803
+
+RSSI: -58 AZ: 5 timestamp: 4522469 seq_num: 8804
+
+RSSI: -55 AZ: 5 timestamp: 4522519 seq_num: 8805
+
+RSSI: -59 AZ: 5 timestamp: 4522569 seq_num: 8806
+
+RSSI: -61 AZ: 5 timestamp: 4522619 seq_num: 8807
+
+RSSI: -55 AZ: 5 timestamp: 4522669 seq_num: 8808
+
+RSSI: -60 AZ: 5 timestamp: 4522719 seq_num: 8809
+
+RSSI: -60 AZ: 5 timestamp: 4522769 seq_num: 8810
+
+RSSI: -59 AZ: 5 timestamp: 4522819 seq_num: 8811
+
+RSSI: -58 AZ: 5 timestamp: 4522869 seq_num: 8812
+
+RSSI: -60 AZ: 5 timestamp: 4522919 seq_num: 8813
+
+RSSI: -57 AZ: 5 timestamp: 4522969 seq_num: 8814
+
+RSSI: -57 AZ: 5 timestamp: 4523019 seq_num: 8815
+
+RSSI: -55 AZ: 5 timestamp: 4523069 seq_num: 8816
+
+RSSI: -62 AZ: 5 timestamp: 4523119 seq_num: 8817
+
+RSSI: -59 AZ: 5 timestamp: 4523169 seq_num: 8818
+
+RSSI: -60 AZ: 5 timestamp: 4523219 seq_num: 8819
+
+RSSI: -60 AZ: 5 timestamp: 4523269 seq_num: 8820
+
+RSSI: -60 AZ: 5 timestamp: 4523319 seq_num: 8821
+
+RSSI: -60 AZ: 5 timestamp: 4523369 seq_num: 8822
+
+RSSI: -58 AZ: 5 timestamp: 4523419 seq_num: 8823
+
+RSSI: -59 AZ: 4 timestamp: 4523469 seq_num: 8824
+
+RSSI: -55 AZ: 5 timestamp: 4523519 seq_num: 8825
+
+RSSI: -57 AZ: 4 timestamp: 4523569 seq_num: 8826
+
+RSSI: -59 AZ: 4 timestamp: 4523619 seq_num: 8827
+
+RSSI: -58 AZ: 4 timestamp: 4523669 seq_num: 8828
+
+END OF MEASUREMENT
+Avg Angle: 4.398989898989899 Avg RSSI: -58.166666666666664
+STDev Angle: 0.9109592143739376 STDev RSSI: 2.0790226130036946

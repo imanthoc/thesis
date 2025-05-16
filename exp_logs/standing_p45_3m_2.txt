@@ -1,0 +1,389 @@
+RSSI: -66 AZ: 60 timestamp: 4956967 seq_num: 17490
+
+RSSI: -65 AZ: 60 timestamp: 4957017 seq_num: 17491
+
+RSSI: -62 AZ: 60 timestamp: 4957067 seq_num: 17492
+
+RSSI: -62 AZ: 60 timestamp: 4957117 seq_num: 17493
+
+RSSI: -62 AZ: 60 timestamp: 4957167 seq_num: 17494
+
+RSSI: -66 AZ: 60 timestamp: 4957217 seq_num: 17495
+
+RSSI: -62 AZ: 60 timestamp: 4957267 seq_num: 17496
+
+RSSI: -66 AZ: 60 timestamp: 4957317 seq_num: 17497
+
+RSSI: -65 AZ: 60 timestamp: 4957368 seq_num: 17498
+
+RSSI: -67 AZ: 61 timestamp: 4957417 seq_num: 17499
+
+RSSI: -62 AZ: 60 timestamp: 4957467 seq_num: 17500
+
+RSSI: -63 AZ: 60 timestamp: 4957517 seq_num: 17501
+
+RSSI: -63 AZ: 60 timestamp: 4957567 seq_num: 17502
+
+RSSI: -63 AZ: 59 timestamp: 4957617 seq_num: 17503
+
+RSSI: -61 AZ: 58 timestamp: 4957668 seq_num: 17504
+
+RSSI: -62 AZ: 58 timestamp: 4957717 seq_num: 17505
+
+RSSI: -66 AZ: 58 timestamp: 4957768 seq_num: 17506
+
+RSSI: -66 AZ: 58 timestamp: 4957817 seq_num: 17507
+
+RSSI: -66 AZ: 58 timestamp: 4957868 seq_num: 17508
+
+RSSI: -61 AZ: 58 timestamp: 4957918 seq_num: 17509
+
+RSSI: -65 AZ: 59 timestamp: 4957967 seq_num: 17510
+
+RSSI: -62 AZ: 58 timestamp: 4958017 seq_num: 17511
+
+RSSI: -60 AZ: 57 timestamp: 4958067 seq_num: 17512
+
+RSSI: -67 AZ: 57 timestamp: 4958167 seq_num: 17514
+
+RSSI: -64 AZ: 57 timestamp: 4958217 seq_num: 17515
+
+RSSI: -66 AZ: 58 timestamp: 4958267 seq_num: 17516
+
+RSSI: -66 AZ: 58 timestamp: 4958317 seq_num: 17517
+
+RSSI: -64 AZ: 58 timestamp: 4958367 seq_num: 17518
+
+RSSI: -65 AZ: 59 timestamp: 4958417 seq_num: 17519
+
+RSSI: -62 AZ: 59 timestamp: 4958467 seq_num: 17520
+
+RSSI: -61 AZ: 58 timestamp: 4958517 seq_num: 17521
+
+RSSI: -67 AZ: 58 timestamp: 4958568 seq_num: 17522
+
+RSSI: -62 AZ: 59 timestamp: 4958617 seq_num: 17523
+
+RSSI: -66 AZ: 59 timestamp: 4958667 seq_num: 17524
+
+RSSI: -60 AZ: 59 timestamp: 4958717 seq_num: 17525
+
+RSSI: -63 AZ: 59 timestamp: 4958767 seq_num: 17526
+
+RSSI: -63 AZ: 59 timestamp: 4958817 seq_num: 17527
+
+RSSI: -66 AZ: 59 timestamp: 4958868 seq_num: 17528
+
+RSSI: -66 AZ: 59 timestamp: 4958917 seq_num: 17529
+
+RSSI: -66 AZ: 60 timestamp: 4958967 seq_num: 17530
+
+RSSI: -64 AZ: 60 timestamp: 4959017 seq_num: 17531
+
+RSSI: -63 AZ: 61 timestamp: 4959067 seq_num: 17532
+
+RSSI: -66 AZ: 61 timestamp: 4959117 seq_num: 17533
+
+RSSI: -68 AZ: 62 timestamp: 4959167 seq_num: 17534
+
+RSSI: -66 AZ: 62 timestamp: 4959217 seq_num: 17535
+
+RSSI: -61 AZ: 62 timestamp: 4959267 seq_num: 17536
+
+RSSI: -64 AZ: 62 timestamp: 4959317 seq_num: 17537
+
+RSSI: -64 AZ: 62 timestamp: 4959367 seq_num: 17538
+
+RSSI: -62 AZ: 61 timestamp: 4959417 seq_num: 17539
+
+RSSI: -64 AZ: 62 timestamp: 4959467 seq_num: 17540
+
+RSSI: -62 AZ: 60 timestamp: 4959567 seq_num: 17542
+
+RSSI: -64 AZ: 61 timestamp: 4959617 seq_num: 17543
+
+RSSI: -62 AZ: 61 timestamp: 4959667 seq_num: 17544
+
+RSSI: -63 AZ: 61 timestamp: 4959717 seq_num: 17545
+
+RSSI: -62 AZ: 60 timestamp: 4959767 seq_num: 17546
+
+RSSI: -64 AZ: 61 timestamp: 4959817 seq_num: 17547
+
+RSSI: -64 AZ: 61 timestamp: 4959868 seq_num: 17548
+
+RSSI: -67 AZ: 61 timestamp: 4959917 seq_num: 17549
+
+RSSI: -63 AZ: 62 timestamp: 4959967 seq_num: 17550
+
+RSSI: -61 AZ: 60 timestamp: 4960017 seq_num: 17551
+
+RSSI: -61 AZ: 59 timestamp: 4960067 seq_num: 17552
+
+RSSI: -63 AZ: 60 timestamp: 4960117 seq_num: 17553
+
+RSSI: -61 AZ: 59 timestamp: 4960167 seq_num: 17554
+
+RSSI: -64 AZ: 60 timestamp: 4960217 seq_num: 17555
+
+RSSI: -63 AZ: 60 timestamp: 4960267 seq_num: 17556
+
+RSSI: -61 AZ: 59 timestamp: 4960317 seq_num: 17557
+
+RSSI: -67 AZ: 60 timestamp: 4960367 seq_num: 17558
+
+RSSI: -61 AZ: 59 timestamp: 4960417 seq_num: 17559
+
+RSSI: -68 AZ: 59 timestamp: 4960467 seq_num: 17560
+
+RSSI: -61 AZ: 58 timestamp: 4960517 seq_num: 17561
+
+RSSI: -62 AZ: 59 timestamp: 4960568 seq_num: 17562
+
+RSSI: -62 AZ: 58 timestamp: 4960667 seq_num: 17564
+
+RSSI: -62 AZ: 58 timestamp: 4960717 seq_num: 17565
+
+RSSI: -61 AZ: 57 timestamp: 4960767 seq_num: 17566
+
+RSSI: -63 AZ: 57 timestamp: 4960817 seq_num: 17567
+
+RSSI: -62 AZ: 57 timestamp: 4960868 seq_num: 17568
+
+RSSI: -67 AZ: 58 timestamp: 4960917 seq_num: 17569
+
+RSSI: -63 AZ: 58 timestamp: 4960967 seq_num: 17570
+
+RSSI: -63 AZ: 59 timestamp: 4961017 seq_num: 17571
+
+RSSI: -67 AZ: 59 timestamp: 4961067 seq_num: 17572
+
+RSSI: -61 AZ: 58 timestamp: 4961117 seq_num: 17573
+
+RSSI: -61 AZ: 57 timestamp: 4961167 seq_num: 17574
+
+RSSI: -63 AZ: 58 timestamp: 4961217 seq_num: 17575
+
+RSSI: -61 AZ: 57 timestamp: 4961268 seq_num: 17576
+
+RSSI: -67 AZ: 58 timestamp: 4961317 seq_num: 17577
+
+RSSI: -61 AZ: 58 timestamp: 4961367 seq_num: 17578
+
+RSSI: -67 AZ: 59 timestamp: 4961417 seq_num: 17579
+
+RSSI: -68 AZ: 59 timestamp: 4961467 seq_num: 17580
+
+RSSI: -63 AZ: 60 timestamp: 4961517 seq_num: 17581
+
+RSSI: -66 AZ: 61 timestamp: 4961567 seq_num: 17582
+
+RSSI: -62 AZ: 60 timestamp: 4961667 seq_num: 17584
+
+RSSI: -61 AZ: 60 timestamp: 4961717 seq_num: 17585
+
+RSSI: -64 AZ: 61 timestamp: 4961767 seq_num: 17586
+
+RSSI: -60 AZ: 60 timestamp: 4961868 seq_num: 17588
+
+RSSI: -62 AZ: 60 timestamp: 4961967 seq_num: 17590
+
+RSSI: -61 AZ: 59 timestamp: 4962017 seq_num: 17591
+
+RSSI: -60 AZ: 58 timestamp: 4962067 seq_num: 17592
+
+RSSI: -61 AZ: 57 timestamp: 4962117 seq_num: 17593
+
+RSSI: -60 AZ: 56 timestamp: 4962167 seq_num: 17594
+
+RSSI: -68 AZ: 57 timestamp: 4962217 seq_num: 17595
+
+RSSI: -64 AZ: 58 timestamp: 4962267 seq_num: 17596
+
+RSSI: -60 AZ: 57 timestamp: 4962317 seq_num: 17597
+
+RSSI: -67 AZ: 58 timestamp: 4962367 seq_num: 17598
+
+RSSI: -63 AZ: 58 timestamp: 4962417 seq_num: 17599
+
+RSSI: -67 AZ: 59 timestamp: 4962467 seq_num: 17600
+
+RSSI: -63 AZ: 60 timestamp: 4962517 seq_num: 17601
+
+RSSI: -58 AZ: 59 timestamp: 4962567 seq_num: 17602
+
+RSSI: -64 AZ: 59 timestamp: 4962617 seq_num: 17603
+
+RSSI: -63 AZ: 59 timestamp: 4962667 seq_num: 17604
+
+RSSI: -68 AZ: 60 timestamp: 4962717 seq_num: 17605
+
+RSSI: -63 AZ: 60 timestamp: 4962767 seq_num: 17606
+
+RSSI: -68 AZ: 60 timestamp: 4962817 seq_num: 17607
+
+RSSI: -63 AZ: 61 timestamp: 4962868 seq_num: 17608
+
+RSSI: -64 AZ: 61 timestamp: 4962917 seq_num: 17609
+
+RSSI: -68 AZ: 62 timestamp: 4962967 seq_num: 17610
+
+RSSI: -63 AZ: 60 timestamp: 4963017 seq_num: 17611
+
+RSSI: -64 AZ: 61 timestamp: 4963067 seq_num: 17612
+
+RSSI: -63 AZ: 61 timestamp: 4963117 seq_num: 17613
+
+RSSI: -68 AZ: 61 timestamp: 4963167 seq_num: 17614
+
+RSSI: -62 AZ: 61 timestamp: 4963217 seq_num: 17615
+
+RSSI: -63 AZ: 60 timestamp: 4963267 seq_num: 17616
+
+RSSI: -68 AZ: 61 timestamp: 4963317 seq_num: 17617
+
+RSSI: -61 AZ: 60 timestamp: 4963367 seq_num: 17618
+
+RSSI: -64 AZ: 61 timestamp: 4963417 seq_num: 17619
+
+RSSI: -63 AZ: 59 timestamp: 4963467 seq_num: 17620
+
+RSSI: -60 AZ: 59 timestamp: 4963517 seq_num: 17621
+
+RSSI: -67 AZ: 59 timestamp: 4963567 seq_num: 17622
+
+RSSI: -64 AZ: 60 timestamp: 4963618 seq_num: 17623
+
+RSSI: -68 AZ: 60 timestamp: 4963667 seq_num: 17624
+
+RSSI: -64 AZ: 61 timestamp: 4963718 seq_num: 17625
+
+RSSI: -63 AZ: 61 timestamp: 4963767 seq_num: 17626
+
+RSSI: -62 AZ: 60 timestamp: 4963817 seq_num: 17627
+
+RSSI: -68 AZ: 61 timestamp: 4963868 seq_num: 17628
+
+RSSI: -64 AZ: 61 timestamp: 4963917 seq_num: 17629
+
+RSSI: -64 AZ: 61 timestamp: 4963967 seq_num: 17630
+
+RSSI: -62 AZ: 61 timestamp: 4964017 seq_num: 17631
+
+RSSI: -68 AZ: 61 timestamp: 4964067 seq_num: 17632
+
+RSSI: -66 AZ: 62 timestamp: 4964118 seq_num: 17633
+
+RSSI: -62 AZ: 62 timestamp: 4964167 seq_num: 17634
+
+RSSI: -68 AZ: 63 timestamp: 4964217 seq_num: 17635
+
+RSSI: -64 AZ: 63 timestamp: 4964317 seq_num: 17637
+
+RSSI: -69 AZ: 63 timestamp: 4964367 seq_num: 17638
+
+RSSI: -60 AZ: 62 timestamp: 4964417 seq_num: 17639
+
+RSSI: -66 AZ: 63 timestamp: 4964467 seq_num: 17640
+
+RSSI: -63 AZ: 63 timestamp: 4964517 seq_num: 17641
+
+RSSI: -67 AZ: 64 timestamp: 4964568 seq_num: 17642
+
+RSSI: -61 AZ: 63 timestamp: 4964617 seq_num: 17643
+
+RSSI: -68 AZ: 64 timestamp: 4964667 seq_num: 17644
+
+RSSI: -62 AZ: 64 timestamp: 4964717 seq_num: 17645
+
+RSSI: -64 AZ: 64 timestamp: 4964767 seq_num: 17646
+
+RSSI: -61 AZ: 63 timestamp: 4964817 seq_num: 17647
+
+RSSI: -64 AZ: 64 timestamp: 4964868 seq_num: 17648
+
+RSSI: -63 AZ: 64 timestamp: 4964917 seq_num: 17649
+
+RSSI: -63 AZ: 64 timestamp: 4964967 seq_num: 17650
+
+RSSI: -61 AZ: 63 timestamp: 4965017 seq_num: 17651
+
+RSSI: -63 AZ: 63 timestamp: 4965067 seq_num: 17652
+
+RSSI: -68 AZ: 63 timestamp: 4965117 seq_num: 17653
+
+RSSI: -62 AZ: 62 timestamp: 4965167 seq_num: 17654
+
+RSSI: -60 AZ: 61 timestamp: 4965217 seq_num: 17655
+
+RSSI: -63 AZ: 62 timestamp: 4965268 seq_num: 17656
+
+RSSI: -62 AZ: 61 timestamp: 4965317 seq_num: 17657
+
+RSSI: -63 AZ: 59 timestamp: 4965367 seq_num: 17658
+
+RSSI: -68 AZ: 60 timestamp: 4965417 seq_num: 17659
+
+RSSI: -63 AZ: 60 timestamp: 4965467 seq_num: 17660
+
+RSSI: -68 AZ: 61 timestamp: 4965518 seq_num: 17661
+
+RSSI: -63 AZ: 60 timestamp: 4965568 seq_num: 17662
+
+RSSI: -61 AZ: 59 timestamp: 4965618 seq_num: 17663
+
+RSSI: -62 AZ: 58 timestamp: 4965668 seq_num: 17664
+
+RSSI: -64 AZ: 58 timestamp: 4965718 seq_num: 17665
+
+RSSI: -63 AZ: 59 timestamp: 4965768 seq_num: 17666
+
+RSSI: -60 AZ: 58 timestamp: 4965818 seq_num: 17667
+
+RSSI: -61 AZ: 58 timestamp: 4965868 seq_num: 17668
+
+RSSI: -63 AZ: 58 timestamp: 4965918 seq_num: 17669
+
+RSSI: -62 AZ: 57 timestamp: 4965968 seq_num: 17670
+
+RSSI: -63 AZ: 56 timestamp: 4966018 seq_num: 17671
+
+RSSI: -63 AZ: 56 timestamp: 4966068 seq_num: 17672
+
+RSSI: -63 AZ: 57 timestamp: 4966118 seq_num: 17673
+
+RSSI: -62 AZ: 57 timestamp: 4966168 seq_num: 17674
+
+RSSI: -69 AZ: 57 timestamp: 4966218 seq_num: 17675
+
+RSSI: -68 AZ: 58 timestamp: 4966268 seq_num: 17676
+
+RSSI: -62 AZ: 58 timestamp: 4966318 seq_num: 17677
+
+RSSI: -64 AZ: 57 timestamp: 4966368 seq_num: 17678
+
+RSSI: -61 AZ: 56 timestamp: 4966418 seq_num: 17679
+
+RSSI: -66 AZ: 57 timestamp: 4966468 seq_num: 17680
+
+RSSI: -68 AZ: 57 timestamp: 4966518 seq_num: 17681
+
+RSSI: -63 AZ: 58 timestamp: 4966568 seq_num: 17682
+
+RSSI: -64 AZ: 59 timestamp: 4966618 seq_num: 17683
+
+RSSI: -68 AZ: 60 timestamp: 4966718 seq_num: 17685
+
+RSSI: -60 AZ: 59 timestamp: 4966768 seq_num: 17686
+
+RSSI: -68 AZ: 59 timestamp: 4966818 seq_num: 17687
+
+RSSI: -60 AZ: 58 timestamp: 4966868 seq_num: 17688
+
+RSSI: -64 AZ: 59 timestamp: 4966918 seq_num: 17689
+
+RSSI: -64 AZ: 59 timestamp: 4966968 seq_num: 17690
+
+END OF MEASUREMENT
+Avg Angle: 59.6839378238342 Avg RSSI: -63.715025906735754
+STDev Angle: 1.8592676191036412 STDev RSSI: 2.474164868435478
