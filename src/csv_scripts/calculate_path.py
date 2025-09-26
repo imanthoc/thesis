@@ -1,5 +1,6 @@
 import sys
 import math
+import statistics
 
 #convert the point & angle representation of the line
 #to a y = mx + b representation
@@ -12,6 +13,33 @@ a_bot   = (ROOM_W / 2,  0)
 a_top   = (ROOM_W / 2,  ROOM_H)
 a_left  = (0,           ROOM_H / 2)
 a_right = (ROOM_W,      ROOM_H / 2)
+
+class Filter:
+    def __init__(self, func, window_size):
+        self.func = func
+        self.window_size = window_size
+        self.window = []
+
+    def filt(self, x):
+        if len(self.window) >= self.window_size:
+            self.window.pop(0)
+
+        self.window.append(x)
+
+        return self.func(self.window)
+
+class Filter_2d:
+    x_filt = None
+    y_filt = None
+
+    def __init__(self, func, window_size):
+        self.x_filt = Filter(func, window_size)
+        self.y_filt = Filter(func, window_size)
+
+    def filt(self, x, y):
+        return (self.x_filt.filt(x), self.y_filt.filt(y))
+
+filt = Filter_2d(statistics.mean, 15)
 
 def convert_mb(a_p, a_th, conversion_function):
     a_th = conversion_function(a_th)
@@ -115,6 +143,7 @@ def compute_csv(csv_name):
 
         if False not in anchor_found.values():
             p = compute_point_from_angles(th_left, th_bot, th_right, th_top)
+            p = filt.filt(p[0], p[1])
             qp = quantize_point(p)
 
             print("{}, {}, {}, {}, {}, {}".format(
