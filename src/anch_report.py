@@ -17,13 +17,13 @@ script_format = False
 moving_avg = Filter_2d(statistics.mean, 10)
 moving_med = Filter_2d(statistics.median, 10)
 
-ROOM_H = 400
-ROOM_W = 450
+ROOM_H = 350
+ROOM_W = 660
 
-a_top   = (200, ROOM_H)
-a_right = (ROOM_W, 200)
-a_bot   = (140, 0)
-a_left  = (0, 140)
+a_top   = (ROOM_W/2+20, ROOM_H)
+a_right = (ROOM_W, ROOM_H/2)
+a_bot   = (ROOM_W/2+20, 0)
+a_left  = (0, ROOM_H/2)
 
 def convert_mb(a_p, a_th, conversion_function):
     a_th = conversion_function(a_th)
@@ -143,7 +143,7 @@ def print_with_options(th_bot, th_top, th_left, th_right, p):
         if q_step != -1: p = quantize_point(p, q_step)
 
         if script_format: 
-            print("0, 0, {}, {}, 0, 0".format(p[0], p[1]))
+            print("0, 0, {}, {}, 0, 0".format(int(p[0]), int(p[1])))
         else:
             print("{} , {}".format(int(p[0]), int(p[1])))        
 
@@ -160,22 +160,27 @@ def print_help():
     print("-m Moving Median Filter")
     print("-q <step> Quantize values to multiples of <step>")
 
+def reject(p):
+    return p[0] < 0 or p[1] < 0 or p[0] > ROOM_W or p[1] > ROOM_H
+
 def main():
     if len(sys.argv) == 2 and sys.argv[1] == "-h":
         print_help()
         quit()
     
     parse_args(sys.argv)
+    # usb connections are:
+    # left, right, bot, top
+    s_bot = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=1,
+                       xonxoff=False, rtscts=False, dsrdtr=True)
+    s_top = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=1,
+                       xonxoff=False, rtscts=False, dsrdtr=True)
+    s_left = serial.Serial(port='/dev/ttyUSB2', baudrate=1000000, timeout=1,
+                       xonxoff=False, rtscts=False, dsrdtr=True)
+    s_right = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=1,
+                       xonxoff=False, rtscts=False, dsrdtr=True)
 
-    s_bot = serial.Serial(port='/dev/ttyUSB2', baudrate=1000000, timeout=1,
-                       xonxoff=False, rtscts=False, dsrdtr=True)
-    s_top = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=1,
-                       xonxoff=False, rtscts=False, dsrdtr=True)
-    s_left = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=1,
-                       xonxoff=False, rtscts=False, dsrdtr=True)
-    s_right = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=1,
-                       xonxoff=False, rtscts=False, dsrdtr=True)
-        
+    rejected_points = [] 
     
     for (l_bot, l_top, l_left, l_right) in zip(s_bot, s_top, s_left, s_right):
         th_bot   = get_az(l_bot)
@@ -192,11 +197,13 @@ def main():
             p = calc_point(th_bot, th_top, th_left, th_right)
 
             print_with_options(th_bot, th_top, th_left, th_right, p)
-    
+
     s_bot.close()
     s_top.close()
     s_left.close()
     s_right.close()
+
+    
 
 if __name__ == "__main__":
     main()
