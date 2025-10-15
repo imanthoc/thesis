@@ -4,11 +4,18 @@ import statistics
 ROOM_W = 660
 ROOM_H = 350
 
+ROOM_W_offset = ROOM_W * (2/10)
+ROOM_H_offset = ROOM_H * (2/10)
+
 def print_help():
     pass
 
 def reject(p):
     return p[0] < 0 or p[1] < 0 or p[0] > ROOM_W or p[1] > ROOM_H
+
+
+def reject_off(p):
+    return p[0] < -ROOM_W_offset or p[1] < -ROOM_H_offset or p[0] > ROOM_W + ROOM_W_offset or p[1] > ROOM_H + ROOM_H_offset
 
 rejected = 0
 total = 0
@@ -25,7 +32,7 @@ def parse_file(point_file):
         (x, y) = line.split(",")
         (x, y) = (int(x), int(y))
 
-        if not reject((x, y)):
+        if not reject_off((x, y)):
             point_list.append((x, y))
         else:
             rejected += 1

@@ -17,7 +17,7 @@ script_format = False
 moving_avg = Filter_2d(statistics.mean, 10)
 moving_med = Filter_2d(statistics.median, 10)
 
-ROOM_H = 350
+ROOM_H = 330
 ROOM_W = 660
 
 a_top   = (ROOM_W/2+20, ROOM_H)
@@ -135,7 +135,7 @@ def print_with_options(th_bot, th_top, th_left, th_right, p):
     global script_format
     
     if report_angles:
-        print("BOT: {} TOP: {} LEFT: {} RIGHT: {}".format(th_bot, th_top, th_left, th_right))
+        print("BOT: {:+03d} TOP: {:+03d} LEFT: {:+03d} RIGHT: {:+03d}".format(th_bot, th_top, th_left, th_right))
     else:
         if moving_avg_active:   p = moving_avg.filt(p)
         elif moving_med_active: p = moving_med.filt(p)
@@ -171,13 +171,13 @@ def main():
     parse_args(sys.argv)
     # usb connections are:
     # left, right, bot, top
-    s_bot = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=1,
+    s_bot = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
-    s_top = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=1,
+    s_top = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
     s_left = serial.Serial(port='/dev/ttyUSB2', baudrate=1000000, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
-    s_right = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=1,
+    s_right = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=1,
                        xonxoff=False, rtscts=False, dsrdtr=True)
 
     rejected_points = [] 
