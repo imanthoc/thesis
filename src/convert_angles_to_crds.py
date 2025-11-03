@@ -21,6 +21,7 @@ anchors = [a_bot, a_top, a_left, a_right]
 moving_avg_active = False
 mode = 0
 stats = False
+S_active = False
 
 B_filt = Filter(statistics.mean, WIN_SIZE)
 T_filt = Filter(statistics.mean, WIN_SIZE)
@@ -34,8 +35,9 @@ def print_help():
     print("Usage:")
     print("python3 convert_angles_to_crds.py <file  > [method] [filtering]")
     print("method: --legacy, --lqs (least squares)")
-    print("filtering: -a, Moving AVG filter on angle values")
+    print("filtering: -A, Moving AVG filter on angle values")
     print("-O, Output Statistics")
+    print("-S, Output points in a format compatible with visualize_path.py")
 
 def convert_mb(a_p, a_th, conversion_function):
     a_th = conversion_function(a_th)
@@ -110,6 +112,7 @@ def convert(angles_f_name):
     global moving_avg_active
     global mode
     global stats
+    global S_active
 
     angles_file = open(angles_f_name)
 
@@ -129,15 +132,21 @@ def convert(angles_f_name):
         (x, y) = (0, 0)
 
         if reject_off((x, y)): rejected += 1
-
-        if mode == 0:
-            (x, y) = convert_angles_to_crds_legacy(B, T, L, R)
         else:
-            (x, y) = convert_angles_to_crds_lsq(B, T, L, R)
+            if mode == 0:
+                (x, y) = convert_angles_to_crds_legacy(B, T, L, R)
+            else:
+                (x, y) = convert_angles_to_crds_lsq(B, T, L, R)
 
-        if not stats: print(x, " , ", y)
+            (x, y) = (x, y)
 
-        (x, y) = (int(x), int (y))
+            if not stats:
+                if not S_active:
+                    print(x, " , ", y)
+                else:
+                    print("0, 0, {}, {}, 0, 0".format(x, x))
+
+
         point_list.append((x, y))
         total += 1
 
@@ -155,12 +164,14 @@ def parse_arguments(args):
     global moving_avg_active
     global mode
     global stats
+    global S_active
 
     for arg in args:
-        if arg == "-a": moving_avg_active = True
+        if arg == "-A": moving_avg_active = True
         if arg == "--legacy": mode = 0
         elif arg == "--lsq": mode = 1
         if arg == "-O": stats = True
+        if arg == "-S": S_active = True
 
 def main():
     if len(sys.argv) < 2:

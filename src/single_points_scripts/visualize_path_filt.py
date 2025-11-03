@@ -44,7 +44,7 @@ def visualize(csv_name, undersampling_rate):
 
     total_points = len(df)
     color_step = 1 / total_points
-    current_color = 0
+    current_color = 0.0
 
     for line in df:
         if i != undersampling_rate:
@@ -53,28 +53,22 @@ def visualize(csv_name, undersampling_rate):
 
         cl_x = float(line[2])
         cl_y = float(line[3])
-
-        if not cl_passed_values[(cl_x, cl_y)]:
-            cl_passed_values[(cl_x, cl_y)] = True
-
-            if discard(cl_x, cl_y): continue
             
-            if moving_avg_active:   (cl_x, cl_y) = moving_avg.filt((cl_x, cl_y))
-            elif moving_med_active: (cl_x, cl_y) = moving_med.filt((cl_x, cl_y))
-            elif ma_active: (cl_x, cl_y) = ma_filter.filt((cl_x, cl_y))
-            
+        if moving_avg_active:   (cl_x, cl_y) = moving_avg.filt((cl_x, cl_y))
+        elif moving_med_active: (cl_x, cl_y) = moving_med.filt((cl_x, cl_y))
+        elif ma_active:         (cl_x, cl_y) = ma_filter.filt((cl_x, cl_y))
 
-            if q_step != -1:
-                cl_x = quantize_value(cl_x, q_step)
-                cl_y = quantize_value(cl_y, q_step)
+        if q_step != -1:
+            cl_x = quantize_value(cl_x, q_step)
+            cl_y = quantize_value(cl_y, q_step)
 
-            plt.xlim(left=0, right=650)
-            plt.ylim(bottom=0, top=600)
-            plt.scatter(cl_x, cl_y, color=(1 - current_color, 0, current_color), marker='o')
+        plt.xlim(left=0, right=650)
+        plt.ylim(bottom=0, top=600)
+        plt.scatter(cl_x, cl_y, color=(0, 1-current_color, current_color), marker='o')
 
+        current_color += color_step
+        i = 1
 
-            current_color += color_step
-            i = 1
 
     print("Plotted {} points".format(total_points))
     plt.show()
@@ -83,9 +77,10 @@ def print_help():
     print("Usage:")
     print("python3 visualize_path.py <path CSV> <undersampling rate >= 1> [filter options]")
     print("[filter options]:")
-    print("-a Moving Average Filter")
-    print("-m Moving Median Filter")
-    print("-q <step> Quantize values to multiples of <step>")
+    print("-A Moving Average Filter")
+    print("-M Moving Median Filter")
+    print("-MA Combine -A and -M")
+    print("-Q <step> Quantize values to multiples of <step>")
 
 def parse_filtering_options(arg_list):
     global moving_avg_active
@@ -97,10 +92,10 @@ def parse_filtering_options(arg_list):
     while i < len(arg_list):
         arg = arg_list[i]
 
-        if arg == "-a": moving_avg_active = True 
-        if arg == "-m": moving_med_active = True
-        if arg == "-ma": ma_active = True
-        if arg == "-q": q_step = int(arg_list[i + 1])
+        if arg == "-A": moving_avg_active = True
+        if arg == "-M": moving_med_active = True
+        if arg == "-MA": ma_active = True
+        if arg == "-Q": q_step = int(arg_list[i + 1])
         
         i += 1
 
