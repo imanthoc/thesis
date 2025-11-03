@@ -184,6 +184,12 @@ def dump_master_csv(matrix_acc, matrix_areas, transpose_matrix, avg_er_map, stdd
     print("Total AVG error,Total STDev")
     print("{},{}".format(total_avg_error, total_stdev))
 
+def filter_data(comp):
+    filtered_comp = []
+
+    cm_df = pd.read_csv(comp).values
+    for row in cm_df:
+        print(row)
 
 def create_error_maps(comp):
     cm_df = pd.read_csv(comp).values
@@ -223,6 +229,7 @@ def main():
 
     comp = sys.argv[1]
 
+    filter_data(comp)
     create_error_maps(comp)
 
 if __name__ == "__main__":
