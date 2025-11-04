@@ -144,7 +144,7 @@ def convert(angles_f_name):
                 if not S_active:
                     print(x, " , ", y)
                 else:
-                    print("0, 0, {}, {}, 0, 0".format(x, x))
+                    print("0, 0, {}, {}, 0, 0".format(x, y))
 
 
         point_list.append((x, y))
