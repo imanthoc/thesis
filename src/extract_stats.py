@@ -47,10 +47,8 @@ def calculate_stats(point_list):
     x_list = [p[0] for p in point_list]
     y_list = [p[1] for p in point_list]
 
-    print("X avg: ",   statistics.mean(x_list))
-    print("Y avg: ",   statistics.mean(y_list))
-    print("X stdev: ", statistics.stdev(x_list))
-    print("Y stdev: ", statistics.stdev(y_list))
+    print("Avg:   {} , {}".format(statistics.mean(x_list), statistics.mean(y_list)))
+    print("Stdev: {} , {}".format(statistics.stdev(x_list), statistics.stdev(y_list)))
     print("Rejected {} out of {} points".format(rejected, total))
 
 def main():

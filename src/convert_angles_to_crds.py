@@ -33,10 +33,10 @@ def reject_off(p):
 
 def print_help():
     print("Usage:")
-    print("python3 convert_angles_to_crds.py <file  > [method] [filtering]")
-    print("method: --legacy, --lqs (least squares)")
+    print("python3 convert_angles_to_crds.py <file  > [method] [filtering] [options]")
+    print("method: --legacy, --lqs (least squares), --all")
     print("filtering: -A, Moving AVG filter on angle values")
-    print("-O, Output Statistics")
+    print("-O, Output statistics instead of points")
     print("-S, Output points in a format compatible with visualize_path.py")
 
 def convert_mb(a_p, a_th, conversion_function):
@@ -117,8 +117,10 @@ def convert(angles_f_name):
     angles_file = open(angles_f_name)
 
     point_list = []
+
     total = 0
     rejected = 0
+
     for line in angles_file:
         line = line.strip()
         (B, T, L, R) = parse("BOT: {:d} TOP: {:d} LEFT: {:d} RIGHT: {:d}", line)
@@ -129,36 +131,42 @@ def convert(angles_f_name):
             L = L_filt.filt(L)
             R = R_filt.filt(R)
 
-        (x, y) = (0, 0)
+        p = (0, 0)
+        p_extra = (0, 0)
 
-        if reject_off((x, y)): rejected += 1
+        if reject_off((p[0], p[1])): rejected += 1
         else:
             if mode == 0:
-                (x, y) = convert_angles_to_crds_legacy(B, T, L, R)
+                p = convert_angles_to_crds_legacy(B, T, L, R)
+            elif mode == 1:
+                p = convert_angles_to_crds_lsq(B, T, L, R)
             else:
-                (x, y) = convert_angles_to_crds_lsq(B, T, L, R)
-
-            (x, y) = (x, y)
+                p = convert_angles_to_crds_legacy(B, T, L, R)
+                p_extra = convert_angles_to_crds_lsq(B, T, L, R)
 
             if not stats:
                 if not S_active:
-                    print(x, " , ", y)
+                    if mode == 0 or mode  == 1:
+                        print("{:5.2f} , {:5.2f}".format(p[0], p[1]))
+                    else:
+                        print("{:5.2f} , {:5.2f} , {:5.2f} , {:5.2f}".format(p[0], p[1], p_extra[0], p_extra[1]))
                 else:
-                    print("0, 0, {}, {}, 0, 0".format(x, y))
+                    print("0, 0, {:5.2f}, {:5.2f}, 0, 0".format(p[0], p[1]))
 
 
-        point_list.append((x, y))
+        point_list.append((p[0], p[1]))
         total += 1
-
     if stats:
         x_list = [p[0] for p in point_list]
         y_list = [p[1] for p in point_list]
 
-        print("X avg: {:.2f}".format(statistics.mean(x_list)))
-        print("Y avg: {:.2f}".format(statistics.mean(y_list)))
-        print("X stdev: {:.1f}".format(statistics.stdev(x_list)))
-        print("Y stdev: {:.1f}".format(statistics.stdev(y_list)))
-        print("Rejected {} out of {} points".format(rejected, total))
+        x_avg = statistics.mean(x_list)
+        y_avg = statistics.mean(y_list)
+        x_stdev = statistics.stdev(x_list)
+        y_stdev = statistics.stdev(y_list)
+
+        print("{:.2f} , {:.2f} , {:.1f} , {:.1f}".format(x_avg, y_avg, x_stdev, y_stdev))
+        #print("Rejected {} out of {} points".format(rejected, total))
 
 def parse_arguments(args):
     global moving_avg_active
@@ -170,6 +178,7 @@ def parse_arguments(args):
         if arg == "-A": moving_avg_active = True
         if arg == "--legacy": mode = 0
         elif arg == "--lsq": mode = 1
+        elif arg == "--all": mode = 2
         if arg == "-O": stats = True
         if arg == "-S": S_active = True
 

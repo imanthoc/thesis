@@ -9,6 +9,7 @@ moving_avg_active = False
 moving_med_active = False 
 ma_active = False
 q_step = -1
+D = False #flag that sets weather the input file has two paths or one (legacy or calc path)
 
 def discard(x, y):
     return (x < 0 or y < 0) or (x > 1200 or y > 600)
@@ -28,6 +29,7 @@ def visualize(csv_name, undersampling_rate):
     global moving_med_active
     global ma_active
     global q_step
+    global D
 
     win_size = 50
 
@@ -45,33 +47,47 @@ def visualize(csv_name, undersampling_rate):
     total_points = len(df)
     color_step = 1 / total_points
     current_color = 0.0
-
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(5, 5))
     for line in df:
         if i != undersampling_rate:
             i += 1
             continue
-
-        cl_x = float(line[2])
-        cl_y = float(line[3])
+        if D:
+            cl1_x = float(line[0])
+            cl1_y = float(line[1])
+            cl2_x = float(line[2])
+            cl2_y = float(line[3])
+        else:
+            cl1_x = float(line[2])
+            cl1_y = float(line[3])
             
-        if moving_avg_active:   (cl_x, cl_y) = moving_avg.filt((cl_x, cl_y))
-        elif moving_med_active: (cl_x, cl_y) = moving_med.filt((cl_x, cl_y))
-        elif ma_active:         (cl_x, cl_y) = ma_filter.filt((cl_x, cl_y))
+        if moving_avg_active:   (cl1_x, cl1_y) = moving_avg.filt((cl_x, cl_y))
+        elif moving_med_active: (cl1_x, cl1_y) = moving_med.filt((cl_x, cl_y))
+        elif ma_active:         (cl1_x, cl1_y) = ma_filter.filt((cl_x, cl_y))
 
         if q_step != -1:
-            cl_x = quantize_value(cl_x, q_step)
-            cl_y = quantize_value(cl_y, q_step)
+            cl1_x = quantize_value(cl_x, q_step)
+            cl1_y = quantize_value(cl_y, q_step)
 
-        plt.xlim(left=0, right=650)
-        plt.ylim(bottom=0, top=600)
-        plt.scatter(cl_x, cl_y, color=(0, 1-current_color, current_color), marker='o')
+        ax1.set_xlim(left=0, right=660)
+        ax1.set_ylim(bottom=0, top=350)
+        ax1.set_title("Legacy")
+        ax1.scatter(cl1_x, cl1_y, color=(0, 1-current_color, current_color), marker='o')
+
+        if D:
+            ax2.set_xlim(left=0, right=650)
+            ax2.set_ylim(bottom=0, top=350)
+            ax2.set_title("LSQ")
+            ax2.scatter(cl2_x, cl2_y, color=(0, 1-current_color, current_color), marker='o')
 
         current_color += color_step
         i = 1
 
+    plt.tight_layout()
+    plt.show()
 
     print("Plotted {} points".format(total_points))
-    plt.show()
+
 
 def print_help():
     print("Usage:")
@@ -87,6 +103,7 @@ def parse_filtering_options(arg_list):
     global moving_med_active
     global ma_active
     global q_step
+    global D
 
     i = 0
     while i < len(arg_list):
@@ -96,6 +113,7 @@ def parse_filtering_options(arg_list):
         if arg == "-M": moving_med_active = True
         if arg == "-MA": ma_active = True
         if arg == "-Q": q_step = int(arg_list[i + 1])
+        if arg == "-D": D = True
         
         i += 1
 
