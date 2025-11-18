@@ -135,7 +135,8 @@ def print_with_options(th_bot, th_top, th_left, th_right, p):
     global script_format
     
     if report_angles:
-        print("BOT: {:+03d} TOP: {:+03d} LEFT: {:+03d} RIGHT: {:+03d}".format(th_bot, th_top, th_left, th_right))
+        #print("BOT: {:+03d} TOP: {:+03d} LEFT: {:+03d} RIGHT: {:+03d}".format(th_bot, th_top, th_left, th_right))
+        print("{:+03d} , {:+03d} , {:+03d} , {:+03d}".format(th_bot, th_top, th_left, th_right))
     else:
         if moving_avg_active:   p = moving_avg.filt(p)
         elif moving_med_active: p = moving_med.filt(p)
