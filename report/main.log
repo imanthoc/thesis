@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  21 NOV 2025 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  21 NOV 2025 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -154,6 +154,8 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count313
@@ -1010,29 +1012,30 @@ LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8
 .
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
-))
+)
+(./chapters/introduction.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1085,11 +1088,10 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count440
@@ -1112,7 +1114,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1120,10 +1122,10 @@ Package hyperref Info: Link coloring OFF on input line 16.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<pictures/auth.png, id=4, 719.68875pt x 714.67pt>
+<pictures/auth.png, id=20, 719.68875pt x 714.67pt>
 File: pictures/auth.png Graphic file (type png)
 <use pictures/auth.png>
-Package pdftex.def Info: pictures/auth.png  used on input line 21.
+Package pdftex.def Info: pictures/auth.png  used on input line 22.
 (pdftex.def)             Requested size: 85.35826pt x 84.75343pt.
  [1
 
@@ -1132,31 +1134,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \end{abstract}
+l.56 \end{abstract}
                     [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \begin{abstract}
+l.63 \begin{abstract}
                       [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64 \end{abstract}
+l.65 \end{abstract}
                     [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
+l.76 
       [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
+l.76 
       [1] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1185,7 +1187,39 @@ l.84 \listoftables
 \tf@loa=\write8
 \openout8 = `main.loa'.
 
+ [4
 
+]
+\openout2 = `chapters/introduction.aux'.
+
+
+(./chapters/introduction.tex
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
+extiota \textomicron  1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+
+ []
+
+<pictures/robot_IPS.png, id=86, 764.8575pt x 397.485pt>
+File: pictures/robot_IPS.png Graphic file (type png)
+<use pictures/robot_IPS.png>
+Package pdftex.def Info: pictures/robot_IPS.png  used on input line 20.
+(pdftex.def)             Requested size: 284.52756pt x 147.86168pt.
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.22 \end{figure}
+                 
+? 
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5
+
+
+] [6 <./pictures/robot_IPS.png>]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1193,41 +1227,44 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[4
+[7
 
-] (./main.aux)
+
+
+] (./main.aux (./chapters/introduction.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: B638B2E8D4B37DDE076ACC405DBAE7AD;667.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21991 strings out of 476106
- 385958 string characters out of 5793932
- 1927975 words of memory out of 5000000
- 43751 multiletter control sequences out of 15000+600000
- 567892 words of font info for 59 fonts, out of 8000000 for 9000
+ 22298 strings out of 476106
+ 392263 string characters out of 5793932
+ 1930975 words of memory out of 5000000
+ 44028 multiletter control sequences out of 15000+600000
+ 571821 words of font info for 71 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 66i,6n,81p,677b,2173s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,7n,81p,986b,3154s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/cbfonts/grmn1440.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/cbfonts/grmn1728.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/cbfonts/grmn2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-cbfonts/grxn1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/
-grxn1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grxn2488
-.pfb>
-Output written on main.pdf (10 pages, 247672 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/cbfonts/grmn1440.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/cbfonts/grmn1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/cbfonts/grmn2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfont
+s/grxn1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grxn14
+40.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grxn1728.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grxn2488.pfb>
+Output written on main.pdf (13 pages, 394468 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{report}
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
-\usepackage{biblatex}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{b.bib}
 \usepackage[english,greek]{babel}
 \usepackage{graphicx}
 \usepackage[unicode]{hyperref}
@@ -78,14 +79,15 @@
 
 \renewcommand{\listfigurename}{\tg{Λίστα Σχημάτων}}
 \renewcommand{\listtablename}{\tg{Λίστα Πινάκων}}
-\renewcommand{\listalgorithmname}
-{\tg{Λίστα Αλγορίθμων}}
+\renewcommand{\listalgorithmname}{\tg{Λίστα Αλγορίθμων}}
 
 \listoftables
 \listoffigures
 \listofalgorithms
 
+\include{chapters/introduction}
 
 \selectlanguage{english}
+\printbibliography[title=\tg{Βιβλιογραφία}]
 
 \end{document}

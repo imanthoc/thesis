@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bernard}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8dc5bb50181bf8131bc4b0c1aa410791}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0e9c9bb3639ba35c67b2492f04a34d99}{%
+           family={PSP},
+           familyi={P\bibinitperiod}}}%
+        {{hash=a7c1ca66c2b08f825ed04331b516fb53}{%
+           family={CHS-III},
+           familyi={C\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{fullhash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{bibnamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{authorbibnamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{authornamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{authorfullhash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Security Industry Association}
+      \field{title}{Indoor Positioning Systems}
+      \field{year}{2017}
+    \endentry
+    \entry{honganyang}{article}{}
+      \name{author}{4}{}{%
+        {{hash=37373eb9026d21224696769e7b52555e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hong’an},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ecdebe57f038cadbb08abe230c546154}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Xuefeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ec44eedac068b80195c2d8242e35f30a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaohua},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d629ba40b56b1f3070362206453e1639}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f01e8d8750f22745a7072ea1711074f}
+      \strng{fullhash}{52d4274338dca47430aa733365268d37}
+      \strng{bibnamehash}{3f01e8d8750f22745a7072ea1711074f}
+      \strng{authorbibnamehash}{3f01e8d8750f22745a7072ea1711074f}
+      \strng{authornamehash}{3f01e8d8750f22745a7072ea1711074f}
+      \strng{authorfullhash}{52d4274338dca47430aa733365268d37}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Multi-Robot Formation Platform based on an Indoor Global Positioning System}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

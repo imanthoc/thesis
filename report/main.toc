@@ -1,4 +1,9 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Το Πρόβλημα}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Εποπτεία Ασφαλείας}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Ρομπτοτικός Έλεγχος}{5}{subsection.1.1.2}%
 \babel@toc {english}{}\relax 
