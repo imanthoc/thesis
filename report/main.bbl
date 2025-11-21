@@ -20,25 +20,19 @@
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
     \entry{bernard}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{1}{}{%
         {{hash=8dc5bb50181bf8131bc4b0c1aa410791}{%
            family={Bernard},
            familyi={B\bibinitperiod},
            given={Ray},
            giveni={R\bibinitperiod}}}%
-        {{hash=0e9c9bb3639ba35c67b2492f04a34d99}{%
-           family={PSP},
-           familyi={P\bibinitperiod}}}%
-        {{hash=a7c1ca66c2b08f825ed04331b516fb53}{%
-           family={CHS-III},
-           familyi={C\bibinithyphendelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{69ee066a2f3c0c489b4f62f2fa76f194}
-      \strng{fullhash}{69ee066a2f3c0c489b4f62f2fa76f194}
-      \strng{bibnamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
-      \strng{authorbibnamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
-      \strng{authornamehash}{69ee066a2f3c0c489b4f62f2fa76f194}
-      \strng{authorfullhash}{69ee066a2f3c0c489b4f62f2fa76f194}
+      \strng{namehash}{8dc5bb50181bf8131bc4b0c1aa410791}
+      \strng{fullhash}{8dc5bb50181bf8131bc4b0c1aa410791}
+      \strng{bibnamehash}{8dc5bb50181bf8131bc4b0c1aa410791}
+      \strng{authorbibnamehash}{8dc5bb50181bf8131bc4b0c1aa410791}
+      \strng{authornamehash}{8dc5bb50181bf8131bc4b0c1aa410791}
+      \strng{authorfullhash}{8dc5bb50181bf8131bc4b0c1aa410791}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -46,6 +40,18 @@
       \field{journaltitle}{Security Industry Association}
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
+    \endentry
+    \entry{spinclabs}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{title}{Indoor Positioning and Indoor Navigation Use Cases}
+      \verb{urlraw}
+      \verb https://www.spinclabs.tech/indoor-positioning-and-indoor-navigation-use-cases/
+      \endverb
+      \verb{url}
+      \verb https://www.spinclabs.tech/indoor-positioning-and-indoor-navigation-use-cases/
+      \endverb
     \endentry
     \entry{honganyang}{article}{}
       \name{author}{4}{}{%
