@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{GPS_wikimedia}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:GPS-24_satellite.png
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:GPS-24_satellite.png
+      \endverb
+    \endentry
+    \entry{acosta}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d2aae7872e367a5bd83cb5f751f3a895}{%
+           family={Acosta},
+           familyi={A\bibinitperiod},
+           given={Nelson},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ee8fa5b7e92ecf4eabb3c76acdfc82c6}{%
+           family={Toloza},
+           familyi={T\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f97cb577932da0409bcf0db213ab1d8}
+      \strng{fullhash}{2f97cb577932da0409bcf0db213ab1d8}
+      \strng{bibnamehash}{2f97cb577932da0409bcf0db213ab1d8}
+      \strng{authorbibnamehash}{2f97cb577932da0409bcf0db213ab1d8}
+      \strng{authornamehash}{2f97cb577932da0409bcf0db213ab1d8}
+      \strng{authorfullhash}{2f97cb577932da0409bcf0db213ab1d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications}
+      \field{title}{Techniques to improve the GPS precision}
+      \field{year}{2012}
+    \endentry
     \entry{bernard}{article}{}
       \name{author}{1}{}{%
         {{hash=8dc5bb50181bf8131bc4b0c1aa410791}{%

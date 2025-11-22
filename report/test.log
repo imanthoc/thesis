@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  22 NOV 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  22 NOV 2025 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**test.tex
+(./test.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -154,8 +154,6 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count313
@@ -323,6 +321,14 @@ Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count393
@@ -720,24 +726,6 @@ Package babel Info: Importing font and identification data for greek
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
-File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
-))
-(/usr/share/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
-Package: textgreek 2011/10/09 v0.7 Greek symbols in text
-Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
-input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
-LGR font encoding definitions already loaded)
-Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
-*}. on input line 69.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -878,12 +866,12 @@ nment
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count409
-\float@exts=\toks19
+\float@exts=\toks21
 \float@box=\box52
-\@float@everytoks=\toks20
+\@float@everytoks=\toks22
 \@floatcapt=\box53
 )
-\@float@every@algorithm=\toks21
+\@float@every@algorithm=\toks23
 \c@algorithm=\count410
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
@@ -934,7 +922,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
+\@emptytoks=\toks24
 \ex@=\dimen164
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -974,42 +962,31 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip21
 \c@parentequation=\count427
 \dspbrk@lvl=\count428
-\tag@help=\toks23
+\tag@help=\toks25
 \row@=\count429
 \column@=\count430
 \maxfields@=\count431
-\andhelp@=\toks24
+\andhelp@=\toks26
 \eqnshift@=\dimen167
 \alignsep@=\dimen168
 \tagshift@=\dimen169
 \tagwidth@=\dimen170
 \totwidth@=\dimen171
 \lineht@=\dimen172
-\@envbody=\toks25
+\@envbody=\toks27
 \multlinegap=\skip77
 \multlinetaggap=\skip78
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kerkis/kerkis.sty
-File: kerkis.sty 2000/02/25 v1.5 Package `kerkis.sty'
-  
-***********************************************
-******** Loading The Kerkis FontFamily ********
-********** Department of Mathematics **********
-*********** University of the Aegean **********
-***********************************************
-LaTeX Info: Redefining \LaTeX on input line 156.
-LaTeX Info: Redefining \LaTeXe on input line 166.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fixme/fixme.sty
 Package: fixme 2019/01/03 v4.5 Collaborative annotations for LaTeX2e
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
+\every@verbatim=\toks29
+\verbatim@line=\toks30
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -1017,8 +994,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
 \XKV@depth=\count432
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1031,19 +1008,16 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@fxfatalcount=\count437
 )
 
+Package biblatex Warning: Load 'inputenc' before biblatex.
+
+
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
 \@quotelevel=\count438
 \@quotereset=\count439
-LaTeX Font Info:    Trying to load font information for LGR+mak on input line 2
-1.
-(/usr/share/texlive/texmf-dist/tex/latex/kerkis/lgrmak.fd)
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 21.
- (./main.aux
-(./chapters/chapter1.aux))
-\openout1 = `main.aux'.
+No file test.aux.
+\openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -1060,6 +1034,11 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
+1.
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -1114,11 +1093,12 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout3 = `test.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+Package biblatex Info: ... file 'test.bbl' not found.
+
+No file test.bbl.
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1128,12 +1108,12 @@ Package biblatex Info: Reference segment=0 on input line 21.
 \scratchbox=\box56
 \nofMPsegments=\count441
 \nofMParguments=\count442
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count443
 \MPscratchDim=\dimen174
 \MPnumerator=\count444
 \makeMPintoPDFobject=\count445
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1144,186 +1124,104 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 21.
-
-(./main.out) (./main.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `test.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<pictures/auth.png, id=28, 719.68875pt x 714.67pt>
+<pictures/auth.png, id=4, 719.68875pt x 714.67pt>
 File: pictures/auth.png Graphic file (type png)
 <use pictures/auth.png>
 Package pdftex.def Info: pictures/auth.png  used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 84.75343pt.
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 31.
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 33.
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 37.
-LaTeX Font Info:    Trying to load font information for OT1+mak on input line 3
-7.
 
-(/usr/share/texlive/texmf-dist/tex/latex/kerkis/ot1mak.fd)
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 37.
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 49.
- [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/kerkis/gpkerkis.enc}{/usr/share/texlive/texmf-dist/fonts/enc
-/dvips/kerkis/kerkis.enc} <./pictures/auth.png>]
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 59.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/auth.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \end{abstract}
+l.63 \end{abstract}
                     [1]
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 62.
-LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 64.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \begin{abstract}
+l.70 \begin{abstract}
                       [1]
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 \end{abstract}
+l.75 \end{abstract}
                     [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 
+l.86 
       [1]
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 80.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 
+l.86 
       [1]
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 81.
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 81.
- (./main.toc)
+No file test.toc.
 \tf@toc=\write5
-\openout5 = `main.toc'.
+\openout5 = `test.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \listoftables
+l.95 \listoftables
                    [1
 
-] (./main.lot)
+]
+No file test.lot.
 \tf@lot=\write6
-\openout6 = `main.lot'.
+\openout6 = `test.lot'.
 
- [2
-
-] (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
-
- [3
-
-] (./main.loa)
-\tf@loa=\write8
-\openout8 = `main.loa'.
-
- [4
+[2
 
 ]
-\openout2 = `chapters/chapter1.aux'.
+No file test.lof.
+\tf@lof=\write7
+\openout7 = `test.lof'.
+
+[3
+
+]
+No file test.loa.
+\tf@loa=\write8
+\openout8 = `test.loa'.
 
 
-(./chapters/chapter1.tex
-\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
-extiota \textomicron  1.
-<pictures/GPS_sat.png, id=92, 200.75pt x 201.75375pt>
-File: pictures/GPS_sat.png Graphic file (type png)
-<use pictures/GPS_sat.png>
-Package pdftex.def Info: pictures/GPS_sat.png  used on input line 10.
-(pdftex.def)             Requested size: 113.81102pt x 114.38205pt.
+LaTeX Warning: Empty bibliography on input line 100.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
-
-Overfull \hbox (2.67406pt too wide) in paragraph at lines 15--18
-\LGR/mak/m/n/12 Parakˆtw a-na-fèrou-me me-ri-kˆ pa-ra-de-Ðg-ma-ta pe-ri-pt¸se-w
-n qr shc tètoiwn su-sth-mˆtwn. 
- []
-
-[5
-
-
- <./pictures/GPS_sat.png>]
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 18.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--24
-
- []
-
-<pictures/robot_IPS.png, id=104, 764.8575pt x 397.485pt>
-File: pictures/robot_IPS.png Graphic file (type png)
-<use pictures/robot_IPS.png>
-Package pdftex.def Info: pictures/robot_IPS.png  used on input line 30.
-(pdftex.def)             Requested size: 284.52756pt x 147.86168pt.
-) [6 <./pictures/robot_IPS.png>] [7]
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 95.
-LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 95.
-LaTeX Font Info:    Font shape `OT1/mak/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 95.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (18.27063pt too wide) in paragraph at lines 95--95
-[]\OT1/mak/m/sc/12 url\OT1/mak/m/n/12 : []$\OT1/pcr/m/n/12 https : / / commons 
-. wikimedia . org / wiki / File : GPS -[] 24 _ satellite .
- []
-
-LaTeX Font Info:    Font shape `OT1/mak/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 95.
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1331,39 +1229,56 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[8
+[4
 
-
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./main.aux
-(./chapters/chapter1.aux))
+] (./test.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92582A240552AD7A5EDBC1DFB661046A;1374.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `test.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `test.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                test
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'test.run.xml'.
+\openout1 = `test.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22856 strings out of 476106
- 399659 string characters out of 5793932
- 1930975 words of memory out of 5000000
- 44542 multiletter control sequences out of 15000+600000
- 582329 words of font info for 91 fonts, out of 8000000 for 9000
+ 22213 strings out of 476106
+ 388277 string characters out of 5793932
+ 1927975 words of memory out of 5000000
+ 43979 multiletter control sequences out of 15000+600000
+ 569594 words of font info for 60 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 66i,7n,81p,1005b,3208s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (14 pages, 301225 bytes).
+ 66i,6n,81p,850b,2173s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/ioannis/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.6
+00pk> </home/ioannis/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx120
+0.600pk> </home/ioannis/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1440.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1728.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/cbfonts/grmn2074.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/cbfonts/grxn1728.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/cbfonts/grxn2488.pfb>
+Output written on test.pdf (10 pages, 250475 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

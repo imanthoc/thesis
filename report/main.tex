@@ -1,8 +1,11 @@
 \documentclass[a4paper,12pt]{report}
+
 \usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage[backend=biber,style=numeric]{biblatex}
 \addbibresource{b.bib}
 \usepackage[english,greek]{babel}
+\usepackage[LGR]{fontenc}
+\usepackage{textgreek}
 \usepackage{graphicx}
 \usepackage[unicode]{hyperref}
 \usepackage{algorithm}
@@ -10,6 +13,7 @@
 \usepackage{caption}
 \usepackage{algpseudocode}
 \usepackage{amsmath}
+\usepackage{kerkis}
 \usepackage[nomargin,inline,marginclue,draft]{fixme}
 \def\te{\textlatin}
 \def\tg{\textgreek}
@@ -85,8 +89,8 @@
 \listoffigures
 \listofalgorithms
 
-\include{chapters/introduction}
-
+\include{chapters/chapter1}
+\include{chapters/chapter1}
 \selectlanguage{english}
 \printbibliography[title=\tg{Βιβλιογραφία}]
 

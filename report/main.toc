@@ -3,8 +3,9 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \contentsline {chapter}{\numberline {1}Εισαγωγή}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Το Πρόβλημα}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Εποπτεία Ασφαλείας}{5}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Ρομπτοτικός Έλεγχος}{5}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Πολυκαταστήματα}{6}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.1}Τί είναι τα Συστήματα Εντοπισμού Θέσης}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Χρησιμότητα του Εντοπισμού θέσης}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Εποπτεία Ασφαλείας}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Ρομπτοτικός Έλεγχος}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Πολυκαταστήματα}{6}{subsection.1.2.3}%
 \babel@toc {english}{}\relax 
