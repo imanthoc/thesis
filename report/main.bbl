@@ -29,6 +29,16 @@
       \verb https://commons.wikimedia.org/wiki/File:GPS-24_satellite.png
       \endverb
     \endentry
+    \entry{GPS_tril}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://gisgeography.com/trilateration-triangulation-gps/
+      \endverb
+      \verb{url}
+      \verb https://gisgeography.com/trilateration-triangulation-gps/
+      \endverb
+    \endentry
     \entry{acosta}{article}{}
       \name{author}{2}{}{%
         {{hash=d2aae7872e367a5bd83cb5f751f3a895}{%
@@ -89,6 +99,31 @@
       \verb{url}
       \verb https://www.spinclabs.tech/indoor-positioning-and-indoor-navigation-use-cases/
       \endverb
+    \endentry
+    \entry{tsipoura}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=701985f4658e513760d5652a0c8383ba}{%
+           family={Tsipoura},
+           familyi={T\bibinitperiod},
+           given={Angeliki\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National}%
+        {Kapodistrian University of Athens}%
+      }
+      \strng{namehash}{701985f4658e513760d5652a0c8383ba}
+      \strng{fullhash}{701985f4658e513760d5652a0c8383ba}
+      \strng{bibnamehash}{701985f4658e513760d5652a0c8383ba}
+      \strng{authorbibnamehash}{701985f4658e513760d5652a0c8383ba}
+      \strng{authornamehash}{701985f4658e513760d5652a0c8383ba}
+      \strng{authorfullhash}{701985f4658e513760d5652a0c8383ba}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global and Regional Navigation Satellite Systems: Security and Defense Applications and Intentional Threats against them}
+      \field{type}{mathesis}
     \endentry
     \entry{honganyang}{article}{}
       \name{author}{4}{}{%

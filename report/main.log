@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  22 NOV 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  22 NOV 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,7 +1042,7 @@ LaTeX Font Info:    Trying to load font information for LGR+mak on input line 2
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 21.
  (./main.aux
-(./chapters/chapter1.aux))
+(./chapters/chapter1.aux) (./chapters/chapter2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1151,7 +1151,7 @@ Package hyperref Info: Link coloring OFF on input line 21.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<pictures/auth.png, id=28, 719.68875pt x 714.67pt>
+<pictures/auth.png, id=44, 719.68875pt x 714.67pt>
 File: pictures/auth.png Graphic file (type png)
 <use pictures/auth.png>
 Package pdftex.def Info: pictures/auth.png  used on input line 26.
@@ -1257,7 +1257,7 @@ l.88 \listoftables
 (./chapters/chapter1.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
 extiota \textomicron  1.
-<pictures/GPS_sat.png, id=92, 200.75pt x 201.75375pt>
+<pictures/GPS_sat.png, id=120, 200.75pt x 201.75375pt>
 File: pictures/GPS_sat.png Graphic file (type png)
 <use pictures/GPS_sat.png>
 Package pdftex.def Info: pictures/GPS_sat.png  used on input line 10.
@@ -1299,12 +1299,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
  []
 
-<pictures/robot_IPS.png, id=104, 764.8575pt x 397.485pt>
+<pictures/robot_IPS.png, id=132, 764.8575pt x 397.485pt>
 File: pictures/robot_IPS.png Graphic file (type png)
 <use pictures/robot_IPS.png>
 Package pdftex.def Info: pictures/robot_IPS.png  used on input line 30.
 (pdftex.def)             Requested size: 284.52756pt x 147.86168pt.
 ) [6 <./pictures/robot_IPS.png>] [7]
+\openout2 = `chapters/chapter2.aux'.
+
+ (./chapters/chapter2.tex
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
+extiota \textomicron  2.
+LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 4.
+LaTeX Font Info:    Font shape `OT1/mak/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 10.
+<pictures/tril_2_circles.png, id=148, 292.09125pt x 172.645pt>
+File: pictures/tril_2_circles.png Graphic file (type png)
+<use pictures/tril_2_circles.png>
+Package pdftex.def Info: pictures/tril_2_circles.png  used on input line 14.
+(pdftex.def)             Requested size: 170.71652pt x 100.90865pt.
+<pictures/tril_3_circles.png, id=150, 292.09125pt x 323.2075pt>
+File: pictures/tril_3_circles.png Graphic file (type png)
+<use pictures/tril_3_circles.png>
+Package pdftex.def Info: pictures/tril_3_circles.png  used on input line 20.
+(pdftex.def)             Requested size: 170.71652pt x 188.91042pt.
+[8
+
+
+
+
+ <./pictures/tril_2_circles.png>]
+LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 36.
+<pictures/gps_tril.jpg, id=163, 1204.5pt x 688.5725pt>
+File: pictures/gps_tril.jpg Graphic file (type jpg)
+<use pictures/gps_tril.jpg>
+Package pdftex.def Info: pictures/gps_tril.jpg  used on input line 39.
+(pdftex.def)             Requested size: 284.52756pt x 162.65509pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [9 <./pictures/tril_3_circles.png>] [10 <./pictures/gps_tril.jpg>]
 LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 95.
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
@@ -1322,8 +1366,6 @@ Overfull \hbox (18.27063pt too wide) in paragraph at lines 95--95
 . wikimedia . org / wiki / File : GPS -[] 24 _ satellite .
  []
 
-LaTeX Font Info:    Font shape `OT1/mak/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 95.
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1331,39 +1373,45 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[8
+[11
 
 
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./main.aux
-(./chapters/chapter1.aux))
+(./chapters/chapter1.aux) (./chapters/chapter2.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92582A240552AD7A5EDBC1DFB661046A;1374.
+(rerunfilecheck)             Checksum: AD995E4A35E71FDCF05F004C45500306;2122.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22856 strings out of 476106
- 399659 string characters out of 5793932
+ 22935 strings out of 476106
+ 401736 string characters out of 5793932
  1930975 words of memory out of 5000000
- 44542 multiletter control sequences out of 15000+600000
- 582329 words of font info for 91 fonts, out of 8000000 for 9000
+ 44598 multiletter control sequences out of 15000+600000
+ 585199 words of font info for 97 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 66i,7n,81p,1005b,3208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,7n,81p,1005b,3210s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (14 pages, 301225 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
+.pfb>
+Output written on main.pdf (17 pages, 473177 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
