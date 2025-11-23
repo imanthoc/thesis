@@ -100,6 +100,36 @@
       \verb https://www.spinclabs.tech/indoor-positioning-and-indoor-navigation-use-cases/
       \endverb
     \endentry
+    \entry{sujata}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9547e555b0c9d1b72b0f582c997f6dce}{%
+           family={Mohanty},
+           familyi={M\bibinitperiod},
+           given={Sujata},
+           giveni={S\bibinitperiod}}}%
+        {{hash=664752fb62a10b3dd1bde4918fe9d72f}{%
+           family={Tripathy},
+           familyi={T\bibinitperiod},
+           given={Dr.Aruna},
+           giveni={D\bibinitperiod}}}%
+        {{hash=02876ac0ef0dc10a8d91b120ee1a29f5}{%
+           family={D},
+           familyi={D\bibinitperiod},
+           given={Dr.Bikramaditya},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc7d52e319e40101fd6eadc8048f0197}
+      \strng{fullhash}{bc7d52e319e40101fd6eadc8048f0197}
+      \strng{bibnamehash}{bc7d52e319e40101fd6eadc8048f0197}
+      \strng{authorbibnamehash}{bc7d52e319e40101fd6eadc8048f0197}
+      \strng{authornamehash}{bc7d52e319e40101fd6eadc8048f0197}
+      \strng{authorfullhash}{bc7d52e319e40101fd6eadc8048f0197}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UWB Based Indoor Localization Techniques}
+    \endentry
     \entry{tsipoura}{thesis}{}
       \name{author}{1}{}{%
         {{hash=701985f4658e513760d5652a0c8383ba}{%
