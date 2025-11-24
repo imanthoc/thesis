@@ -155,6 +155,58 @@
       \field{title}{Global and Regional Navigation Satellite Systems: Security and Defense Applications and Intentional Threats against them}
       \field{type}{mathesis}
     \endentry
+    \entry{vandervorst}{article}{}
+      \name{author}{7}{}{%
+        {{hash=f07c3859cdbca09271585dbe5c4d35af}{%
+           family={Vorst},
+           familyi={V\bibinitperiod},
+           given={Thomas\bibnamedelima Van},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+           prefix={der},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a1e1f8074cbbdeb315bf7bd075a816fb}{%
+           family={Eeckhaute},
+           familyi={E\bibinitperiod},
+           given={Mathieu\bibnamedelima Van},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c999d06f0b5d698e9e7e23e1783a36c}{%
+           family={Benlarbi-Delai},
+           familyi={B\bibinithyphendelim D\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2cad2f8e58fef649c94e4f6844591288}{%
+           family={Sarrazin},
+           familyi={S\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=27152f3d16fb2385995acaecb25293ac}{%
+           family={Quitin},
+           familyi={Q\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=45e728e83ec5f59d49961085488b0bd9}{%
+           family={Horlin},
+           familyi={H\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=638ccf761aab277751128e9d421c3a4b}{%
+           family={Doncker},
+           familyi={D\bibinitperiod},
+           given={Philippe\bibnamedelima De},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dd38efdbd1dd2716d501ed6a90a6fe6}
+      \strng{fullhash}{39809d52306828b7bae04e234a38d749}
+      \strng{bibnamehash}{7dd38efdbd1dd2716d501ed6a90a6fe6}
+      \strng{authorbibnamehash}{7dd38efdbd1dd2716d501ed6a90a6fe6}
+      \strng{authornamehash}{7dd38efdbd1dd2716d501ed6a90a6fe6}
+      \strng{authorfullhash}{39809d52306828b7bae04e234a38d749}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Angle-of-Arrival based localization using polynomial chaos expansions}
+    \endentry
     \entry{honganyang}{article}{}
       \name{author}{4}{}{%
         {{hash=37373eb9026d21224696769e7b52555e}{%
