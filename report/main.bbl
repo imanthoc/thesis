@@ -88,6 +88,43 @@
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
     \endentry
+    \entry{furfari}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a6754bee09c05164f10af856842046cb}{%
+           family={Furfari},
+           familyi={F\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b00753564bf4fd8db0dd9f6069fc4917}{%
+           family={Girolami},
+           familyi={G\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ed1f4310e9150b0c16351fed3fff0e4}{%
+           family={Mavilia},
+           familyi={M\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=559e951c5392236b7a13087dcce4f213}{%
+           family={Barsocchi},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bc49ca46dee3474e07529ac0caa8ce4}
+      \strng{fullhash}{919d03e05f0619fa212d9a19edb65568}
+      \strng{bibnamehash}{3bc49ca46dee3474e07529ac0caa8ce4}
+      \strng{authorbibnamehash}{3bc49ca46dee3474e07529ac0caa8ce4}
+      \strng{authornamehash}{3bc49ca46dee3474e07529ac0caa8ce4}
+      \strng{authorfullhash}{919d03e05f0619fa212d9a19edb65568}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ad Hoc Networks}
+      \field{title}{Indoor localization algorithms based on Angle of Arrival with a benchmark comparison}
+      \field{year}{2025}
+    \endentry
     \entry{spinclabs}{online}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -242,6 +279,38 @@
       \field{labeltitlesource}{title}
       \field{title}{A Multi-Robot Formation Platform based on an Indoor Global Positioning System}
       \field{year}{2019}
+    \endentry
+    \entry{junhuayang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99dfaf2aeab28e857904923475b65b5c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Junhua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=78be8ea0cb80e4e1b59bf06100942e90}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6daab9c045b3d0fc9e6183326e04b8ff}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{08853fd5d82e57471a4856c753eebaed}
+      \strng{fullhash}{08853fd5d82e57471a4856c753eebaed}
+      \strng{bibnamehash}{08853fd5d82e57471a4856c753eebaed}
+      \strng{authorbibnamehash}{08853fd5d82e57471a4856c753eebaed}
+      \strng{authornamehash}{08853fd5d82e57471a4856c753eebaed}
+      \strng{authorfullhash}{08853fd5d82e57471a4856c753eebaed}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Distributed Sensor Networks}
+      \field{title}{An improved geometric algorithm for indoor localization}
+      \field{year}{2018}
     \endentry
   \enddatalist
 \endrefsection
