@@ -3,14 +3,17 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}}}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές\blx@tocontentsinit {0}\cite {honganyang}}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}\relax }}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές\blx@tocontentsinit {0}\cite {honganyang}\relax }}{6}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Τομή δυο κύκλων}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Τομή τριών κύκλων}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \textlatin {Angle of Arrival estimation}}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {AoA Localization}}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Τομή δυο κύκλων\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Τομή τριών κύκλων\relax }}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textlatin {Angle of Arrival estimation}\relax }}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {AoA Localization}\relax }}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο\relax }}{12}{figure.caption.15}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}\relax }}{15}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}\relax }}{16}{figure.caption.17}%
 \babel@toc {english}{}\relax 

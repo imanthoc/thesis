@@ -244,6 +244,16 @@
       \field{labeltitlesource}{title}
       \field{title}{Angle-of-Arrival based localization using polynomial chaos expansions}
     \endentry
+    \entry{xplr-guide}{manual}{}
+      \list{organization}{1}{%
+        {u-blox}%
+      }
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labeltitlesource}{title}
+      \field{title}{XPLR-AOA-1 and XPLR-AOA-2 explorer kits}
+      \field{year}{2024}
+    \endentry
     \entry{honganyang}{article}{}
       \name{author}{4}{}{%
         {{hash=37373eb9026d21224696769e7b52555e}{%
