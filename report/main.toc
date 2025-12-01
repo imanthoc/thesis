@@ -19,4 +19,6 @@
 \contentsline {subsection}{\numberline {2.3.2}Γεωμετρικό Βαρύκεντρο}{13}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}Υλικό και Τεχνολογία \textlatin {AoA}}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}\textlatin {XPLR-AOA-1}}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\textlatin {DW1000}}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\textlatin {nRF5340}}{16}{section.3.3}%
 \babel@toc {english}{}\relax 

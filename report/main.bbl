@@ -88,6 +88,21 @@
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
     \endentry
+    \entry{qorvo-site}{online}{}
+      \list{publisher}{1}{%
+        {Qorvo}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{DW1000}
+      \verb{urlraw}
+      \verb https://www.qorvo.com/products/p/DW1000#parameters
+      \endverb
+      \verb{url}
+      \verb https://www.qorvo.com/products/p/DW1000#parameters
+      \endverb
+    \endentry
     \entry{furfari}{article}{}
       \name{author}{4}{}{%
         {{hash=a6754bee09c05164f10af856842046cb}{%
@@ -166,6 +181,25 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{UWB Based Indoor Localization Techniques}
+    \endentry
+    \entry{nordic}{manual}{}
+      \list{organization}{1}{%
+        {Nordic Semiconductors}%
+      }
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{title}{nRF5340}
+    \endentry
+    \entry{qorvo-brief}{manual}{}
+      \list{organization}{1}{%
+        {Decawave}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{PRODUCT BRIEF: DW1000}
+      \field{year}{2013}
     \endentry
     \entry{tsipoura}{thesis}{}
       \name{author}{1}{}{%
