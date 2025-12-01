@@ -13,10 +13,12 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \textlatin {Angle of Arrival estimation}}}{11}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {AoA Localization}}}{12}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{15}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{15}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{18}{figure.caption.22}%
 \babel@toc {english}{}\relax 

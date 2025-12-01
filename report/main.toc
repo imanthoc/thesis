@@ -15,10 +15,11 @@
 \contentsline {section}{\numberline {2.2}\textlatin {Angle of Arrival}}{11}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Γεωμετρική Προσέγγιση}{11}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}Θόρυβος}{12}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Λύση Ελαχίστων Τετραγώνων}{12}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Γεωμετρικό Βαρύκεντρο}{13}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Υλικό και Τεχνολογία \textlatin {AoA}}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\textlatin {XPLR-AOA-1}}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}\textlatin {DW1000}}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\textlatin {nRF5340}}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {2.3.1}Πηγές Θορύβου}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Λύση Ελαχίστων Τετραγώνων}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Γεωμετρικό Βαρύκεντρο}{15}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Υλικό και Τεχνολογία \textlatin {AoA}}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\textlatin {XPLR-AOA-1}}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\textlatin {DW1000}}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\textlatin {nRF5340}}{17}{section.3.3}%
 \babel@toc {english}{}\relax 

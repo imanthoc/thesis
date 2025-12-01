@@ -39,6 +39,26 @@
       \verb https://gisgeography.com/trilateration-triangulation-gps/
       \endverb
     \endentry
+    \entry{whitenoise-wiki}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/commons/0/02/White_noise_spectrum.png
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/commons/0/02/White_noise_spectrum.png
+      \endverb
+    \endentry
+    \entry{nmdst}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://articles.outlier.org/normal-distribution-curve-definition
+      \endverb
+      \verb{url}
+      \verb https://articles.outlier.org/normal-distribution-curve-definition
+      \endverb
+    \endentry
     \entry{acosta}{article}{}
       \name{author}{2}{}{%
         {{hash=d2aae7872e367a5bd83cb5f751f3a895}{%
@@ -200,6 +220,34 @@
       \field{labeltitlesource}{title}
       \field{title}{PRODUCT BRIEF: DW1000}
       \field{year}{2013}
+    \endentry
+    \entry{taub}{book}{}
+      \name{author}{2}{}{%
+        {{hash=001f0f589f90cc8191df2c9a5630dc46}{%
+           family={Taub},
+           familyi={T\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f3ff7e59a2b8b6471f1db4018f7ed027}{%
+           family={Schilling},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Tziola}%
+      }
+      \strng{namehash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \strng{fullhash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \strng{bibnamehash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \strng{authorbibnamehash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \strng{authornamehash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \strng{authorfullhash}{f08ef7f024d9bbae8e7ba935f9180bd1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principles of Communication Systems}
     \endentry
     \entry{tsipoura}{thesis}{}
       \name{author}{1}{}{%
