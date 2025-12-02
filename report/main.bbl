@@ -221,6 +221,36 @@
       \field{title}{PRODUCT BRIEF: DW1000}
       \field{year}{2013}
     \endentry
+    \entry{stine}{report}{}
+      \name{author}{2}{}{%
+        {{hash=6d2f1b56a926b19fabaa5dc11a308108}{%
+           family={Stine},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5998f0bf570afa4f64f9e8d6fd138484}{%
+           family={Portigal},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The MITRE Corporation}%
+      }
+      \strng{namehash}{44f53b6036362d50911ad425ab16c1bf}
+      \strng{fullhash}{44f53b6036362d50911ad425ab16c1bf}
+      \strng{bibnamehash}{44f53b6036362d50911ad425ab16c1bf}
+      \strng{authorbibnamehash}{44f53b6036362d50911ad425ab16c1bf}
+      \strng{authornamehash}{44f53b6036362d50911ad425ab16c1bf}
+      \strng{authorfullhash}{44f53b6036362d50911ad425ab16c1bf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spectrum 101, An Introduction to Spectrum Management}
+      \field{type}{techreport}
+      \field{year}{2004}
+    \endentry
     \entry{taub}{book}{}
       \name{author}{2}{}{%
         {{hash=001f0f589f90cc8191df2c9a5630dc46}{%
