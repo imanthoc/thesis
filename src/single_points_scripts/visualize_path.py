@@ -24,7 +24,7 @@ def quantize_value(x, step):
     if error1 < error2: return p1
     else:               return p2
 
-def visualize(csv_name, undersampling_rate):
+def visualize(csv_name):
     global moving_avg_active
     global moving_med_active
     global ma_active
@@ -39,31 +39,24 @@ def visualize(csv_name, undersampling_rate):
 
     df = pd.read_csv(csv_name).values
 
-    cl_passed_values = defaultdict(lambda: False)
-
-    total_points = 0
-    i = 1
-
     total_points = len(df)
     color_step = 1 / total_points
     current_color = 0.0
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(5, 5))
+
     for line in df:
-        if i != undersampling_rate:
-            i += 1
-            continue
         if D:
             cl1_x = float(line[0])
             cl1_y = float(line[1])
             cl2_x = float(line[2])
             cl2_y = float(line[3])
         else:
-            cl1_x = float(line[2])
-            cl1_y = float(line[3])
+            cl1_x = float(line[0])
+            cl1_y = float(line[1])
             
-        if moving_avg_active:   (cl1_x, cl1_y) = moving_avg.filt((cl_x, cl_y))
-        elif moving_med_active: (cl1_x, cl1_y) = moving_med.filt((cl_x, cl_y))
-        elif ma_active:         (cl1_x, cl1_y) = ma_filter.filt((cl_x, cl_y))
+        if moving_avg_active:   (cl1_x, cl1_y) = moving_avg.filt((cl1_x, cl1_y))
+        elif moving_med_active: (cl1_x, cl1_y) = moving_med.filt((cl1_x, cl1_y))
+        elif ma_active:         (cl1_x, cl1_y) = ma_filter.filt((cl1_x, cl1_y))
 
         if q_step != -1:
             cl1_x = quantize_value(cl_x, q_step)
@@ -81,7 +74,6 @@ def visualize(csv_name, undersampling_rate):
             ax2.scatter(cl2_x, cl2_y, color=(0, 1-current_color, current_color), marker='o')
 
         current_color += color_step
-        i = 1
 
     plt.tight_layout()
     plt.show()
@@ -122,18 +114,17 @@ def parse_filtering_options(arg_list):
         quit()
 
 def main():
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print_help()
         quit()
 
-    csv_name            = sys.argv[1]
-    undersampling_rate  = int(sys.argv[2])
+    csv_name = sys.argv[1]
 
     # filter options exist
-    if len(sys.argv) > 3: 
+    if len(sys.argv) > 2:
         parse_filtering_options(sys.argv)
 
-    visualize(csv_name, undersampling_rate)
+    visualize(csv_name)
 
 
 if __name__ == "__main__":

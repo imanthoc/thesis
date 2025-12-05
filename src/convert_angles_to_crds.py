@@ -7,7 +7,7 @@ import statistics
 
 ROOM_H = 330
 ROOM_W = 660
-WIN_SIZE = 10
+WIN_SIZE = 17
 ROOM_W_offset = ROOM_W * (2/10)
 ROOM_H_offset = ROOM_H * (2/10)
 
@@ -17,27 +17,14 @@ a_bot   = (ROOM_W/2+20, 0)
 a_left  = (0, ROOM_H/2)
 
 anchors = [a_bot, a_top, a_left, a_right]
-
-moving_avg_active = False
-mode = 0
 stats = False
-S_active = False
-
-B_filt = Filter(statistics.mean, WIN_SIZE)
-T_filt = Filter(statistics.mean, WIN_SIZE)
-L_filt = Filter(statistics.mean, WIN_SIZE)
-R_filt = Filter(statistics.mean, WIN_SIZE)
-
-def reject_off(p):
-    return p[0] < -ROOM_W_offset or p[1] < -ROOM_H_offset or p[0] > ROOM_W + ROOM_W_offset or p[1] > ROOM_H + ROOM_H_offset
+F_anchor = False
 
 def print_help():
     print("Usage:")
-    print("python3 convert_angles_to_crds.py <file  > [method] [filtering] [options]")
-    print("method: --legacy, --lqs (least squares), --all")
-    print("filtering: -A, Moving AVG filter on angle values")
+    print("python3 convert_angles_to_crds.py <file> [options]")
+    print("-F, Filter noisy anchor")
     print("-O, Output statistics instead of points")
-    print("-S, Output points in a format compatible with visualize_path.py")
 
 def convert_mb(a_p, a_th, conversion_function):
     a_th = conversion_function(a_th)
@@ -68,40 +55,60 @@ def find_average_point(point_list):
 
     return (avg_x, avg_y)
 
-def convert_angles_to_crds_legacy(B, T, L, R):
-    (m_bot, b_bot)      = convert_mb(a_bot, B, lambda th: 90 - th)
-    (m_top, b_top)      = convert_mb(a_top, T, lambda th: 90 - th)
-    (m_left, b_left)    = convert_mb(a_left, L, lambda th: -th)
-    (m_right, b_right)  = convert_mb(a_right, R, lambda th: -th)
+def convert_angles_to_crds_legacy(total_pack):
+    global anchors
 
-    p_bl = find_common_point(m_bot,   b_bot,   m_left,  b_left)
-    p_lt = find_common_point(m_left,  b_left,  m_top,   b_top)
-    p_tr = find_common_point(m_top,   b_top,   m_right, b_right)
-    p_rb = find_common_point(m_right, b_right, m_bot,   b_bot)
+    angle_pack = total_pack[0].copy()
+    index_pack = total_pack[1]
 
-    p_list = [p_bl, p_lt, p_tr, p_rb]
+    transform_function_table = [
+        lambda th: 90 - th, lambda th: 90 - th,
+        lambda th: -th, lambda th: -th
+    ]
+
+    mb_pairs = []
+
+    for i in index_pack:
+        (m, b) = convert_mb(anchors[i], angle_pack[i], transform_function_table[i])
+        mb_pairs.append((m, b))
+
+    intersection_point_list = []
+    k = 0
+
+    while k < len(index_pack) - 1:
+        (m_1, b_1) = mb_pairs[k]
+        (m_2, b_2) = mb_pairs[k+1]
+        intersection_point_list.append(find_common_point(m_1, b_1,   m_2, b_2))
+
+        k += 1
+
+    (m_n, b_n) = mb_pairs[-1]
+    (m_1, b_1) = mb_pairs[0]
+
+    intersection_point_list.append(find_common_point(m_n, b_n, m_1, b_1))
 
     # some times a common point is none if the two lines are parallel
-    center_point = find_average_point([p for p in p_list if p is not None])
+    center_point = find_average_point([p for p in intersection_point_list if p is not None])
 
     return center_point
 
-def convert_angles_to_crds_lsq(B, T, L, R):
+def convert_angles_to_crds_lsq(total_pack):
     global anchors
 
-    conv_B = 90-B
-    conv_T = 90-T
-    conv_L = -L
-    conv_R = -R
+    angle_pack = total_pack[0].copy()
+    index_pack = total_pack[1]
 
-    angles = [conv_B*(math.pi/180), conv_T*(math.pi/180), conv_L*(math.pi/180), conv_R*(math.pi/180)]
+    angle_pack[0] = (90 - angle_pack[0]) * (math.pi/180)
+    angle_pack[1] = (90 - angle_pack[1]) * (math.pi/180)
+    angle_pack[2] = -angle_pack[2] * (math.pi/180)
+    angle_pack[3] = -angle_pack[3] * (math.pi/180)
 
-    anchors = np.array(anchors)
-    angles = np.array(angles)
+    angles_actual = np.array([angle_pack[i] for i in index_pack])
+    anchors_actual = np.array([anchors[i] for i in index_pack])
 
-    a = np.sin(angles)
-    b = -np.cos(angles)
-    c = -a * anchors[:, 0] - b * anchors[:, 1]
+    a = np.sin(angles_actual)
+    b = -np.cos(angles_actual)
+    c = -a * anchors_actual[:, 0] - b * anchors_actual[:, 1]
 
     A = np.column_stack((a, b))
 
@@ -109,53 +116,45 @@ def convert_angles_to_crds_lsq(B, T, L, R):
     return pos[0], pos[1]
 
 def convert(angles_f_name):
-    global moving_avg_active
-    global mode
-    global stats
-    global S_active
+    global mode, stats
 
+    ap_f = AnglePack_Filter(17)
     angles_file = open(angles_f_name)
 
     point_list = []
+    point_list_2 = []
 
     total = 0
-    rejected = 0
 
     for line in angles_file:
         line = line.strip()
-        (B, T, L, R) = parse("BOT: {:d} TOP: {:d} LEFT: {:d} RIGHT: {:d}", line)
+        (b, t, l, r) = parse("{:d} , {:d} , {:d} , {:d}", line)
 
-        if moving_avg_active:
-            B = B_filt.filt(B)
-            T = T_filt.filt(T)
-            L = L_filt.filt(L)
-            R = R_filt.filt(R)
+        angle_pack = [b, t, l, r]
 
-        p = (0, 0)
-        p_extra = (0, 0)
+        b_stdev = ap_f.filter_b(b)
+        t_stdev = ap_f.filter_t(t)
+        l_stdev = ap_f.filter_l(l)
+        r_stdev = ap_f.filter_r(r)
 
-        if reject_off((p[0], p[1])): rejected += 1
+        #index pack has a list of the USEFUL indices in the angle list
+        if F_anchor:
+            index_pack = ap_f.filter_angle_pack(b_stdev, t_stdev, l_stdev, r_stdev)
         else:
-            if mode == 0:
-                p = convert_angles_to_crds_legacy(B, T, L, R)
-            elif mode == 1:
-                p = convert_angles_to_crds_lsq(B, T, L, R)
-            else:
-                p = convert_angles_to_crds_legacy(B, T, L, R)
-                p_extra = convert_angles_to_crds_lsq(B, T, L, R)
+            index_pack = [0, 1, 2, 3]
 
-            if not stats:
-                if not S_active:
-                    if mode == 0 or mode  == 1:
-                        print("{:5.2f} , {:5.2f}".format(p[0], p[1]))
-                    else:
-                        print("{:5.2f} , {:5.2f} , {:5.2f} , {:5.2f}".format(p[0], p[1], p_extra[0], p_extra[1]))
-                else:
-                    print("0, 0, {:5.2f}, {:5.2f}, 0, 0".format(p[0], p[1]))
+        total_pack = (angle_pack, index_pack)
 
+        p1 = convert_angles_to_crds_legacy(total_pack)
+        p2 = convert_angles_to_crds_lsq(total_pack)
 
-        point_list.append((p[0], p[1]))
+        point_list.append(p1)
+        point_list_2.append(p2)
+
+        if not stats:
+            print("{:5.2f} , {:5.2f} , {:5.2f} , {:5.2f}".format(p1[0], p1[1], p2[0], p2[1]))
         total += 1
+
     if stats:
         x_list = [p[0] for p in point_list]
         y_list = [p[1] for p in point_list]
@@ -166,21 +165,24 @@ def convert(angles_f_name):
         y_stdev = statistics.stdev(y_list)
 
         print("{:.2f} , {:.2f} , {:.1f} , {:.1f}".format(x_avg, y_avg, x_stdev, y_stdev))
-        #print("Rejected {} out of {} points".format(rejected, total))
+
+        if len(point_list_2) > 0:
+            x_list = [p[0] for p in point_list_2]
+            y_list = [p[1] for p in point_list_2]
+
+            x_avg = statistics.mean(x_list)
+            y_avg = statistics.mean(y_list)
+            x_stdev = statistics.stdev(x_list)
+            y_stdev = statistics.stdev(y_list)
+
+            print("{:.2f} , {:.2f} , {:.1f} , {:.1f}".format(x_avg, y_avg, x_stdev, y_stdev))
 
 def parse_arguments(args):
-    global moving_avg_active
-    global mode
-    global stats
-    global S_active
+    global stats, F_anchor
 
     for arg in args:
-        if arg == "-A": moving_avg_active = True
-        if arg == "--legacy": mode = 0
-        elif arg == "--lsq": mode = 1
-        elif arg == "--all": mode = 2
         if arg == "-O": stats = True
-        if arg == "-S": S_active = True
+        if arg == "-F": F_anchor = True
 
 def main():
     if len(sys.argv) < 2:
