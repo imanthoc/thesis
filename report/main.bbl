@@ -86,6 +86,34 @@
       \field{title}{Techniques to improve the GPS precision}
       \field{year}{2012}
     \endentry
+    \entry{beard}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fe801fa317723555ff590c47bd1dc6a1}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={Cory},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0599c551bf066f66e0e9c44815384cb4}{%
+           family={Stallings},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{98dc69b433a4d73c789e6dfa3df18384}
+      \strng{fullhash}{98dc69b433a4d73c789e6dfa3df18384}
+      \strng{bibnamehash}{98dc69b433a4d73c789e6dfa3df18384}
+      \strng{authorbibnamehash}{98dc69b433a4d73c789e6dfa3df18384}
+      \strng{authornamehash}{98dc69b433a4d73c789e6dfa3df18384}
+      \strng{authorfullhash}{98dc69b433a4d73c789e6dfa3df18384}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wireless Communication Networks and Systems}
+    \endentry
     \entry{bernard}{article}{}
       \name{author}{1}{}{%
         {{hash=8dc5bb50181bf8131bc4b0c1aa410791}{%
