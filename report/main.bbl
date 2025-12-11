@@ -136,6 +136,28 @@
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
     \endentry
+    \entry{czajewski}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a573c2caae5172e08b528687f6bdaa80}{%
+           family={Czajewski},
+           familyi={C\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a573c2caae5172e08b528687f6bdaa80}
+      \strng{fullhash}{a573c2caae5172e08b528687f6bdaa80}
+      \strng{bibnamehash}{a573c2caae5172e08b528687f6bdaa80}
+      \strng{authorbibnamehash}{a573c2caae5172e08b528687f6bdaa80}
+      \strng{authornamehash}{a573c2caae5172e08b528687f6bdaa80}
+      \strng{authorfullhash}{a573c2caae5172e08b528687f6bdaa80}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Instrumentation and Measurement Magazine}
+      \field{title}{The Accuracy of the Global Positioning Systems}
+      \field{year}{2004}
+    \endentry
     \entry{qorvo-site}{online}{}
       \list{publisher}{1}{%
         {Qorvo}%
@@ -248,6 +270,41 @@
       \field{labeltitlesource}{title}
       \field{title}{PRODUCT BRIEF: DW1000}
       \field{year}{2013}
+    \endentry
+    \entry{santoro}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c6f5ac0f704a0d73be3c176bc80e8a21}{%
+           family={Santoro},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=10d0e2cf1f23780834e5190b942c3436}{%
+           family={Nardello},
+           familyi={N\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50a11dece6b31e426f722240c1873f2f}{%
+           family={Brunelli},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e82f7cca7129f7402e454a7e6486200a}{%
+           family={Fontanelli},
+           familyi={F\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{44a34acd92386dddb4cd1f50c3b84766}
+      \strng{fullhash}{17b74dacc30153c5c0f8679ec6e658bf}
+      \strng{bibnamehash}{44a34acd92386dddb4cd1f50c3b84766}
+      \strng{authorbibnamehash}{44a34acd92386dddb4cd1f50c3b84766}
+      \strng{authornamehash}{44a34acd92386dddb4cd1f50c3b84766}
+      \strng{authorfullhash}{17b74dacc30153c5c0f8679ec6e658bf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scale up to infinity: the UWB Indoor Global Positioning System}
     \endentry
     \entry{stine}{report}{}
       \name{author}{2}{}{%

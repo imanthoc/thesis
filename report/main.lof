@@ -6,16 +6,16 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}}}{5}{figure.caption.7}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές\blx@tocontentsinit {0}\cite {honganyang}}}{6}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Τομή δυο κύκλων}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Τομή τριών κύκλων}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Τομή δυο κύκλων}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή τριών κύκλων}}{10}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \textlatin {Angle of Arrival estimation}}}{11}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {AoA Localization}}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{14}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{15}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{15}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{17}{figure.caption.20}%
 \addvspace {10\p@ }
