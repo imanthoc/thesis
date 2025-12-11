@@ -8,19 +8,20 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}}}{9}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Τομή δυο κύκλων}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή τριών κύκλων}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \textlatin {Angle of Arrival estimation}}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {AoA Localization}}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {AoA} και \textlatin {AoD}\blx@tocontentsinit {0}\cite {bluetooth5.1guide}}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή δυο κύκλων}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Τομή τριών κύκλων}}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textlatin {Angle of Arrival estimation}}}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textlatin {AoA Localization}}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{18}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{18}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{19}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{19}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{21}{figure.caption.25}%
 \babel@toc {english}{}\relax 

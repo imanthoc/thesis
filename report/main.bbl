@@ -39,6 +39,16 @@
       \verb https://gisgeography.com/trilateration-triangulation-gps/
       \endverb
     \endentry
+    \entry{bluetoothov}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://www.bluetooth.com/learn-about-bluetooth/tech-overview/
+      \endverb
+      \verb{url}
+      \verb https://www.bluetooth.com/learn-about-bluetooth/tech-overview/
+      \endverb
+    \endentry
     \entry{whitenoise-wiki}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -440,6 +450,30 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Angle-of-Arrival based localization using polynomial chaos expansions}
+    \endentry
+    \entry{bluetooth5.1guide}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=e8c6a373800f1b63eb4ccf82744d3965}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Bluetooth}%
+      }
+      \strng{namehash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \strng{fullhash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \strng{bibnamehash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \strng{authorbibnamehash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \strng{authornamehash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \strng{authorfullhash}{e8c6a373800f1b63eb4ccf82744d3965}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bluetooth® Core 5.1 Feature Overview}
+      \field{year}{2019}
     \endentry
     \entry{xplr-guide}{manual}{}
       \list{organization}{1}{%
