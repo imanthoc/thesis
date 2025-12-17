@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  15 DEC 2025 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  17 DEC 2025 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,7 +1042,8 @@ LaTeX Font Info:    Trying to load font information for LGR+mak on input line 2
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 21.
  (./main.aux
-(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux))
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/chapter4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1151,7 +1152,7 @@ Package hyperref Info: Link coloring OFF on input line 21.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<pictures/auth.png, id=112, 719.68875pt x 714.67pt>
+<pictures/auth.png, id=124, 719.68875pt x 714.67pt>
 File: pictures/auth.png Graphic file (type png)
 <use pictures/auth.png>
 Package pdftex.def Info: pictures/auth.png  used on input line 26.
@@ -1257,7 +1258,7 @@ l.88 \listoftables
 (./chapters/chapter1.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
 extiota \textomicron  1.
-<pictures/GPS_sat.png, id=263, 200.75pt x 201.75375pt>
+<pictures/GPS_sat.png, id=288, 200.75pt x 201.75375pt>
 File: pictures/GPS_sat.png Graphic file (type png)
 <use pictures/GPS_sat.png>
 Package pdftex.def Info: pictures/GPS_sat.png  used on input line 10.
@@ -1299,7 +1300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
  []
 
-<pictures/robot_IPS.png, id=275, 764.8575pt x 397.485pt>
+<pictures/robot_IPS.png, id=300, 764.8575pt x 397.485pt>
 File: pictures/robot_IPS.png Graphic file (type png)
 <use pictures/robot_IPS.png>
 Package pdftex.def Info: pictures/robot_IPS.png  used on input line 30.
@@ -1316,7 +1317,7 @@ LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 12.
 LaTeX Font Info:    Font shape `OT1/mak/m/it' will be
 (Font)              scaled to size 10.79993pt on input line 12.
-<pictures/gps_tril.jpg, id=291, 1204.5pt x 688.5725pt>
+<pictures/gps_tril.jpg, id=316, 1204.5pt x 688.5725pt>
 File: pictures/gps_tril.jpg Graphic file (type jpg)
 <use pictures/gps_tril.jpg>
 Package pdftex.def Info: pictures/gps_tril.jpg  used on input line 16.
@@ -1339,12 +1340,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--22
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/timeof_tril.png, id=300, 429.605pt x 306.14375pt>
+<pictures/timeof_tril.png, id=325, 429.605pt x 306.14375pt>
 File: pictures/timeof_tril.png Graphic file (type png)
 <use pictures/timeof_tril.png>
 Package pdftex.def Info: pictures/timeof_tril.png  used on input line 35.
 (pdftex.def)             Requested size: 170.71652pt x 121.65651pt.
-<pictures/rssi_tril.png, id=301, 736.7525pt x 442.65375pt>
+<pictures/rssi_tril.png, id=326, 736.7525pt x 442.65375pt>
 File: pictures/rssi_tril.png Graphic file (type png)
 <use pictures/rssi_tril.png>
 Package pdftex.def Info: pictures/rssi_tril.png  used on input line 36.
@@ -1381,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--42
 
 ] [9 <./pictures/gps_tril.jpg> <./pictures/timeof_tril.png> <./pictures/rssi_tr
 il.png>]
-<pictures/aoaaod.png, id=323, 1019.81pt x 518.93875pt>
+<pictures/aoaaod.png, id=349, 1019.81pt x 518.93875pt>
 File: pictures/aoaaod.png Graphic file (type png)
 <use pictures/aoaaod.png>
 Package pdftex.def Info: pictures/aoaaod.png  used on input line 53.
@@ -1393,12 +1394,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 58.
-<pictures/tril_2_circles.png, id=326, 292.09125pt x 172.645pt>
+<pictures/tril_2_circles.png, id=352, 292.09125pt x 172.645pt>
 File: pictures/tril_2_circles.png Graphic file (type png)
 <use pictures/tril_2_circles.png>
 Package pdftex.def Info: pictures/tril_2_circles.png  used on input line 64.
 (pdftex.def)             Requested size: 170.71652pt x 100.90865pt.
-<pictures/tril_3_circles.png, id=328, 292.09125pt x 323.2075pt>
+<pictures/tril_3_circles.png, id=354, 292.09125pt x 323.2075pt>
 File: pictures/tril_3_circles.png Graphic file (type png)
 <use pictures/tril_3_circles.png>
 Package pdftex.def Info: pictures/tril_3_circles.png  used on input line 70.
@@ -1409,12 +1410,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--74
  []
 
 [10 <./pictures/aoaaod.png>]
-<pictures/aoa.png, id=336, 514.92375pt x 352.31625pt>
+<pictures/aoa.png, id=361, 514.92375pt x 352.31625pt>
 File: pictures/aoa.png Graphic file (type png)
 <use pictures/aoa.png>
 Package pdftex.def Info: pictures/aoa.png  used on input line 91.
 (pdftex.def)             Requested size: 227.62204pt x 155.73999pt.
-<pictures/aoa_loc.png, id=337, 1005.7575pt x 606.265pt>
+<pictures/aoa_loc.png, id=362, 1005.7575pt x 606.265pt>
 File: pictures/aoa_loc.png Graphic file (type png)
 <use pictures/aoa_loc.png>
 Package pdftex.def Info: pictures/aoa_loc.png  used on input line 99.
@@ -1443,12 +1444,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--104
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/noisy_aoa.png, id=346, 467.7475pt x 347.2975pt>
+<pictures/noisy_aoa.png, id=371, 467.7475pt x 347.2975pt>
 File: pictures/noisy_aoa.png Graphic file (type png)
 <use pictures/noisy_aoa.png>
 Package pdftex.def Info: pictures/noisy_aoa.png  used on input line 115.
 (pdftex.def)             Requested size: 170.71652pt x 126.75458pt.
-<pictures/noisy_tril.png, id=347, 817.0525pt x 814.04124pt>
+<pictures/noisy_tril.png, id=372, 817.0525pt x 814.04124pt>
 File: pictures/noisy_tril.png Graphic file (type png)
 <use pictures/noisy_tril.png>
 Package pdftex.def Info: pictures/noisy_tril.png  used on input line 116.
@@ -1463,7 +1464,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<pictures/whitenoise.png, id=355, 803.0pt x 602.25pt>
+<pictures/whitenoise.png, id=380, 803.0pt x 602.25pt>
 File: pictures/whitenoise.png Graphic file (type png)
 <use pictures/whitenoise.png>
 Package pdftex.def Info: pictures/whitenoise.png  used on input line 133.
@@ -1475,7 +1476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--136
 
 [13 <./pictures/aoa_loc.png> <./pictures/noisy_aoa.png> <./pictures/noisy_tril.
 png>]
-<pictures/ndst.png, id=365, 797.98125pt x 511.9125pt>
+<pictures/ndst.png, id=390, 797.98125pt x 511.9125pt>
 File: pictures/ndst.png Graphic file (type png)
 <use pictures/ndst.png>
 Package pdftex.def Info: pictures/ndst.png  used on input line 142.
@@ -1484,12 +1485,12 @@ Package pdftex.def Info: pictures/ndst.png  used on input line 142.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/reflection.png, id=368, 853.1875pt x 518.93875pt>
+<pictures/reflection.png, id=393, 853.1875pt x 518.93875pt>
 File: pictures/reflection.png Graphic file (type png)
 <use pictures/reflection.png>
 Package pdftex.def Info: pictures/reflection.png  used on input line 160.
 (pdftex.def)             Requested size: 284.52756pt x 173.06361pt.
-<pictures/destrint.png, id=372, 578.16pt x 548.0475pt>
+<pictures/destrint.png, id=397, 578.16pt x 548.0475pt>
 File: pictures/destrint.png Graphic file (type png)
 <use pictures/destrint.png>
 Package pdftex.def Info: pictures/destrint.png  used on input line 172.
@@ -1533,7 +1534,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
 
-<pictures/barycenter.png, id=399, 1791.69376pt x 1020.81375pt>
+<pictures/barycenter.png, id=424, 1791.69376pt x 1020.81375pt>
 File: pictures/barycenter.png Graphic file (type png)
 <use pictures/barycenter.png>
 Package pdftex.def Info: pictures/barycenter.png  used on input line 239.
@@ -1541,71 +1542,98 @@ Package pdftex.def Info: pictures/barycenter.png  used on input line 239.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<pictures/angleseries.png, id=425, 1256.695pt x 650.43pt>
+File: pictures/angleseries.png Graphic file (type png)
+<use pictures/angleseries.png>
+Package pdftex.def Info: pictures/angleseries.png  used on input line 250.
+(pdftex.def)             Requested size: 341.43306pt x 176.71016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--249
-
- []
-
-<pictures/sine_fft.png, id=400, 578.16pt x 433.62pt>
-File: pictures/sine_fft.png Graphic file (type png)
-<use pictures/sine_fft.png>
-Package pdftex.def Info: pictures/sine_fft.png  used on input line 255.
-(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
-<pictures/sine_n_fft.png, id=401, 578.16pt x 433.62pt>
-File: pictures/sine_n_fft.png Graphic file (type png)
-<use pictures/sine_n_fft.png>
-Package pdftex.def Info: pictures/sine_n_fft.png  used on input line 260.
-(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--263
+Underfull \hbox (badness 10000) in paragraph at lines 244--257
 
  []
 
-[17]
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--257
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/x_filt.png, id=408, 578.16pt x 433.62pt>
+[17]
+<pictures/sine_fft.png, id=432, 578.16pt x 433.62pt>
+File: pictures/sine_fft.png Graphic file (type png)
+<use pictures/sine_fft.png>
+Package pdftex.def Info: pictures/sine_fft.png  used on input line 263.
+(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
+<pictures/sine_n_fft.png, id=433, 578.16pt x 433.62pt>
+File: pictures/sine_n_fft.png Graphic file (type png)
+<use pictures/sine_n_fft.png>
+Package pdftex.def Info: pictures/sine_n_fft.png  used on input line 268.
+(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
+<pictures/x_filt.png, id=434, 578.16pt x 433.62pt>
 File: pictures/x_filt.png Graphic file (type png)
 <use pictures/x_filt.png>
-Package pdftex.def Info: pictures/x_filt.png  used on input line 274.
+Package pdftex.def Info: pictures/x_filt.png  used on input line 280.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
-<pictures/sine_mm.png, id=409, 462.528pt x 346.896pt>
+<pictures/sine_mm.png, id=435, 462.528pt x 346.896pt>
 File: pictures/sine_mm.png Graphic file (type png)
 <use pictures/sine_mm.png>
-Package pdftex.def Info: pictures/sine_mm.png  used on input line 283.
+Package pdftex.def Info: pictures/sine_mm.png  used on input line 288.
 (pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 265--93
+Underfull \hbox (badness 10000) in paragraph at lines 257--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--93
+Underfull \hbox (badness 10000) in paragraph at lines 257--93
 
  []
 
-[18 <./pictures/barycenter.png> <./pictures/sine_fft.png>] [19 <./pictures/sine
-_n_fft.png> <./pictures/x_filt.png>] [20 <./pictures/sine_mm.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--93
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./pictures/barycenter.png> <./pictures/angleseries.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./pictures/sine_fft.png>] [20 <./pictures/sine_n_fft.png> <./pictures/x_fi
+lt.png>] [21 <./pictures/sine_mm.png>]
 \openout2 = `chapters/chapter3.aux'.
 
-
-(./chapters/chapter3.tex
+ (./chapters/chapter3.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
 extiota \textomicron  3.
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
-<pictures/xplr-anchor.png, id=428, 506.89375pt x 517.935pt>
+<pictures/xplr-anchor.png, id=458, 506.89375pt x 517.935pt>
 File: pictures/xplr-anchor.png Graphic file (type png)
 <use pictures/xplr-anchor.png>
 Package pdftex.def Info: pictures/xplr-anchor.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 232.5786pt.
-<pictures/xplr-tag.png, id=431, 430.60875pt x 344.28625pt>
+<pictures/xplr-tag.png, id=461, 430.60875pt x 344.28625pt>
 File: pictures/xplr-tag.png Graphic file (type png)
 <use pictures/xplr-tag.png>
 Package pdftex.def Info: pictures/xplr-tag.png  used on input line 23.
 (pdftex.def)             Requested size: 113.81102pt x 90.99376pt.
-<pictures/xplr-tag-open.png, id=432, 381.425pt x 319.1925pt>
+<pictures/xplr-tag-open.png, id=462, 381.425pt x 319.1925pt>
 File: pictures/xplr-tag-open.png Graphic file (type png)
 <use pictures/xplr-tag-open.png>
 Package pdftex.def Info: pictures/xplr-tag-open.png  used on input line 24.
@@ -1634,7 +1662,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/dw1000.png, id=436, 195.73125pt x 140.525pt>
+<pictures/dw1000.png, id=466, 195.73125pt x 140.525pt>
 File: pictures/dw1000.png Graphic file (type png)
 <use pictures/dw1000.png>
 Package pdftex.def Info: pictures/dw1000.png  used on input line 36.
@@ -1652,13 +1680,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
-[21
+[22
 
 
 
 
 ]
-<pictures/nordic.png, id=447, 218.8175pt x 216.81pt>
+<pictures/nordic.png, id=477, 218.8175pt x 216.81pt>
 File: pictures/nordic.png Graphic file (type png)
 <use pictures/nordic.png>
 Package pdftex.def Info: pictures/nordic.png  used on input line 50.
@@ -1676,49 +1704,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-[22 <./pictures/xplr-anchor.png> <./pictures/xplr-tag.png> <./pictures/xplr-tag
+[23 <./pictures/xplr-anchor.png> <./pictures/xplr-tag.png> <./pictures/xplr-tag
 -open.png>]
-<pictures/room.png, id=455, 1897.0875pt x 1053.9375pt>
+<pictures/room.png, id=486, 1897.0875pt x 1053.9375pt>
 File: pictures/room.png Graphic file (type png)
 <use pictures/room.png>
 Package pdftex.def Info: pictures/room.png  used on input line 63.
 (pdftex.def)             Requested size: 312.9803pt x 173.8761pt.
- [23 <./pictures/dw1000.png (PNG copy)> <./pictures/nordic.png> <./pictures/roo
+ [24 <./pictures/dw1000.png (PNG copy)> <./pictures/nordic.png> <./pictures/roo
 m.png>]
-<pictures/softwarepipeline.png, id=461, 990.70125pt x 370.38374pt>
+<pictures/softwarepipeline.png, id=492, 990.70125pt x 370.38374pt>
 File: pictures/softwarepipeline.png Graphic file (type png)
 <use pictures/softwarepipeline.png>
 Package pdftex.def Info: pictures/softwarepipeline.png  used on input line 73.
 (pdftex.def)             Requested size: 312.9803pt x 117.01059pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 77--94
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
 
  []
 
-[24 <./pictures/softwarepipeline.png>]
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 96.
-LaTeX Font Info:    Font shape `OT1/mak/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 96.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-6.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+Underfull \hbox (badness 10000) in paragraph at lines 77--84
+
+ []
+
+) [25 <./pictures/softwarepipeline.png>] [26]
+\openout2 = `chapters/chapter4.aux'.
+
+ (./chapters/chapter4.tex
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
+extiota \textomicron  4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--50
+
+ []
+
+[27
+
+
+
+
+]) [28] [29] [30]
+LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 97.
+LaTeX Font Info:    Font shape `OT1/mak/m/sc' will be
+(Font)              scaled to size 10.79993pt on input line 97.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
+7.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (24.96657pt too wide) in paragraph at lines 96--96
+Overfull \hbox (24.96657pt too wide) in paragraph at lines 97--97
 []\OT1/mak/m/sc/12 url\OT1/mak/m/n/12 : []$\OT1/pcr/m/n/12 https : / / commons 
 . wikimedia . org / wiki / File : GPS -[] 24 _ satellite .
  []
 
 
-Overfull \hbox (28.50455pt too wide) in paragraph at lines 96--96
+Overfull \hbox (28.50455pt too wide) in paragraph at lines 97--97
 []\OT1/mak/m/it/12 DW1000\OT1/mak/m/n/12 . \OT1/mak/m/sc/12 url\OT1/mak/m/n/12 
 : []$\OT1/pcr/m/n/12 https : / / www . qorvo . com / products / p / DW1000 # pa
 rameters$[]\OT1/mak/m/n/12 . 
  []
 
-[25
+[31
 
 
 
@@ -1730,8 +1798,8 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[26] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux)
-(./chapters/chapter3.aux))
+[32] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux)
+(./chapters/chapter3.aux) (./chapters/chapter4.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1741,19 +1809,19 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 420DF3735A4A0D5549BCAE547E24E675;5025.
+(rerunfilecheck)             Checksum: 5131A9B1562BD899EF690CE47B57D4E0;5545.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23282 strings out of 476106
- 410715 string characters out of 5793932
- 1937975 words of memory out of 5000000
- 44864 multiletter control sequences out of 15000+600000
+ 23335 strings out of 476106
+ 412009 string characters out of 5793932
+ 1965975 words of memory out of 5000000
+ 44896 multiletter control sequences out of 15000+600000
  586823 words of font info for 102 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 66i,8n,81p,1005b,3213s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,9n,81p,1005b,3213s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/ioannis/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
 00pk></usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr
@@ -1770,10 +1838,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (32 pages, 2050742 bytes).
+Output written on main.pdf (38 pages, 2100210 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 468 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

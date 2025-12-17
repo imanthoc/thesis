@@ -19,15 +19,17 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{15}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{16}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{18}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου}}{18}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου με λευκό θόρυβο}}{19}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Θορυβόδες σήμα, πριν και μετά το φιλτράρισμα}}{19}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Θορυβόδες σήμα, πριν και μετά το φιλτράρισμα}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Χρονοσειρά γωνίας με κεντρική τιμή 58 μοίρες}}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου}}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου με λευκό θόρυβο}}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Θορυβόδες σήμα φιλτραρισμένο με \textlatin {Moving Average}}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Θορυβόδες σήμα φιλτραρισμένο με \textlatin {Moving Median}}}{21}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{22}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{23}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{23}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Διάταξη του Δωματίου}}{23}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Δομή Λογισμικού}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor}\blx@tocontentsinit {0}\cite {xplr-guide}}}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag}\blx@tocontentsinit {0}\cite {xplr-guide}}}{23}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {Qorvo DW1000 Tranceiver}\blx@tocontentsinit {0}\cite {qorvo-site}}}{24}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textlatin {nRF5340}\blx@tocontentsinit {0}\cite {nordic}}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Διάταξη του Δωματίου}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Δομή Λογισμικού}}{25}{figure.caption.32}%
+\addvspace {10\p@ }
 \babel@toc {english}{}\relax 
