@@ -32,5 +32,6 @@
 \contentsline {chapter}{\numberline {4}Αποτελέσματα}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Στατικά Πειράματα}{28}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{28}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Αξιοσημείωτες Περιπτώσεις}{31}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Αξιοσημείωτες Περιπτώσεις}{30}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Επίδραση του Προσανατολισμού του \textlatin {tag}}{35}{subsection.4.1.3}%
 \babel@toc {english}{}\relax 
