@@ -3,11 +3,11 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}}}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές\blx@tocontentsinit {0}\cite {honganyang}}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές\blx@tocontentsinit {0}\cite {honganyang}}}{8}{figure.caption.8}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textlatin {GPS Trilateration}\blx@tocontentsinit {0}\cite {GPS_tril}}}{10}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration}\blx@tocontentsinit {0}\cite {sujata}}}{10}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {AoA} και \textlatin {AoD}\blx@tocontentsinit {0}\cite {bluetooth5.1guide}}}{11}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή δυο κύκλων}}{12}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Τομή τριών κύκλων}}{12}{figure.caption.13}%
@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{16}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{16}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{17}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{18}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Χρονοσειρά γωνίας με κεντρική τιμή 58 μοίρες}}{19}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου}}{20}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου με λευκό θόρυβο}}{21}{figure.caption.24}%
@@ -41,6 +41,16 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Γραφική παράσταση και χρονοσειρά γωνιών του \textlatin {504\_165\_yy\_B} που διεξήχθει σε άλλη μέρα}}{33}{figure.caption.43}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Γραφική παράσταση για το πείραμα \textlatin {400\_170\_yy\_A}}}{34}{figure.caption.44}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_yy\_A}}}{34}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_diag\_B}}}{35}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Εστιασμένη γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_B}}}{35}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_diag\_B}}}{36}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Εστιασμένη γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_B}}}{36}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_B} με το \textlatin {left anchor (a)} και χωρίς αυτό (\textlatin {b})}}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Γραφική παράσταση της ταλάντωσης του \textlatin {left anchor}}}{37}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {504\_162\_yy\_A}}}{38}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Γραφική παράσταση για το πείραμα \textlatin {504\_162\_yy\_A} με το \textlatin {left anchor (a)} και χωρίς αυτό (\textlatin {b})}}{38}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_diag\_H\_A}}}{39}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_H\_A} με \textlatin {left anchor (a)} και χωρίς αυτό \textlatin {(b)}}}{39}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Χρονοσειρές γωνιών για τα πείραμα \textlatin {400\_170\_diag\_H\_B}}}{40}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Γραφική παράσταση για τα πείραμα \textlatin {400\_170\_diag\_H\_B}}}{40}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Χρονοσειρές γωνιών για τα πείραμα \textlatin {400\_170\_diag\_H\_C}}}{41}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Γραφική παράσταση για τα πείραμα \textlatin {400\_170\_diag\_H\_C}}}{41}{figure.caption.60}%
 \babel@toc {english}{}\relax 
