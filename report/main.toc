@@ -38,4 +38,5 @@
 \contentsline {section}{\numberline {4.2}Στατικά Πειράματα με Ανθρώπινο Εμπόδιο}{38}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Σύνοψη Αποτελεσμάτων}{38}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Αναλυτικά Αποτελέσματα}{39}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Συμπεράσματα}{42}{chapter.5}%
 \babel@toc {english}{}\relax 
