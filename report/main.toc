@@ -38,5 +38,7 @@
 \contentsline {section}{\numberline {4.2}Στατικά Πειράματα με Ανθρώπινο Εμπόδιο}{38}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Σύνοψη Αποτελεσμάτων}{39}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Αναλυτικά Αποτελέσματα}{39}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Συμπεράσματα}{43}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Συμπεράσματα \& Μελλοντική Έρευνα}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Τελική Αξιολόγηση}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Μελλοντική Έρευνα}{44}{section.5.2}%
 \babel@toc {english}{}\relax 
