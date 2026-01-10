@@ -146,6 +146,18 @@
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
     \endentry
+    \entry{corehw}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{CHW1010-ANT2 Product Brie}
+      \verb{urlraw}
+      \verb https://www.corehw.com/CHW1010-ANT2_Product_Brief_v1.5.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.corehw.com/CHW1010-ANT2_Product_Brief_v1.5.pdf
+      \endverb
+    \endentry
     \entry{czajewski}{article}{}
       \name{author}{1}{}{%
         {{hash=a573c2caae5172e08b528687f6bdaa80}{%
@@ -167,21 +179,6 @@
       \field{journaltitle}{IEEE Instrumentation and Measurement Magazine}
       \field{title}{The Accuracy of the Global Positioning Systems}
       \field{year}{2004}
-    \endentry
-    \entry{qorvo-site}{online}{}
-      \list{publisher}{1}{%
-        {Qorvo}%
-      }
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labeltitlesource}{title}
-      \field{title}{DW1000}
-      \verb{urlraw}
-      \verb https://www.qorvo.com/products/p/DW1000#parameters
-      \endverb
-      \verb{url}
-      \verb https://www.qorvo.com/products/p/DW1000#parameters
-      \endverb
     \endentry
     \entry{furfari}{article}{}
       \name{author}{4}{}{%
@@ -220,6 +217,43 @@
       \field{title}{Indoor localization algorithms based on Angle of Arrival with a benchmark comparison}
       \field{year}{2025}
     \endentry
+    \entry{huang}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0e7318a7a8b3d99df6a44765147523fb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0b3dbef63e966950e3dc158f41eccf1f}{%
+           family={Talbi},
+           familyi={T\bibinitperiod},
+           given={Larbi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4845c759c15536d8a429bd242d62d03c}{%
+           family={Charbonneau},
+           familyi={C\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e655a181598574946da85da1b84648d2}{%
+           family={Denidni},
+           familyi={D\bibinitperiod},
+           given={Tayeb\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f5cbcb8a110bbb0ff59bbd460194e73}
+      \strng{fullhash}{210c6960aab8b679ae45c8a705c11487}
+      \strng{bibnamehash}{5f5cbcb8a110bbb0ff59bbd460194e73}
+      \strng{authorbibnamehash}{5f5cbcb8a110bbb0ff59bbd460194e73}
+      \strng{authornamehash}{5f5cbcb8a110bbb0ff59bbd460194e73}
+      \strng{authorfullhash}{210c6960aab8b679ae45c8a705c11487}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{title}{EFFECT OF HUMAN BODY UPON LINE-OF-SIGHT INDOOR RADIO PROPAGATION}
+      \field{year}{2006}
+    \endentry
     \entry{spinclabs}{online}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -230,6 +264,39 @@
       \endverb
       \verb{url}
       \verb https://www.spinclabs.tech/indoor-positioning-and-indoor-navigation-use-cases/
+      \endverb
+    \endentry
+    \entry{januszkiewicz}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3254339875dc1cf2c1b3266d28490358}{%
+           family={Januszkiewicz},
+           familyi={J\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod}}}%
+      }
+      \strng{namehash}{3254339875dc1cf2c1b3266d28490358}
+      \strng{fullhash}{3254339875dc1cf2c1b3266d28490358}
+      \strng{bibnamehash}{3254339875dc1cf2c1b3266d28490358}
+      \strng{authorbibnamehash}{3254339875dc1cf2c1b3266d28490358}
+      \strng{authornamehash}{3254339875dc1cf2c1b3266d28490358}
+      \strng{authorfullhash}{3254339875dc1cf2c1b3266d28490358}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis of Human Body Shadowing Effect on Wireless Sensor Networks Operating in the 2.4 GHz Band}
+      \field{year}{2018}
+    \endentry
+    \entry{loran}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{title}{LORAN}
+      \verb{urlraw}
+      \verb https://www.britannica.com/technology/loran
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/technology/loran
       \endverb
     \endentry
     \entry{sujata}{article}{}
@@ -271,15 +338,67 @@
       \field{labeltitlesource}{title}
       \field{title}{nRF5340}
     \endentry
-    \entry{qorvo-brief}{manual}{}
-      \list{organization}{1}{%
-        {Decawave}%
+    \entry{qian}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8fc7189bad6c5cd81645166375f92a41}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Meilin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=60239264692b316068a484d7fd45baeb}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=87e0902bc41d8bb2bce8de7c1c37afa4}{%
+           family={Seneviratne},
+           familyi={S\bibinitperiod},
+           given={Aruna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91f0285539e0dd7b4dbb618797bf9619}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Binghao},
+           giveni={B\bibinitperiod}}}%
       }
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{40e05a950940a5541d35def15f225e72}
+      \strng{fullhash}{d7e685051da5c46f4a3e589752c42da2}
+      \strng{bibnamehash}{40e05a950940a5541d35def15f225e72}
+      \strng{authorbibnamehash}{40e05a950940a5541d35def15f225e72}
+      \strng{authornamehash}{40e05a950940a5541d35def15f225e72}
+      \strng{authorfullhash}{d7e685051da5c46f4a3e589752c42da2}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{PRODUCT BRIEF: DW1000}
-      \field{year}{2013}
+      \field{title}{Performance Analysis of BLE 5.1 New Feature Angle of Arrival for Relative Positioning}
+      \field{year}{2022}
+    \endentry
+    \entry{sambu}{article}{}
+      \name{author}{2}{}{%
+        {{hash=16797c151c58d5493bda0b8b6c059ddd}{%
+           family={Sambu},
+           familyi={S\bibinitperiod},
+           given={Pradeep},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9da03eda7bf0f6b60bd3df7620fda4c7}{%
+           family={Won},
+           familyi={W\bibinitperiod},
+           given={Myounggyu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{efc566152a81ec89c1701dfe81100f3f}
+      \strng{fullhash}{efc566152a81ec89c1701dfe81100f3f}
+      \strng{bibnamehash}{efc566152a81ec89c1701dfe81100f3f}
+      \strng{authorbibnamehash}{efc566152a81ec89c1701dfe81100f3f}
+      \strng{authornamehash}{efc566152a81ec89c1701dfe81100f3f}
+      \strng{authorfullhash}{efc566152a81ec89c1701dfe81100f3f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Experimental Study on Direction Finding of Bluetooth 5.1: Indoor vs Outdoor}
+      \field{year}{2021}
     \endentry
     \entry{santoro}{article}{}
       \name{author}{4}{}{%
