@@ -1,11 +1,16 @@
 > addressed scolia:
 chapter1>
-    diaxorismos indoor outdoor
+    diaxorismos indoor outdoor - done
+    themata, kostos, xristikotita, akrivieia, metavash sto focus ths ergasias - done
 chapter2>
-    diaxorismos indoor outdoor
-    tupikh apodosh bluetooth
-    thorivos kai akriveia
-    anthropino soma & thorivos
-    kalman filter
+    diaxorismos indoor outdoor - done
+    giati to UWB einai kalh epilogh?
+    tupikh apodosh bluetooth - done
+    thorivos kai akriveia - done
+    anthropino soma & thorivos - done
+    kalman filter - done
+    endeiktika paradeigmata vivliografias (?)
 chapter3>
-    qorvo/nordic
+    nordic - done
+    replace qorvo with something else
+    morfi piramatwn statikwn theseon - done
