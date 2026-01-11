@@ -13,4 +13,5 @@ chapter2>
 chapter3>
     nordic - done
     replace qorvo with something else
+    xplr endiktikes episodeis - done
     morfi piramatwn statikwn theseon - done

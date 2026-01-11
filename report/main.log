@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  10 JAN 2026 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  11 JAN 2026 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,49 +1180,55 @@ st/fonts/enc/dvips/kerkis/gpkerkis.enc}{/usr/share/texlive/texmf-dist/fonts/enc
 /dvips/kerkis/kerkis.enc} <./pictures/auth.png>]
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 60.
+LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 66.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \end{abstract}
+l.72 \end{abstract}
                     [1]
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 65.
+(Font)              scaled to size 10.79993pt on input line 76.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 \begin{abstract}
+l.79 \begin{abstract}
                       [1]
+Overfull \hbox (3.9389pt too wide) in paragraph at lines 80--83
+\OT1/mak/m/n/12 Localization sys-tems are tech-no-log-i-cal con-structs that fr
+om their very first ap-pearence
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \end{abstract}
+l.90 \end{abstract}
                     [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 
-      [1]
+l.101 
+       [1]
 LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 81.
+(Font)              scaled to size 12.9599pt on input line 101.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 
-      [1]
+l.101 
+       [1]
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 82.
+(Font)              scaled to size 22.39185pt on input line 102.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 82.
+(Font)              scaled to size 22.39185pt on input line 102.
  (./main.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1323,10 +1329,10 @@ File: pictures/rssi_tril.png Graphic file (type png)
 <use pictures/rssi_tril.png>
 Package pdftex.def Info: pictures/rssi_tril.png  used on input line 52.
 (pdftex.def)             Requested size: 170.71652pt x 102.5647pt.
-<pictures/aoaaod.png, id=473, 1019.81pt x 518.93875pt>
+<pictures/aoaaod.png, id=474, 1019.81pt x 518.93875pt>
 File: pictures/aoaaod.png Graphic file (type png)
 <use pictures/aoaaod.png>
-Package pdftex.def Info: pictures/aoaaod.png  used on input line 70.
+Package pdftex.def Info: pictures/aoaaod.png  used on input line 75.
 (pdftex.def)             Requested size: 341.43306pt x 173.7446pt.
 
 
@@ -1334,133 +1340,125 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./pictures/timeof_tril.png> <./pictures/rssi_tril.png>]
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 80.
+(Font)              scaled to size 15.55188pt on input line 85.
 <pictures/tril_2_circles.png, id=488, 292.09125pt x 172.645pt>
 File: pictures/tril_2_circles.png Graphic file (type png)
 <use pictures/tril_2_circles.png>
-Package pdftex.def Info: pictures/tril_2_circles.png  used on input line 87.
+Package pdftex.def Info: pictures/tril_2_circles.png  used on input line 92.
 (pdftex.def)             Requested size: 170.71652pt x 100.90865pt.
 <pictures/tril_3_circles.png, id=490, 292.09125pt x 323.2075pt>
 File: pictures/tril_3_circles.png Graphic file (type png)
 <use pictures/tril_3_circles.png>
-Package pdftex.def Info: pictures/tril_3_circles.png  used on input line 93.
+Package pdftex.def Info: pictures/tril_3_circles.png  used on input line 98.
 (pdftex.def)             Requested size: 170.71652pt x 188.91042pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14 <./pictures/aoaaod.png> <./pictures/tril_2_circles.png>]
-<pictures/aoa.png, id=498, 514.92375pt x 352.31625pt>
+<pictures/aoa.png, id=500, 514.92375pt x 352.31625pt>
 File: pictures/aoa.png Graphic file (type png)
 <use pictures/aoa.png>
-Package pdftex.def Info: pictures/aoa.png  used on input line 115.
+Package pdftex.def Info: pictures/aoa.png  used on input line 120.
 (pdftex.def)             Requested size: 227.62204pt x 155.73999pt.
- [15 <./pictures/tril_3_circles.png> <./pictures/aoa.png>]
-<pictures/aoa_loc.png, id=507, 1005.7575pt x 606.265pt>
-File: pictures/aoa_loc.png Graphic file (type png)
-<use pictures/aoa_loc.png>
-Package pdftex.def Info: pictures/aoa_loc.png  used on input line 124.
-(pdftex.def)             Requested size: 341.43306pt x 205.81284pt.
-<pictures/noisy_aoa.png, id=508, 467.7475pt x 347.2975pt>
-File: pictures/noisy_aoa.png Graphic file (type png)
-<use pictures/noisy_aoa.png>
-Package pdftex.def Info: pictures/noisy_aoa.png  used on input line 140.
-(pdftex.def)             Requested size: 170.71652pt x 126.75458pt.
-<pictures/noisy_tril.png, id=509, 817.0525pt x 814.04124pt>
-File: pictures/noisy_tril.png Graphic file (type png)
-<use pictures/noisy_tril.png>
-Package pdftex.def Info: pictures/noisy_tril.png  used on input line 141.
-(pdftex.def)             Requested size: 170.71652pt x 170.08421pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./pictures/aoa_loc.png>]
-<pictures/whitenoise.png, id=517, 803.0pt x 602.25pt>
+<pictures/aoa_loc.png, id=501, 1005.7575pt x 606.265pt>
+File: pictures/aoa_loc.png Graphic file (type png)
+<use pictures/aoa_loc.png>
+Package pdftex.def Info: pictures/aoa_loc.png  used on input line 129.
+(pdftex.def)             Requested size: 341.43306pt x 205.81284pt.
+[15 <./pictures/tril_3_circles.png>]
+<pictures/noisy_aoa.png, id=509, 467.7475pt x 347.2975pt>
+File: pictures/noisy_aoa.png Graphic file (type png)
+<use pictures/noisy_aoa.png>
+Package pdftex.def Info: pictures/noisy_aoa.png  used on input line 145.
+(pdftex.def)             Requested size: 170.71652pt x 126.75458pt.
+<pictures/noisy_tril.png, id=510, 817.0525pt x 814.04124pt>
+File: pictures/noisy_tril.png Graphic file (type png)
+<use pictures/noisy_tril.png>
+Package pdftex.def Info: pictures/noisy_tril.png  used on input line 146.
+(pdftex.def)             Requested size: 170.71652pt x 170.08421pt.
+ [16 <./pictures/aoa.png> <./pictures/aoa_loc.png>]
+<pictures/whitenoise.png, id=519, 803.0pt x 602.25pt>
 File: pictures/whitenoise.png Graphic file (type png)
 <use pictures/whitenoise.png>
-Package pdftex.def Info: pictures/whitenoise.png  used on input line 160.
+Package pdftex.def Info: pictures/whitenoise.png  used on input line 165.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/ndst.png, id=520, 797.98125pt x 511.9125pt>
+<pictures/ndst.png, id=522, 797.98125pt x 511.9125pt>
 File: pictures/ndst.png Graphic file (type png)
 <use pictures/ndst.png>
-Package pdftex.def Info: pictures/ndst.png  used on input line 169.
+Package pdftex.def Info: pictures/ndst.png  used on input line 174.
 (pdftex.def)             Requested size: 284.52756pt x 182.52304pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./pictures/noisy_aoa.png> <./pictures/noisy_tril.png>]
-<pictures/reflection.png, id=533, 853.1875pt x 518.93875pt>
+<pictures/reflection.png, id=534, 853.1875pt x 518.93875pt>
 File: pictures/reflection.png Graphic file (type png)
 <use pictures/reflection.png>
-Package pdftex.def Info: pictures/reflection.png  used on input line 188.
+Package pdftex.def Info: pictures/reflection.png  used on input line 193.
 (pdftex.def)             Requested size: 284.52756pt x 173.06361pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pictures/destrint.png, id=537, 578.16pt x 548.0475pt>
+ [18 <./pictures/whitenoise.png> <./pictures/ndst.png>]
+<pictures/destrint.png, id=544, 578.16pt x 548.0475pt>
 File: pictures/destrint.png Graphic file (type png)
 <use pictures/destrint.png>
-Package pdftex.def Info: pictures/destrint.png  used on input line 201.
+Package pdftex.def Info: pictures/destrint.png  used on input line 206.
 (pdftex.def)             Requested size: 199.16928pt x 188.79227pt.
-[18 <./pictures/whitenoise.png> <./pictures/ndst.png>]
-<pictures/humanbodyref.png, id=546, 974.64125pt x 492.84125pt>
+ [19 <./pictures/reflection.png> <./pictures/destrint.png>]
+<pictures/humanbodyref.png, id=555, 974.64125pt x 492.84125pt>
 File: pictures/humanbodyref.png Graphic file (type png)
 <use pictures/humanbodyref.png>
-Package pdftex.def Info: pictures/humanbodyref.png  used on input line 212.
+Package pdftex.def Info: pictures/humanbodyref.png  used on input line 217.
 (pdftex.def)             Requested size: 369.88582pt x 187.03345pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19 <./pictures/reflection.png> <./pictures/destrint.png>] [20 <./pictures/huma
-nbodyref.png>]
-<pictures/barycenter.png, id=569, 1791.69376pt x 1020.81375pt>
+ [20 <./pictures/humanbodyref.png>]
+<pictures/barycenter.png, id=570, 1791.69376pt x 1020.81375pt>
 File: pictures/barycenter.png Graphic file (type png)
 <use pictures/barycenter.png>
-Package pdftex.def Info: pictures/barycenter.png  used on input line 284.
+Package pdftex.def Info: pictures/barycenter.png  used on input line 289.
 (pdftex.def)             Requested size: 284.52756pt x 162.103pt.
-<pictures/angleseries.png, id=570, 1256.695pt x 650.43pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures/angleseries.png, id=571, 1256.695pt x 650.43pt>
 File: pictures/angleseries.png Graphic file (type png)
 <use pictures/angleseries.png>
-Package pdftex.def Info: pictures/angleseries.png  used on input line 295.
+Package pdftex.def Info: pictures/angleseries.png  used on input line 300.
 (pdftex.def)             Requested size: 341.43306pt x 176.71016pt.
- [21 <./pictures/barycenter.png>]
-<pictures/sine_fft.png, id=578, 578.16pt x 433.62pt>
+[21] [22 <./pictures/barycenter.png> <./pictures/angleseries.png>]
+<pictures/sine_fft.png, id=585, 578.16pt x 433.62pt>
 File: pictures/sine_fft.png Graphic file (type png)
 <use pictures/sine_fft.png>
-Package pdftex.def Info: pictures/sine_fft.png  used on input line 310.
+Package pdftex.def Info: pictures/sine_fft.png  used on input line 315.
 (pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pictures/sine_n_fft.png, id=579, 578.16pt x 433.62pt>
+<pictures/sine_n_fft.png, id=586, 578.16pt x 433.62pt>
 File: pictures/sine_n_fft.png Graphic file (type png)
 <use pictures/sine_n_fft.png>
-Package pdftex.def Info: pictures/sine_n_fft.png  used on input line 315.
+Package pdftex.def Info: pictures/sine_n_fft.png  used on input line 320.
 (pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/x_filt.png, id=580, 578.16pt x 433.62pt>
+<pictures/x_filt.png, id=587, 578.16pt x 433.62pt>
 File: pictures/x_filt.png Graphic file (type png)
 <use pictures/x_filt.png>
-Package pdftex.def Info: pictures/x_filt.png  used on input line 329.
+Package pdftex.def Info: pictures/x_filt.png  used on input line 334.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
-[22 <./pictures/angleseries.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/sine_mm.png, id=586, 462.528pt x 346.896pt>
+<pictures/sine_mm.png, id=588, 462.528pt x 346.896pt>
 File: pictures/sine_mm.png Graphic file (type png)
 <use pictures/sine_mm.png>
-Package pdftex.def Info: pictures/sine_mm.png  used on input line 337.
+Package pdftex.def Info: pictures/sine_mm.png  used on input line 342.
 (pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1476,20 +1474,20 @@ LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/mak/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 8.
-<pictures/xplr-anchor.png, id=605, 506.89375pt x 517.935pt>
+<pictures/xplr-anchor.png, id=609, 506.89375pt x 517.935pt>
 File: pictures/xplr-anchor.png Graphic file (type png)
 <use pictures/xplr-anchor.png>
-Package pdftex.def Info: pictures/xplr-anchor.png  used on input line 19.
+Package pdftex.def Info: pictures/xplr-anchor.png  used on input line 23.
 (pdftex.def)             Requested size: 227.62204pt x 232.5786pt.
-<pictures/xplr-tag.png, id=608, 430.60875pt x 344.28625pt>
+<pictures/xplr-tag.png, id=612, 430.60875pt x 344.28625pt>
 File: pictures/xplr-tag.png Graphic file (type png)
 <use pictures/xplr-tag.png>
-Package pdftex.def Info: pictures/xplr-tag.png  used on input line 24.
+Package pdftex.def Info: pictures/xplr-tag.png  used on input line 28.
 (pdftex.def)             Requested size: 113.81102pt x 90.99376pt.
-<pictures/xplr-tag-open.png, id=609, 381.425pt x 319.1925pt>
+<pictures/xplr-tag-open.png, id=613, 381.425pt x 319.1925pt>
 File: pictures/xplr-tag-open.png Graphic file (type png)
 <use pictures/xplr-tag-open.png>
-Package pdftex.def Info: pictures/xplr-tag-open.png  used on input line 25.
+Package pdftex.def Info: pictures/xplr-tag-open.png  used on input line 29.
 (pdftex.def)             Requested size: 113.81102pt x 95.2422pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1497,26 +1495,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Trying to load font information for TS1+mak on input line 3
-1.
-LaTeX Font Info:    No file TS1mak.fd. on input line 31.
-
-LaTeX Font Warning: Font shape `TS1/mak/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textdegree' on input line 31.
-
 [26
 
 
 
 
 ]
-<pictures/nordic.png, id=618, 218.8175pt x 216.81pt>
+<pictures/nordic.png, id=620, 218.8175pt x 216.81pt>
 File: pictures/nordic.png Graphic file (type png)
 <use pictures/nordic.png>
 Package pdftex.def Info: pictures/nordic.png  used on input line 40.
 (pdftex.def)             Requested size: 142.26378pt x 140.96121pt.
-<pictures/corehw.png, id=619, 351.3125pt x 348.30125pt>
+<pictures/corehw.png, id=621, 351.3125pt x 348.30125pt>
 File: pictures/corehw.png Graphic file (type png)
 <use pictures/corehw.png>
 Package pdftex.def Info: pictures/corehw.png  used on input line 41.
@@ -1525,27 +1515,27 @@ Package pdftex.def Info: pictures/corehw.png  used on input line 41.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/room.png, id=625, 1897.0875pt x 1053.9375pt>
-File: pictures/room.png Graphic file (type png)
-<use pictures/room.png>
-Package pdftex.def Info: pictures/room.png  used on input line 58.
-(pdftex.def)             Requested size: 312.9803pt x 173.8761pt.
 [27 <./pictures/xplr-anchor.png> <./pictures/xplr-tag.png> <./pictures/xplr-tag
 -open.png>]
-<pictures/softwarepipeline.png, id=630, 990.70125pt x 370.38374pt>
+<pictures/room.png, id=631, 1897.0875pt x 1053.9375pt>
+File: pictures/room.png Graphic file (type png)
+<use pictures/room.png>
+Package pdftex.def Info: pictures/room.png  used on input line 60.
+(pdftex.def)             Requested size: 312.9803pt x 173.8761pt.
+<pictures/softwarepipeline.png, id=632, 990.70125pt x 370.38374pt>
 File: pictures/softwarepipeline.png Graphic file (type png)
 <use pictures/softwarepipeline.png>
-Package pdftex.def Info: pictures/softwarepipeline.png  used on input line 68.
+Package pdftex.def Info: pictures/softwarepipeline.png  used on input line 70.
 (pdftex.def)             Requested size: 312.9803pt x 117.01059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./pictures/nordic.png> <./pictures/corehw.png> <./pictures/room.png>]
-<pictures/orientations.png, id=637, 1897.0875pt x 1053.9375pt>
+<pictures/orientations.png, id=639, 1897.0875pt x 1053.9375pt>
 File: pictures/orientations.png Graphic file (type png)
 <use pictures/orientations.png>
-Package pdftex.def Info: pictures/orientations.png  used on input line 80.
+Package pdftex.def Info: pictures/orientations.png  used on input line 82.
 (pdftex.def)             Requested size: 341.43306pt x 189.68448pt.
 )
 [29 <./pictures/softwarepipeline.png> <./pictures/orientations.png>] [30]
@@ -1600,63 +1590,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--143
  []
 
 [33]
-<pictures/results_a.png, id=662, 657.45625pt x 667.49374pt>
+<pictures/results_a.png, id=664, 657.45625pt x 667.49374pt>
 File: pictures/results_a.png Graphic file (type png)
 <use pictures/results_a.png>
 Package pdftex.def Info: pictures/results_a.png  used on input line 146.
 (pdftex.def)             Requested size: 199.16928pt x 202.20522pt.
-<pictures/results_a1.png, id=663, 609.27625pt x 457.71pt>
+<pictures/results_a1.png, id=665, 609.27625pt x 457.71pt>
 File: pictures/results_a1.png Graphic file (type png)
 <use pictures/results_a1.png>
 Package pdftex.def Info: pictures/results_a1.png  used on input line 147.
 (pdftex.def)             Requested size: 199.16928pt x 149.62001pt.
-<pictures/results_a2.png, id=664, 719.68875pt x 573.14125pt>
+<pictures/results_a2.png, id=666, 719.68875pt x 573.14125pt>
 File: pictures/results_a2.png Graphic file (type png)
 <use pictures/results_a2.png>
 Package pdftex.def Info: pictures/results_a2.png  used on input line 160.
 (pdftex.def)             Requested size: 227.62204pt x 181.27505pt.
-<pictures/results_b.png, id=665, 629.35126pt x 585.18625pt>
+<pictures/results_b.png, id=667, 629.35126pt x 585.18625pt>
 File: pictures/results_b.png Graphic file (type png)
 <use pictures/results_b.png>
 Package pdftex.def Info: pictures/results_b.png  used on input line 169.
 (pdftex.def)             Requested size: 199.16928pt x 185.19185pt.
-<pictures/results_b1.png, id=666, 630.355pt x 460.72125pt>
+<pictures/results_b1.png, id=668, 630.355pt x 460.72125pt>
 File: pictures/results_b1.png Graphic file (type png)
 <use pictures/results_b1.png>
 Package pdftex.def Info: pictures/results_b1.png  used on input line 170.
 (pdftex.def)             Requested size: 199.16928pt x 145.57085pt.
  [34 <./pictures/results_a.png> <./pictures/results_a1.png> <./pictures/results
 _a2.png>]
-<pictures/results_b2.png, id=671, 702.625pt x 502.87875pt>
+<pictures/results_b2.png, id=673, 702.625pt x 502.87875pt>
 File: pictures/results_b2.png Graphic file (type png)
 <use pictures/results_b2.png>
 Package pdftex.def Info: pictures/results_b2.png  used on input line 176.
 (pdftex.def)             Requested size: 227.62204pt x 162.91187pt.
-<pictures/results_b3.png, id=672, 579.16376pt x 539.01375pt>
+<pictures/results_b3.png, id=674, 579.16376pt x 539.01375pt>
 File: pictures/results_b3.png Graphic file (type png)
 <use pictures/results_b3.png>
 Package pdftex.def Info: pictures/results_b3.png  used on input line 188.
 (pdftex.def)             Requested size: 227.62204pt x 211.84299pt.
  [35 <./pictures/results_b.png> <./pictures/results_b1.png> <./pictures/results
 _b2.png>]
-<pictures/results_b4.png, id=678, 618.31pt x 611.28375pt>
+<pictures/results_b4.png, id=680, 618.31pt x 611.28375pt>
 File: pictures/results_b4.png Graphic file (type png)
 <use pictures/results_b4.png>
 Package pdftex.def Info: pictures/results_b4.png  used on input line 199.
 (pdftex.def)             Requested size: 199.16928pt x 196.90198pt.
-<pictures/results_b5.png, id=679, 637.38126pt x 465.74pt>
+<pictures/results_b5.png, id=681, 637.38126pt x 465.74pt>
 File: pictures/results_b5.png Graphic file (type png)
 <use pictures/results_b5.png>
 Package pdftex.def Info: pictures/results_b5.png  used on input line 200.
 (pdftex.def)             Requested size: 199.16928pt x 145.52917pt.
-<pictures/results_c.png, id=680, 672.5125pt x 630.355pt>
+<pictures/results_c.png, id=682, 672.5125pt x 630.355pt>
 File: pictures/results_c.png Graphic file (type png)
 <use pictures/results_c.png>
 Package pdftex.def Info: pictures/results_c.png  used on input line 212.
 (pdftex.def)             Requested size: 227.62204pt x 213.35602pt.
  [36 <./pictures/results_b3.png> <./pictures/results_b4.png> <./pictures/result
 s_b5.png>]
-<pictures/results_c1.png, id=685, 625.33624pt x 445.665pt>
+<pictures/results_c1.png, id=687, 625.33624pt x 445.665pt>
 File: pictures/results_c1.png Graphic file (type png)
 <use pictures/results_c1.png>
 Package pdftex.def Info: pictures/results_c1.png  used on input line 222.
@@ -1667,25 +1657,25 @@ Overfull \hbox (19.85765pt too wide) in paragraph at lines 230--244
 l  me-tri-k  gia thn mh-kanonikìthta
  []
 
-<pictures/stdevs_278_262_A.png, id=692, 466.8642pt x 216.81pt>
+<pictures/stdevs_278_262_A.png, id=694, 466.8642pt x 216.81pt>
 File: pictures/stdevs_278_262_A.png Graphic file (type png)
 <use pictures/stdevs_278_262_A.png>
 Package pdftex.def Info: pictures/stdevs_278_262_A.png  used on input line 248.
 
 (pdftex.def)             Requested size: 199.16928pt x 92.49203pt.
-<pictures/stdevs_283_168_A.png, id=693, 460.3599pt x 206.6922pt>
+<pictures/stdevs_283_168_A.png, id=695, 460.3599pt x 206.6922pt>
 File: pictures/stdevs_283_168_A.png Graphic file (type png)
 <use pictures/stdevs_283_168_A.png>
 Package pdftex.def Info: pictures/stdevs_283_168_A.png  used on input line 249.
 
 (pdftex.def)             Requested size: 199.16928pt x 89.42467pt.
-<pictures/stdevs_400_170_A.png, id=694, 468.3096pt x 208.8603pt>
+<pictures/stdevs_400_170_A.png, id=696, 468.3096pt x 208.8603pt>
 File: pictures/stdevs_400_170_A.png Graphic file (type png)
 <use pictures/stdevs_400_170_A.png>
 Package pdftex.def Info: pictures/stdevs_400_170_A.png  used on input line 250.
 
 (pdftex.def)             Requested size: 199.16928pt x 88.82658pt.
-<pictures/stdevs_504_162_A.png, id=695, 459.6372pt x 213.1965pt>
+<pictures/stdevs_504_162_A.png, id=697, 459.6372pt x 213.1965pt>
 File: pictures/stdevs_504_162_A.png Graphic file (type png)
 <use pictures/stdevs_504_162_A.png>
 Package pdftex.def Info: pictures/stdevs_504_162_A.png  used on input line 251.
@@ -1696,14 +1686,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<pictures/results_d1.png, id=696, 630.355pt x 446.66875pt>
+<pictures/results_d1.png, id=698, 630.355pt x 446.66875pt>
 File: pictures/results_d1.png Graphic file (type png)
 <use pictures/results_d1.png>
 Package pdftex.def Info: pictures/results_d1.png  used on input line 271.
 (pdftex.def)             Requested size: 227.62204pt x 161.29134pt.
 [38 <./pictures/stdevs_278_262_A.png> <./pictures/stdevs_283_168_A.png> <./pict
 ures/stdevs_400_170_A.png> <./pictures/stdevs_504_162_A.png>]
-<pictures/results_d.png, id=705, 697.60625pt x 693.59125pt>
+<pictures/results_d.png, id=707, 697.60625pt x 693.59125pt>
 File: pictures/results_d.png Graphic file (type png)
 <use pictures/results_d.png>
 Package pdftex.def Info: pictures/results_d.png  used on input line 280.
@@ -1714,72 +1704,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--288
  []
 
 [39 <./pictures/results_d1.png> <./pictures/results_d.png>]
-<pictures/results_e1.png, id=711, 609.27625pt x 586.19pt>
+<pictures/results_e1.png, id=713, 609.27625pt x 586.19pt>
 File: pictures/results_e1.png Graphic file (type png)
 <use pictures/results_e1.png>
 Package pdftex.def Info: pictures/results_e1.png  used on input line 293.
 (pdftex.def)             Requested size: 199.16928pt x 191.6186pt.
-<pictures/results_e.png, id=712, 632.3625pt x 627.34375pt>
+<pictures/results_e.png, id=714, 632.3625pt x 627.34375pt>
 File: pictures/results_e.png Graphic file (type png)
 <use pictures/results_e.png>
 Package pdftex.def Info: pictures/results_e.png  used on input line 294.
 (pdftex.def)             Requested size: 199.16928pt x 197.5856pt.
-<pictures/results_e2.png, id=713, 842.14626pt x 427.5975pt>
+<pictures/results_e2.png, id=715, 842.14626pt x 427.5975pt>
 File: pictures/results_e2.png Graphic file (type png)
 <use pictures/results_e2.png>
 Package pdftex.def Info: pictures/results_e2.png  used on input line 308.
 (pdftex.def)             Requested size: 284.52756pt x 144.46777pt.
  [40 <./pictures/results_e1.png> <./pictures/results_e.png>]
-<pictures/results_f.png, id=719, 621.32124pt x 440.64626pt>
+<pictures/results_f.png, id=721, 621.32124pt x 440.64626pt>
 File: pictures/results_f.png Graphic file (type png)
 <use pictures/results_f.png>
 Package pdftex.def Info: pictures/results_f.png  used on input line 317.
 (pdftex.def)             Requested size: 227.62204pt x 161.42958pt.
-<pictures/results_f1.png, id=720, 653.44125pt x 635.37375pt>
+<pictures/results_f1.png, id=722, 653.44125pt x 635.37375pt>
 File: pictures/results_f1.png Graphic file (type png)
 <use pictures/results_f1.png>
 Package pdftex.def Info: pictures/results_f1.png  used on input line 323.
 (pdftex.def)             Requested size: 199.16928pt x 193.65782pt.
-<pictures/results_f2.png, id=721, 667.49374pt x 656.4525pt>
+<pictures/results_f2.png, id=723, 667.49374pt x 656.4525pt>
 File: pictures/results_f2.png Graphic file (type png)
 <use pictures/results_f2.png>
 Package pdftex.def Info: pictures/results_f2.png  used on input line 324.
 (pdftex.def)             Requested size: 199.16928pt x 195.8755pt.
  [41 <./pictures/results_e2.png> <./pictures/results_f.png>]
-<pictures/results_g.png, id=728, 634.37pt x 436.63126pt>
+<pictures/results_g.png, id=730, 634.37pt x 436.63126pt>
 File: pictures/results_g.png Graphic file (type png)
 <use pictures/results_g.png>
 Package pdftex.def Info: pictures/results_g.png  used on input line 355.
 (pdftex.def)             Requested size: 227.62204pt x 156.66745pt.
  [42 <./pictures/results_f1.png> <./pictures/results_f2.png>]
-<pictures/results_g1.png, id=734, 649.42625pt x 651.43375pt>
+<pictures/results_g1.png, id=736, 649.42625pt x 651.43375pt>
 File: pictures/results_g1.png Graphic file (type png)
 <use pictures/results_g1.png>
 Package pdftex.def Info: pictures/results_g1.png  used on input line 363.
 (pdftex.def)             Requested size: 199.16928pt x 199.78537pt.
-<pictures/results_g2.png, id=735, 643.40375pt x 678.535pt>
+<pictures/results_g2.png, id=737, 643.40375pt x 678.535pt>
 File: pictures/results_g2.png Graphic file (type png)
 <use pictures/results_g2.png>
 Package pdftex.def Info: pictures/results_g2.png  used on input line 364.
 (pdftex.def)             Requested size: 199.16928pt x 210.04341pt.
-<pictures/results_g3.png, id=736, 622.325pt x 445.665pt>
+<pictures/results_g3.png, id=738, 622.325pt x 445.665pt>
 File: pictures/results_g3.png Graphic file (type png)
 <use pictures/results_g3.png>
 Package pdftex.def Info: pictures/results_g3.png  used on input line 378.
 (pdftex.def)             Requested size: 227.62204pt x 163.00298pt.
  [43 <./pictures/results_g.png> <./pictures/results_g1.png> <./pictures/results
 _g2.png>]
-<pictures/results_g3a.png, id=743, 665.48625pt x 706.64pt>
+<pictures/results_g3a.png, id=745, 665.48625pt x 706.64pt>
 File: pictures/results_g3a.png Graphic file (type png)
 <use pictures/results_g3a.png>
 Package pdftex.def Info: pictures/results_g3a.png  used on input line 383.
 (pdftex.def)             Requested size: 227.62204pt x 241.68848pt.
-<pictures/results_g4.png, id=744, 631.35875pt x 456.70625pt>
+<pictures/results_g4.png, id=746, 631.35875pt x 456.70625pt>
 File: pictures/results_g4.png Graphic file (type png)
 <use pictures/results_g4.png>
 Package pdftex.def Info: pictures/results_g4.png  used on input line 394.
 (pdftex.def)             Requested size: 227.62204pt x 164.65802pt.
-<pictures/results_g4a.png, id=745, 717.68124pt x 713.66624pt>
+<pictures/results_g4a.png, id=747, 717.68124pt x 713.66624pt>
 File: pictures/results_g4a.png Graphic file (type png)
 <use pictures/results_g4a.png>
 Package pdftex.def Info: pictures/results_g4a.png  used on input line 399.
@@ -1792,6 +1782,14 @@ Package pdftex.def Info: pictures/results_g4a.png  used on input line 399.
 (./chapters/chapter5.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \t
 extiota \textomicron  5.
+LaTeX Font Info:    Trying to load font information for TS1+mak on input line 9
+.
+LaTeX Font Info:    No file TS1mak.fd. on input line 9.
+
+LaTeX Font Warning: Font shape `TS1/mak/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 9.
+
 [46
 
 
@@ -1799,15 +1797,15 @@ extiota \textomicron  5.
 
 ]) [47]
 LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 99.
+(Font)              scaled to size 22.39185pt on input line 119.
 LaTeX Font Info:    Font shape `OT1/mak/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 99.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-9.
+(Font)              scaled to size 10.79993pt on input line 119.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+19.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (24.96657pt too wide) in paragraph at lines 99--99
+Overfull \hbox (24.96657pt too wide) in paragraph at lines 119--119
 []\OT1/mak/m/sc/12 url\OT1/mak/m/n/12 : []$\OT1/pcr/m/n/12 https : / / commons 
 . wikimedia . org / wiki / File : GPS -[] 24 _ satellite .
  []
@@ -1841,13 +1839,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23736 strings out of 476106
- 422252 string characters out of 5793932
+ 23739 strings out of 476106
+ 422366 string characters out of 5793932
  1966975 words of memory out of 5000000
- 45203 multiletter control sequences out of 15000+600000
+ 45205 multiletter control sequences out of 15000+600000
  590203 words of font info for 110 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 66i,9n,81p,802b,3216s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,9n,81p,687b,3216s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/ioannis/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
 00pk></usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr
@@ -1864,10 +1862,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (55 pages, 3901777 bytes).
+Output written on main.pdf (55 pages, 3904080 bytes).
 PDF statistics:
- 920 PDF objects out of 1000 (max. 8388607)
- 720 compressed objects within 8 object streams
- 203 named destinations out of 1000 (max. 500000)
+ 922 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
+ 204 named destinations out of 1000 (max. 500000)
  623 words of extra memory for PDF output out of 10000 (max. 10000000)
 

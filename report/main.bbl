@@ -146,6 +146,42 @@
       \field{title}{Indoor Positioning Systems}
       \field{year}{2017}
     \endentry
+    \entry{botler}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a46bdcf5362aadf22ee3eb6c8d1cc6f8}{%
+           family={Botler},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=822e8dd5d6a82d58fed546b9d6cdfeff}{%
+           family={Spörk},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6664b9e87de65e181173cb026b50deb}{%
+           family={Diwold},
+           familyi={D\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2ff4c69dc5158c7a1084771973222290}{%
+           family={Römer},
+           familyi={R\bibinitperiod},
+           given={Kay},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f4b1df85df1c8a9948652c3e5e902ab}
+      \strng{fullhash}{07dfe72ee68359ce8ec14d5cf118e707}
+      \strng{bibnamehash}{1f4b1df85df1c8a9948652c3e5e902ab}
+      \strng{authorbibnamehash}{1f4b1df85df1c8a9948652c3e5e902ab}
+      \strng{authornamehash}{1f4b1df85df1c8a9948652c3e5e902ab}
+      \strng{authorfullhash}{07dfe72ee68359ce8ec14d5cf118e707}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Direction Finding with UWB and BLE: A Comparative Study}
+      \field{year}{2020}
+    \endentry
     \entry{corehw}{online}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
