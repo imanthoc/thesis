@@ -18,9 +18,10 @@ for line in f:
     L_a.append(L)
     R_a.append(R)
 
-plt.plot(B_a, color='red')
-plt.plot(T_a, color='green')
-plt.plot(L_a, color='blue')
-plt.plot(R_a, color='black')
+plt.plot(B_a, color='red', label="B")
+plt.plot(T_a, color='green', label="T")
+plt.plot(L_a, color='blue', label="L")
+plt.plot(R_a, color='black', label="R")
+plt.legend()
 
 plt.show()

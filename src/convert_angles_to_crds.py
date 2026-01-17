@@ -6,17 +6,19 @@ import math
 import statistics
 import matplotlib.pyplot as plt
 
-ROOM_H = 330
-ROOM_W = 660
-WIN_SIZE = 17
-ROOM_W_offset = ROOM_W * (2/10)
-ROOM_H_offset = ROOM_H * (2/10)
+#ROOM_H = 350
+#ROOM_W = 660
+#WIN_SIZE = 17
 
-a_top   = (ROOM_W/2+20, ROOM_H)
-a_right = (ROOM_W, ROOM_H/2)
-a_bot   = (ROOM_W/2+20, 0)
-a_left  = (0, ROOM_H/2)
+#a_top   = (400, ROOM_H)
+#a_right = (ROOM_W, ROOM_H/2)
+#a_bot   = (400, 0)
+#a_left  = (0, ROOM_H/2)
 
+a_bot = (456, 0)
+a_top = (269, 705)
+a_left = (0, 476)
+a_right = (650, 550)
 anchors = [a_bot, a_top, a_left, a_right]
 stats = False
 F_anchor = False
@@ -166,13 +168,13 @@ def convert(angles_f_name):
         p2 = convert_angles_to_crds_lsq(total_pack)
 
         if PLT:
-            ax1.set_xlim(left=0, right=660)
-            ax1.set_ylim(bottom=0, top=350)
+            ax1.set_xlim(left=0, right=700)
+            ax1.set_ylim(bottom=0, top=700)
             ax1.set_title("Legacy")
             ax1.scatter(p1[0], p1[1], color=(0, 1-current_color, current_color), marker='o')
 
-            ax2.set_xlim(left=0, right=660)
-            ax2.set_ylim(bottom=0, top=350)
+            ax2.set_xlim(left=0, right=700)
+            ax2.set_ylim(bottom=0, top=700)
             ax2.set_title("LSQ")
             ax2.scatter(p2[0], p2[1], color=(0, 1-current_color, current_color), marker='o')
 
