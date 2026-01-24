@@ -7,6 +7,7 @@ from parse import parse
 import statistics
 import math
 from filt import *
+import time
 
 script_format = False
 
@@ -71,13 +72,13 @@ def main():
     
     parse_args(sys.argv)
     # usb connections are:
-    s_bot = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=0,
+    s_bot = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=5,
                        xonxoff=False, rtscts=False, dsrdtr=True)
-    s_top = serial.Serial(port='/dev/ttyUSB1', baudrate=1000000, timeout=0,
+    s_top = serial.Serial(port='/dev/ttyUSB0', baudrate=1000000, timeout=5,
                        xonxoff=False, rtscts=False, dsrdtr=True)
-    s_left = serial.Serial(port='/dev/ttyUSB2', baudrate=1000000, timeout=0,
+    s_left = serial.Serial(port='/dev/ttyUSB2', baudrate=1000000, timeout=5,
                        xonxoff=False, rtscts=False, dsrdtr=True)
-    s_right = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=0,
+    s_right = serial.Serial(port='/dev/ttyUSB3', baudrate=1000000, timeout=5,
                        xonxoff=False, rtscts=False, dsrdtr=True)
 
     rejected_points = [] 
@@ -103,7 +104,6 @@ def main():
         else:
             l_right = None
 
-
         th_bot   = get_az(l_bot)
         th_top   = get_az(l_top)
         th_left  = get_az(l_left)
@@ -116,8 +116,10 @@ def main():
             th_right = int(th_right)
             th = [th_bot, th_top, th_left, th_right]
             
-            if th.count(500) < 2:
+            if th.count(500) < 4:
                 print_with_options(th_bot, th_top, th_left, th_right)
+
+        time.sleep(0.005)
 
     s_bot.close()
     s_top.close()
