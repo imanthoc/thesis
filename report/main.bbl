@@ -708,6 +708,52 @@
       \field{title}{An improved geometric algorithm for indoor localization}
       \field{year}{2018}
     \endentry
+    \entry{zhang}{article}{}
+      \name{author}{6}{}{%
+        {{hash=47d536b8da1c4f8913c7d8925892abc0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fengyun},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7f8a6256a19361714c6f6a011671f17d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2de17b0c06dc817e71e3dc75fcfb3afa}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yuhuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=99b1a0fc8e5caa53e55853480637d0c9}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yulong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3c1daf59955e8475c482de0aa42f9131}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shuang-Hua},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e62ca7c534cdcf1c9ecc6e2e4a37d68e}
+      \strng{fullhash}{c7ff3b5e903dbf371c3b2996a0e073f9}
+      \strng{bibnamehash}{e62ca7c534cdcf1c9ecc6e2e4a37d68e}
+      \strng{authorbibnamehash}{e62ca7c534cdcf1c9ecc6e2e4a37d68e}
+      \strng{authornamehash}{e62ca7c534cdcf1c9ecc6e2e4a37d68e}
+      \strng{authorfullhash}{c7ff3b5e903dbf371c3b2996a0e073f9}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design and Implementation of Real-Time Localization System (RTLS) based on UWB and TDoA Algorithm}
+      \field{year}{2021}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
