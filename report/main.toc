@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {3.2.5}Μετρικές}{31}{subsection.3.2.5}%
 \contentsline {chapter}{\numberline {4}Αποτελέσματα}{33}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Στατικά Πειράματα με Απρόσκοπτο \textlatin {Line Of Sight}}{33}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{33}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{34}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Αξιοσημείωτες Περιπτώσεις}{36}{subsection.4.1.2}%
 \contentsline {subsubsection}{\textlatin {278\_262\_xx}}{36}{section*.57}%
 \contentsline {subsubsection}{\textlatin {504\_162\_yy\_B}}{37}{section*.60}%
@@ -84,4 +84,3 @@
 \contentsline {chapter}{\numberline {5}Συμπεράσματα \bbl@greek@ampersand Μελλοντική Έρευνα}{58}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Τελική Αξιολόγηση}{58}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Μελλοντική Έρευνα}{59}{section.5.2}%
-\babel@toc {english}{}\relax 
