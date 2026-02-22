@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  31 JAN 2026 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.21)  1 FEB 2026 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1967,14 +1967,14 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4003EB8520C9DB81404D9C91D09B4E9D;12194.
+(rerunfilecheck)             Checksum: 9FE249CD2FCA613A7CD2BFF123FBDEF5;12187.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  23988 strings out of 476106
- 428895 string characters out of 5793932
+ 428885 string characters out of 5793932
  1960975 words of memory out of 5000000
  45410 multiletter control sequences out of 15000+600000
  590203 words of font info for 110 fonts, out of 8000000 for 9000
@@ -1996,7 +1996,7 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (67 pages, 4830401 bytes).
+Output written on main.pdf (67 pages, 4830397 bytes).
 PDF statistics:
  1148 PDF objects out of 1200 (max. 8388607)
  881 compressed objects within 9 object streams

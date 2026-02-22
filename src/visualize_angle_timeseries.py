@@ -24,4 +24,5 @@ plt.plot(L_a, color='blue', label="Left")
 plt.plot(R_a, color='black', label="Right")
 plt.legend()
 
+plt.tight_layout()
 plt.show()

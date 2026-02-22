@@ -5,9 +5,10 @@ import numpy as np
 import math
 import statistics
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 
-#ROOM_H = 350
-#ROOM_W = 660
+ROOM_H = 350
+ROOM_W = 660
 #WIN_SIZE = 17
 
 #a_top   = (400, ROOM_H)
@@ -126,15 +127,10 @@ def convert_angles_to_crds_lsq(total_pack):
 def convert(angles_f_name):
     global mode, stats, PLT
 
-    if PLT: fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(5, 5))
-
-    ap_f = AnglePack_Filter(17)
     angles_file = open(angles_f_name)
 
     point_list = []
     point_list_2 = []
-
-    total = 0
 
     current_color = 0.0
     total_points = sum(1 for _ in angles_file)
@@ -142,21 +138,32 @@ def convert(angles_f_name):
 
     color_step = 1 / total_points
 
+    b_f = Filter(statistics.mean, 17)
+    t_f = Filter(statistics.mean, 17)
+    l_f = Filter(statistics.mean, 17)
+    r_f = Filter(statistics.mean, 17)
+
+    p_f = Filter_2d(statistics.mean, 17)
+
+    img = mpimg.imread("../report/pictures/room_b_on.png")
+    plt.imshow(img,
+               extent=[0, 650, 0, 700],
+                origin="upper"  # often needed for Cartesian coords
+    )
+
     for line in angles_file:
         line = line.strip()
         (b, t, l, r) = parse("{:d} , {:d} , {:d} , {:d}", line)
 
+        if 500 in (b, t, l, r): continue
+
+        #b = b_f.filt(b)
+        #t = t_f.filt(t)
+        #l = l_f.filt(l)
+        #r = r_f.filt(r)
+
         angle_pack = [b, t, l, r]
 
-        #b_stdev = ap_f.filter_b(b)
-        #t_stdev = ap_f.filter_t(t)
-        #l_stdev = ap_f.filter_l(l)
-        #r_stdev = ap_f.filter_r(r)
-
-        #index pack has a list of the USEFUL indices in the angle list
-        #if F_anchor:
-        #    index_pack = ap_f.filter_angle_pack(b_stdev, t_stdev, l_stdev, r_stdev)
-        #else:
         if F_anchor:
             index_pack = [0, 1, 3]
         else:
@@ -167,16 +174,17 @@ def convert(angles_f_name):
         p1 = convert_angles_to_crds_legacy(total_pack)
         p2 = convert_angles_to_crds_lsq(total_pack)
 
-        if PLT:
-            ax1.set_xlim(left=0, right=700)
-            ax1.set_ylim(bottom=0, top=700)
-            ax1.set_title("Legacy")
-            ax1.scatter(p1[0], p1[1], color=(0, 1-current_color, current_color), marker='o')
+        #p2 = p_f.filt(p2)
 
-            ax2.set_xlim(left=0, right=700)
-            ax2.set_ylim(bottom=0, top=700)
-            ax2.set_title("LSQ")
-            ax2.scatter(p2[0], p2[1], color=(0, 1-current_color, current_color), marker='o')
+        pl = [(140, 550), (140, 320), (560, 320), (560, 550), (140, 550)]
+
+        plt.plot([p[0] for p in pl], [p[1] for p in pl], color="red")
+
+        if PLT:
+            plt.xlim(left=0, right=650)
+            plt.ylim(bottom=0, top=700)
+            plt.title("LSQ")
+            plt.scatter(p2[0], p2[1], color=(0, 1-current_color, current_color), marker='o')
 
         point_list.append(p1)
         point_list_2.append(p2)
@@ -185,6 +193,7 @@ def convert(angles_f_name):
             print("{:5.2f} , {:5.2f} , {:5.2f} , {:5.2f}".format(p1[0], p1[1], p2[0], p2[1]))
 
         current_color += color_step
+    #only for line movements
 
     if stats:
         x_list = [p[0] for p in point_list]
@@ -208,6 +217,7 @@ def convert(angles_f_name):
         print("{:.2f} , {:.2f} , {:.1f} , {:.1f}".format(x_avg_2, y_avg_2, x_stdev_2, y_stdev_2))
 
     if PLT:
+        plt.tight_layout()
         plt.show()
 
 

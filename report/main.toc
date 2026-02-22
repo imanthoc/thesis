@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {2.5}Φιλτράρισμα}{21}{section.2.5}%
 \contentsline {subsubsection}{\textlatin {Moving Average}}{22}{section*.39}%
 \contentsline {subsubsection}{Φίλτρο \textlatin {Kalman}}{24}{section*.42}%
-\contentsline {subsection}{\numberline {2.5.1}Παράδειγμα Ολοκληρωμένου Συστήματος}{25}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Παράδειγμα Ολοκληρωμένου Συστήματος}{25}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Πειραματική Διάταξη \textlatin {AoA}}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Υλικό \textlatin {AoA}}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}\textlatin {XPLR-AOA-1}}{27}{subsection.3.1.1}%
