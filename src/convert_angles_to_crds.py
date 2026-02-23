@@ -11,15 +11,15 @@ ROOM_H = 350
 ROOM_W = 660
 #WIN_SIZE = 17
 
-#a_top   = (400, ROOM_H)
-#a_right = (ROOM_W, ROOM_H/2)
-#a_bot   = (400, 0)
-#a_left  = (0, ROOM_H/2)
+a_top   = (400, ROOM_H)
+a_right = (ROOM_W, ROOM_H/2)
+a_bot   = (400, 0)
+a_left  = (0, ROOM_H/2)
 
-a_bot = (456, 0)
-a_top = (269, 705)
-a_left = (0, 476)
-a_right = (650, 550)
+#a_bot = (456, 0)
+#a_top = (269, 705)
+#a_left = (0, 476)
+#a_right = (650, 550)
 anchors = [a_bot, a_top, a_left, a_right]
 stats = False
 F_anchor = False
@@ -145,11 +145,11 @@ def convert(angles_f_name):
 
     p_f = Filter_2d(statistics.mean, 17)
 
-    img = mpimg.imread("../report/pictures/room_b_on.png")
-    plt.imshow(img,
-               extent=[0, 650, 0, 700],
-                origin="upper"  # often needed for Cartesian coords
-    )
+    #img = mpimg.imread("../report/pictures/room_b_on.png")
+    #plt.imshow(img,
+    #           extent=[0, 650, 0, 700],
+    #            origin="upper"  # often needed for Cartesian coords
+    #)
 
     for line in angles_file:
         line = line.strip()
@@ -157,32 +157,27 @@ def convert(angles_f_name):
 
         if 500 in (b, t, l, r): continue
 
-        #b = b_f.filt(b)
-        #t = t_f.filt(t)
-        #l = l_f.filt(l)
-        #r = r_f.filt(r)
-
         angle_pack = [b, t, l, r]
 
-        if F_anchor:
-            index_pack = [0, 1, 3]
-        else:
-            index_pack = [0, 1, 2, 3]
+        #if F_anchor:
+        #    index_pack = [0, 1, 3]
+        #else:
+        #    index_pack = [0, 1, 2, 3]
+
+        index_pack = [0, 1, 2]
 
         total_pack = (angle_pack, index_pack)
 
         p1 = convert_angles_to_crds_legacy(total_pack)
         p2 = convert_angles_to_crds_lsq(total_pack)
 
-        #p2 = p_f.filt(p2)
+        #pl = [(140, 550), (140, 320), (560, 320), (560, 550), (140, 550)]
 
-        pl = [(140, 550), (140, 320), (560, 320), (560, 550), (140, 550)]
-
-        plt.plot([p[0] for p in pl], [p[1] for p in pl], color="red")
+        #plt.plot([p[0] for p in pl], [p[1] for p in pl], color="red")
 
         if PLT:
             plt.xlim(left=0, right=650)
-            plt.ylim(bottom=0, top=700)
+            plt.ylim(bottom=0, top=350)
             plt.title("LSQ")
             plt.scatter(p2[0], p2[1], color=(0, 1-current_color, current_color), marker='o')
 

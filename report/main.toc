@@ -2,85 +2,88 @@
 \babel@toc {english}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {1}Εισαγωγή}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Τί είναι τα Συστήματα Εντοπισμού Θέσης}{6}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Χρησιμότητα του Εντοπισμού θέσης}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Εντοπισμός Εσωτερικού Χώρου}{7}{subsection.1.2.1}%
-\contentsline {subsubsection}{Αποθήκες}{7}{section*.7}%
-\contentsline {subsubsection}{Πολυκαταστήματα}{7}{section*.9}%
-\contentsline {subsubsection}{Εποπτεία Ασφαλείας}{8}{section*.10}%
-\contentsline {subsection}{\numberline {1.2.2}Εντοπισμός Εξωτερικού Χώορυ}{8}{subsection.1.2.2}%
-\contentsline {subsubsection}{Πλοήγηση}{8}{section*.11}%
-\contentsline {subsubsection}{Προσβασιμότητα}{8}{section*.12}%
-\contentsline {subsubsection}{Ανταπόκριση Έκτακτης Ανάγκης}{8}{section*.13}%
-\contentsline {section}{\numberline {1.3}Απαιτήσεις Συστημάτων Εντοπισμού}{9}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Σκόπος της Παρούσας Εργασίας}{9}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Αρχές Λειτουργίας των Συστημάτων Εντοπισμού}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Χαρακτηριστικά Παραδείγματα Συστημάτων Εντοπισμού}{10}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Εντοπισμός Εξωτερικού Χώρου}{10}{subsection.2.1.1}%
-\contentsline {subsubsection}{\textlatin {LORAN}}{10}{section*.14}%
-\contentsline {subsubsection}{\textlatin {GPS}}{10}{section*.15}%
-\contentsline {subsection}{\numberline {2.1.2}Εντοπισμός Εσωτερικού Χώρου}{11}{subsection.2.1.2}%
-\contentsline {subsubsection}{\textlatin {Ultra Wideband}}{11}{section*.17}%
-\contentsline {subsubsection}{\textlatin {Bluetooth}}{12}{section*.19}%
-\contentsline {section}{\numberline {2.2}\textlatin {Trilateration}}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\textlatin {Angle of Arrival}}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Θόρυβος και Ακρίβεια}{16}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Πηγές Θορύβου}{16}{subsection.2.4.1}%
-\contentsline {subsubsection}{Θερμικός Θόρυβος}{16}{section*.26}%
-\contentsline {subsubsection}{\textlatin {Interference}}{17}{section*.29}%
-\contentsline {subsubsection}{Ανακλάσεις}{18}{section*.30}%
-\contentsline {subsubsection}{Ανθρώπινο Σώμα}{18}{section*.33}%
-\contentsline {subsection}{\numberline {2.4.2}Λύση Ελαχίστων Τετραγώνων}{19}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Γεωμετρικό Βαρύκεντρο}{20}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Φιλτράρισμα}{21}{section.2.5}%
-\contentsline {subsubsection}{\textlatin {Moving Average}}{22}{section*.39}%
-\contentsline {subsubsection}{Φίλτρο \textlatin {Kalman}}{24}{section*.42}%
-\contentsline {section}{\numberline {2.6}Παράδειγμα Ολοκληρωμένου Συστήματος}{25}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Πειραματική Διάταξη \textlatin {AoA}}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Υλικό \textlatin {AoA}}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}\textlatin {XPLR-AOA-1}}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}\textlatin {nRF5340}}{28}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Πειραματική Διάταξη}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Χώροι Πειραμάτων}{29}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Λογισμικό}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Μορφή Πειραμάτων Στατικών Θέσεων}{31}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Μορφή Πειραμάτων Κίνησης}{31}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Μετρικές}{31}{subsection.3.2.5}%
-\contentsline {chapter}{\numberline {4}Αποτελέσματα}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Στατικά Πειράματα με Απρόσκοπτο \textlatin {Line Of Sight}}{33}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Αξιοσημείωτες Περιπτώσεις}{36}{subsection.4.1.2}%
-\contentsline {subsubsection}{\textlatin {278\_262\_xx}}{36}{section*.57}%
-\contentsline {subsubsection}{\textlatin {504\_162\_yy\_B}}{37}{section*.60}%
-\contentsline {subsubsection}{\textlatin {400\_170\_yy\_A}}{40}{section*.65}%
-\contentsline {subsection}{\numberline {4.1.3}Επίδραση του Προσανατολισμού του \textlatin {tag}}{41}{subsection.4.1.3}%
-\contentsline {subsubsection}{\textlatin {400\_170\_diag\_B}}{42}{section*.70}%
-\contentsline {subsection}{\numberline {4.1.4}Επίδραση Θορυβώδους \textlatin {Anchor}}{43}{subsection.4.1.4}%
-\contentsline {subsubsection}{\textlatin {400\_170\_diag\_B}}{43}{section*.73}%
-\contentsline {subsubsection}{\textlatin {504\_162\_yy\_A}}{44}{section*.76}%
-\contentsline {section}{\numberline {4.2}Στατικά Πειράματα με Ανθρώπινο Εμπόδιο}{45}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Σύνοψη Αποτελεσμάτων}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Αναλυτικά Αποτελέσματα}{45}{subsection.4.2.2}%
-\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_A}}{45}{section*.80}%
-\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_B}}{46}{section*.83}%
-\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_C}}{47}{section*.86}%
-\contentsline {section}{\numberline {4.3}Πειράματα Κίνησης στο Δωμάτιο Α}{48}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Πειράματα Κίνησης με Απρόσκοπτο \textlatin {Line of Sight}}{49}{subsection.4.3.1}%
-\contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{49}{section*.89}%
-\contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{50}{section*.92}%
-\contentsline {subsubsection}{Συνδιαστικές Κινήσεις}{50}{section*.94}%
-\contentsline {subsection}{\numberline {4.3.2}Πειράματα Κίνησης με Ανθρώπινο Εμπόδιο}{50}{subsection.4.3.2}%
-\contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{50}{section*.96}%
-\contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{52}{section*.99}%
-\contentsline {section}{\numberline {4.4}Πειράματα Κίνησης στο Δωμάτιο Β}{53}{section.4.4}%
-\contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό Εμπόδιο}{53}{section*.101}%
-\contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό και Ανθρώπινο Εμπόδιο}{54}{section*.103}%
-\contentsline {subsubsection}{Μετρήσεις Γύρω απο την Κολώνα}{55}{section*.105}%
-\contentsline {section}{\numberline {4.5}Φιλτράρισμα σε Πειράματα Κίνησης}{55}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Φιλτράρισμα Γωνιών}{55}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Φιλτράρισμα Σημείων}{56}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Φιλτράρισμα Γωνιών και Σημείων}{56}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}Συμπεράσματα \bbl@greek@ampersand Μελλοντική Έρευνα}{58}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Τελική Αξιολόγηση}{58}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Μελλοντική Έρευνα}{59}{section.5.2}%
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Τί είναι τα Συστήματα Εντοπισμού Θέσης}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Χρησιμότητα του Εντοπισμού θέσης}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Εντοπισμός Εσωτερικού Χώρου}{8}{subsection.1.2.1}%
+\contentsline {subsubsection}{Αποθήκες}{8}{section*.7}%
+\contentsline {subsubsection}{Πολυκαταστήματα}{8}{section*.9}%
+\contentsline {subsubsection}{Εποπτεία Ασφαλείας}{9}{section*.10}%
+\contentsline {subsection}{\numberline {1.2.2}Εντοπισμός Εξωτερικού Χώορυ}{9}{subsection.1.2.2}%
+\contentsline {subsubsection}{Πλοήγηση}{9}{section*.11}%
+\contentsline {subsubsection}{Προσβασιμότητα}{9}{section*.12}%
+\contentsline {subsubsection}{Ανταπόκριση Έκτακτης Ανάγκης}{9}{section*.13}%
+\contentsline {section}{\numberline {1.3}Απαιτήσεις Συστημάτων Εντοπισμού}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Σκόπος της Παρούσας Εργασίας}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Αρχές Λειτουργίας των Συστημάτων Εντοπισμού}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Χαρακτηριστικά Παραδείγματα Συστημάτων Εντοπισμού}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Εντοπισμός Εξωτερικού Χώρου}{11}{subsection.2.1.1}%
+\contentsline {subsubsection}{\textlatin {LORAN}}{11}{section*.14}%
+\contentsline {subsubsection}{\textlatin {GPS}}{11}{section*.15}%
+\contentsline {subsection}{\numberline {2.1.2}Εντοπισμός Εσωτερικού Χώρου}{12}{subsection.2.1.2}%
+\contentsline {subsubsection}{\textlatin {Ultra Wideband}}{12}{section*.17}%
+\contentsline {subsubsection}{\textlatin {Bluetooth}}{13}{section*.19}%
+\contentsline {section}{\numberline {2.2}\textlatin {Trilateration}}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\textlatin {Angle of Arrival}}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Θόρυβος και Ακρίβεια}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Πηγές Θορύβου}{17}{subsection.2.4.1}%
+\contentsline {subsubsection}{Θερμικός Θόρυβος}{17}{section*.26}%
+\contentsline {subsubsection}{\textlatin {Interference}}{18}{section*.29}%
+\contentsline {subsubsection}{Ανακλάσεις}{19}{section*.30}%
+\contentsline {subsubsection}{Ανθρώπινο Σώμα}{19}{section*.33}%
+\contentsline {subsection}{\numberline {2.4.2}Λύση Ελαχίστων Τετραγώνων}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Γεωμετρικό Βαρύκεντρο}{21}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Φιλτράρισμα}{22}{section.2.5}%
+\contentsline {subsubsection}{\textlatin {Moving Average}}{23}{section*.39}%
+\contentsline {subsubsection}{Φίλτρο \textlatin {Kalman}}{25}{section*.42}%
+\contentsline {section}{\numberline {2.6}Παράδειγμα Ολοκληρωμένου Συστήματος}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Σύστημα Εντοπισμού \textlatin {UWB}}{26}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Σύστημα Εντοπισμού \textlatin {Bluetooth}}{27}{subsection.2.6.2}%
+\contentsline {chapter}{\numberline {3}Πειραματική Διάταξη \textlatin {AoA}}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Υλικό \textlatin {AoA}}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}\textlatin {XPLR-AOA-1}}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}\textlatin {nRF5340}}{30}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Πειραματική Διάταξη}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Χώροι Πειραμάτων}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Λογισμικό}{32}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Μορφή Πειραμάτων Στατικών Θέσεων}{33}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Μορφή Πειραμάτων Κίνησης}{33}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Μετρικές}{33}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}Αποτελέσματα}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Στατικά Πειράματα με Απρόσκοπτο \textlatin {Line Of Sight}}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{36}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Αξιοσημείωτες Περιπτώσεις}{38}{subsection.4.1.2}%
+\contentsline {subsubsection}{\textlatin {278\_262\_xx}}{38}{section*.59}%
+\contentsline {subsubsection}{\textlatin {504\_162\_yy\_B}}{39}{section*.62}%
+\contentsline {subsubsection}{\textlatin {400\_170\_yy\_A}}{42}{section*.67}%
+\contentsline {subsection}{\numberline {4.1.3}Επίδραση του Προσανατολισμού του \textlatin {tag}}{43}{subsection.4.1.3}%
+\contentsline {subsubsection}{\textlatin {400\_170\_diag\_B}}{44}{section*.72}%
+\contentsline {subsection}{\numberline {4.1.4}Μεθοδολογία Επιλογής \textlatin {Anchor} Λόγω Φαινομένων Θορύβου}{45}{subsection.4.1.4}%
+\contentsline {subsubsection}{\textlatin {400\_170\_diag\_B}}{45}{section*.75}%
+\contentsline {subsubsection}{\textlatin {504\_162\_yy\_A}}{46}{section*.78}%
+\contentsline {section}{\numberline {4.2}Στατικά Πειράματα με Ανθρώπινο Εμπόδιο}{47}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Σύνοψη Αποτελεσμάτων}{47}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Αναλυτικά Αποτελέσματα}{47}{subsection.4.2.2}%
+\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_A}}{47}{section*.82}%
+\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_B}}{48}{section*.85}%
+\contentsline {subsubsection}{\textlatin {400\_170\_diag\_H\_C}}{49}{section*.88}%
+\contentsline {section}{\numberline {4.3}Πειράματα Κίνησης στο Δωμάτιο Α}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Πειράματα Κίνησης με Απρόσκοπτο \textlatin {Line of Sight}}{51}{subsection.4.3.1}%
+\contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{51}{section*.91}%
+\contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{52}{section*.94}%
+\contentsline {subsubsection}{Συνδιαστικές Κινήσεις}{52}{section*.96}%
+\contentsline {subsection}{\numberline {4.3.2}Πειράματα Κίνησης με Ανθρώπινο Εμπόδιο}{53}{subsection.4.3.2}%
+\contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{53}{section*.98}%
+\contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{55}{section*.103}%
+\contentsline {section}{\numberline {4.4}Πειράματα Κίνησης στο Δωμάτιο Β}{55}{section.4.4}%
+\contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό Εμπόδιο}{56}{section*.105}%
+\contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό και Ανθρώπινο Εμπόδιο}{56}{section*.107}%
+\contentsline {subsubsection}{Μετρήσεις Γύρω απο την Κολώνα}{57}{section*.109}%
+\contentsline {section}{\numberline {4.5}Φιλτράρισμα σε Πειράματα Κίνησης}{58}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Φιλτράρισμα Γωνιών}{58}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Φιλτράρισμα Σημείων}{59}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Φιλτράρισμα Γωνιών και Σημείων}{59}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}Συμπεράσματα \bbl@greek@ampersand Μελλοντική Έρευνα}{60}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Τελική Αξιολόγηση}{60}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Μελλοντική Έρευνα}{61}{section.5.2}%
+\babel@toc {english}{}\relax 
