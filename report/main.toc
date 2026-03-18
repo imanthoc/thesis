@@ -78,7 +78,7 @@
 \contentsline {section}{\numberline {4.4}Πειράματα Κίνησης στο Δωμάτιο Β}{56}{section.4.4}%
 \contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό Εμπόδιο}{56}{section*.105}%
 \contentsline {subsubsection}{Παραλληλόγραμμη Κίνηση με Φυσικό και Ανθρώπινο Εμπόδιο}{56}{section*.107}%
-\contentsline {subsubsection}{Μετρήσεις Γύρω απο την Κολώνα}{57}{section*.109}%
+\contentsline {subsubsection}{Μετρήσεις Γύρω από την Κολώνα}{57}{section*.109}%
 \contentsline {section}{\numberline {4.5}Φιλτράρισμα σε Πειράματα Κίνησης}{58}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Φιλτράρισμα Γωνιών}{58}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Φιλτράρισμα Σημείων}{59}{subsection.4.5.2}%
