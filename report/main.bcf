@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,11 +37,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -140,10 +135,6 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>pluralothers</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -281,11 +272,6 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -386,11 +372,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -505,7 +491,6 @@
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -614,7 +599,6 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -729,7 +713,6 @@
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -1060,7 +1043,7 @@
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global" visibility="sort">
+  <bcf:sortingnamekeytemplate name="global">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -2361,74 +2344,105 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">b.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="19" intorder="1">acosta</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">GPS_wikimedia</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">GPS_wikimedia</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">bernard</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">honganyang</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">honganyang</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">spinclabs</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">bernard</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">bernard</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">loran</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">tsipoura</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">GPS_tril</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">GPS_tril</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">tsipoura</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">acosta</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">czajewski</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">sujata</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">sujata</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">sujata</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">sujata</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">sujata</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">santoro</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">botler</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">bluetoothov</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">bluetooth5.1guide</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">bluetooth5.1guide</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">bluetooth5.1guide</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">sambu</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">qian</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">taub</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">whitenoise-wiki</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">whitenoise-wiki</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">nmdst</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">nmdst</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">stine</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">stine</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">beard</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">huang</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">januszkiewicz</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">januszkiewicz</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">januszkiewicz</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">vandervorst</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">vandervorst</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">junhuayang</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">furfari</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">zhang</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">girolami</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">xplr-guide</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">xplr-guide</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">xplr-guide</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">xplr-guide</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">xplr-guide</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">nordic</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">corehw</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">nordic</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">corehw</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">corehw</bcf:citekey>
+    <bcf:citekey order="19">acosta</bcf:citekey>
+    <bcf:citekey order="20">GPS_wikimedia</bcf:citekey>
+    <bcf:citekey order="21">GPS_wikimedia</bcf:citekey>
+    <bcf:citekey order="22">bernard</bcf:citekey>
+    <bcf:citekey order="23">honganyang</bcf:citekey>
+    <bcf:citekey order="24">honganyang</bcf:citekey>
+    <bcf:citekey order="25">spinclabs</bcf:citekey>
+    <bcf:citekey order="26">bernard</bcf:citekey>
+    <bcf:citekey order="27">bernard</bcf:citekey>
+    <bcf:citekey order="28">loran</bcf:citekey>
+    <bcf:citekey order="29">tsipoura</bcf:citekey>
+    <bcf:citekey order="30">GPS_tril</bcf:citekey>
+    <bcf:citekey order="31">GPS_tril</bcf:citekey>
+    <bcf:citekey order="32">tsipoura</bcf:citekey>
+    <bcf:citekey order="33">acosta</bcf:citekey>
+    <bcf:citekey order="34">czajewski</bcf:citekey>
+    <bcf:citekey order="35">sujata</bcf:citekey>
+    <bcf:citekey order="36">sujata</bcf:citekey>
+    <bcf:citekey order="37">sujata</bcf:citekey>
+    <bcf:citekey order="38">sujata</bcf:citekey>
+    <bcf:citekey order="39">sujata</bcf:citekey>
+    <bcf:citekey order="40">santoro</bcf:citekey>
+    <bcf:citekey order="41">botler</bcf:citekey>
+    <bcf:citekey order="42">bluetoothov</bcf:citekey>
+    <bcf:citekey order="43">bluetooth5.1guide</bcf:citekey>
+    <bcf:citekey order="44">bluetooth5.1guide</bcf:citekey>
+    <bcf:citekey order="45">bluetooth5.1guide</bcf:citekey>
+    <bcf:citekey order="46">sambu</bcf:citekey>
+    <bcf:citekey order="47">qian</bcf:citekey>
+    <bcf:citekey order="48">taub</bcf:citekey>
+    <bcf:citekey order="49">whitenoise-wiki</bcf:citekey>
+    <bcf:citekey order="50">whitenoise-wiki</bcf:citekey>
+    <bcf:citekey order="51">nmdst</bcf:citekey>
+    <bcf:citekey order="52">nmdst</bcf:citekey>
+    <bcf:citekey order="53">stine</bcf:citekey>
+    <bcf:citekey order="54">stine</bcf:citekey>
+    <bcf:citekey order="55">beard</bcf:citekey>
+    <bcf:citekey order="56">huang</bcf:citekey>
+    <bcf:citekey order="57">januszkiewicz</bcf:citekey>
+    <bcf:citekey order="58">januszkiewicz</bcf:citekey>
+    <bcf:citekey order="59">januszkiewicz</bcf:citekey>
+    <bcf:citekey order="60">vandervorst</bcf:citekey>
+    <bcf:citekey order="61">vandervorst</bcf:citekey>
+    <bcf:citekey order="62">junhuayang</bcf:citekey>
+    <bcf:citekey order="63">furfari</bcf:citekey>
+    <bcf:citekey order="64">zhang</bcf:citekey>
+    <bcf:citekey order="65">girolami</bcf:citekey>
+    <bcf:citekey order="66">zhang</bcf:citekey>
+    <bcf:citekey order="67">zhang</bcf:citekey>
+    <bcf:citekey order="68">zhang</bcf:citekey>
+    <bcf:citekey order="69">zhang</bcf:citekey>
+    <bcf:citekey order="70">zhang</bcf:citekey>
+    <bcf:citekey order="71">zhang</bcf:citekey>
+    <bcf:citekey order="72">girolami</bcf:citekey>
+    <bcf:citekey order="73">girolami</bcf:citekey>
+    <bcf:citekey order="74">girolami</bcf:citekey>
+    <bcf:citekey order="75">girolami</bcf:citekey>
+    <bcf:citekey order="76">girolami</bcf:citekey>
+    <bcf:citekey order="77">xplr-guide</bcf:citekey>
+    <bcf:citekey order="78">xplr-guide</bcf:citekey>
+    <bcf:citekey order="79">xplr-guide</bcf:citekey>
+    <bcf:citekey order="80">xplr-guide</bcf:citekey>
+    <bcf:citekey order="81">xplr-guide</bcf:citekey>
+    <bcf:citekey order="82">nordic</bcf:citekey>
+    <bcf:citekey order="83">corehw</bcf:citekey>
+    <bcf:citekey order="84">nordic</bcf:citekey>
+    <bcf:citekey order="85">corehw</bcf:citekey>
+    <bcf:citekey order="86">corehw</bcf:citekey>
+    <bcf:citekey order="87">acosta</bcf:citekey>
+    <bcf:citekey order="88">GPS_wikimedia</bcf:citekey>
+    <bcf:citekey order="89">bernard</bcf:citekey>
+    <bcf:citekey order="90">honganyang</bcf:citekey>
+    <bcf:citekey order="91">spinclabs</bcf:citekey>
+    <bcf:citekey order="92">loran</bcf:citekey>
+    <bcf:citekey order="93">tsipoura</bcf:citekey>
+    <bcf:citekey order="94">GPS_tril</bcf:citekey>
+    <bcf:citekey order="95">czajewski</bcf:citekey>
+    <bcf:citekey order="96">sujata</bcf:citekey>
+    <bcf:citekey order="97">santoro</bcf:citekey>
+    <bcf:citekey order="98">botler</bcf:citekey>
+    <bcf:citekey order="99">bluetoothov</bcf:citekey>
+    <bcf:citekey order="100">bluetooth5.1guide</bcf:citekey>
+    <bcf:citekey order="101">sambu</bcf:citekey>
+    <bcf:citekey order="102">qian</bcf:citekey>
+    <bcf:citekey order="103">taub</bcf:citekey>
+    <bcf:citekey order="104">whitenoise-wiki</bcf:citekey>
+    <bcf:citekey order="105">nmdst</bcf:citekey>
+    <bcf:citekey order="106">stine</bcf:citekey>
+    <bcf:citekey order="107">beard</bcf:citekey>
+    <bcf:citekey order="108">huang</bcf:citekey>
+    <bcf:citekey order="109">januszkiewicz</bcf:citekey>
+    <bcf:citekey order="110">vandervorst</bcf:citekey>
+    <bcf:citekey order="111">junhuayang</bcf:citekey>
+    <bcf:citekey order="112">furfari</bcf:citekey>
+    <bcf:citekey order="113">zhang</bcf:citekey>
+    <bcf:citekey order="114">girolami</bcf:citekey>
+    <bcf:citekey order="115">xplr-guide</bcf:citekey>
+    <bcf:citekey order="116">nordic</bcf:citekey>
+    <bcf:citekey order="117">corehw</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

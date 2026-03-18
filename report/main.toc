@@ -3,7 +3,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \contentsline {chapter}{\numberline {1}Εισαγωγή}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Τί είναι τα Συστήματα Εντοπισμού Θέσης}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Τι είναι τα Συστήματα Εντοπισμού Θέσης}{7}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Χρησιμότητα του Εντοπισμού θέσης}{7}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Εντοπισμός Εσωτερικού Χώρου}{8}{subsection.1.2.1}%
 \contentsline {subsubsection}{Αποθήκες}{8}{section*.7}%
@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {3.2.2}Λογισμικό}{32}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Μορφή Πειραμάτων Στατικών Θέσεων}{33}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Μορφή Πειραμάτων Κίνησης}{33}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Μετρικές}{33}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.5}Μετρικές}{34}{subsection.3.2.5}%
 \contentsline {chapter}{\numberline {4}Πειραματική Διαδικασία και Αποτελέσματα}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Στατικά Πειράματα με Απρόσκοπτο \textlatin {Line Of Sight}}{35}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Σύνοψη Αποτελεσμάτων}{36}{subsection.4.1.1}%
@@ -83,7 +83,7 @@
 \contentsline {subsection}{\numberline {4.5.1}Φιλτράρισμα Γωνιών}{58}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Φιλτράρισμα Σημείων}{59}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Φιλτράρισμα Γωνιών και Σημείων}{59}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}Συμπεράσματα \bbl@greek@ampersand Μελλοντική Έρευνα}{60}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Συμπεράσματα \& Μελλοντική Έρευνα}{60}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Τελική Αξιολόγηση}{60}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Μελλοντική Έρευνα}{61}{section.5.2}%
 \babel@toc {english}{}\relax 
