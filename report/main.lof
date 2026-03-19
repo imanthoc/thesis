@@ -4,7 +4,7 @@
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Δορυφόροι \textlatin {GPS} \blx@tocontentsinit {0}\cite {GPS_wikimedia}}}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα Εντοπισμού για Ρομποτικές Εφαρμογές \blx@tocontentsinit {0}\cite {honganyang}}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Σύστημα εντοπισμού για ρομποτικές εφαρμογές \blx@tocontentsinit {0}\cite {honganyang}}}{8}{figure.caption.8}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textlatin {GPS Trilateration} \blx@tocontentsinit {0}\cite {GPS_tril}}}{12}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration} \blx@tocontentsinit {0}\cite {sujata}}}{13}{figure.caption.18}%
@@ -14,30 +14,30 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Υπολογισμός \textlatin {Angle of Arrival}}}{16}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Εντοπισμός \textlatin {AoA}}}{16}{figure.caption.24}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces \textlatin {AoA} και \textlatin {Trilateration} με Θόρυβο}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{18}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{18}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{19}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δύο Κυμάτων με Άντίθετες Δφ}}{20}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Επίδραση Ανθρώπινου Σώματος στην Ισχύ Ραδιοκυμάτων 2.4\textlatin {GHz} \blx@tocontentsinit {0}\cite {januszkiewicz}}}{20}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{22}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Φάσμα λευκού θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{18}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Καμπύλη γκαουσιανής κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση ηλεκτρομαγνητικού κύματος \blx@tocontentsinit {0}\cite {stine}}}{19}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική συμβολή δύο κυμάτων με αντίθετες Δφ}}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Επίδραση ανθρώπινου σώματος στην ισχύ ραδιοκυμάτων 2.4\textlatin {GHz} \blx@tocontentsinit {0}\cite {januszkiewicz}}}{20}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Γεωμετρικό βαρύκεντρο \textlatin {AoA}}}{22}{figure.caption.35}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Χρονοσειρά γωνίας με κεντρική τιμή 58 μοίρες}}{22}{figure.caption.36}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου}}{23}{figure.caption.37}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημίτονου με λευκό θόρυβο}}{24}{figure.caption.38}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Θορυβώδες σήμα φιλτραρισμένο με \textlatin {Moving Average}}}{24}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Θορυβώδες σήμα φιλτραρισμένο με \textlatin {Moving Median}}}{25}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Φυσική Αρχιτεκτονική Συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{26}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Αρχιτεκτονική Λογισμικού Συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Αποτελέσματα Στατικών Πειραμάτων \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Πείραμα Στατικών Θέσεων σε Σύστημα \textlatin {Bluetooth} \blx@tocontentsinit {0}\cite {girolami}}}{28}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Πείραμα Κίνησης σε Σύστημα \textlatin {Bluetooth} \blx@tocontentsinit {0}\cite {girolami}}}{28}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Φυσική αρχιτεκτονική συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Αρχιτεκτονική λογισμικού συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Αποτελέσματα στατικών πειραμάτων \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Πείραμα στατικών θέσεων σε σύστημα \textlatin {Bluetooth} \blx@tocontentsinit {0}\cite {girolami}}}{28}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Πείραμα κίνησης σε σύστημα \textlatin {Bluetooth} \blx@tocontentsinit {0}\cite {girolami}}}{28}{figure.caption.47}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \textlatin {XPLR Anchor} \blx@tocontentsinit {0}\cite {xplr-guide}}}{30}{figure.caption.48}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \textlatin {XPLR Tag} \blx@tocontentsinit {0}\cite {xplr-guide}}}{30}{figure.caption.49}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \textlatin {nRF5340 SoC} \blx@tocontentsinit {0}\cite {nordic} και κεραία \textlatin {CHW1010-ANT2-1.0} \blx@tocontentsinit {0}\cite {corehw}}}{31}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Διάταξη του Δωματίου Α}}{31}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Διάταξη του Δωματίου Β}}{32}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Δομή Λογισμικού}}{32}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Προσανατολισμός του \textlatin {tag} ως προς τον Αξονα \textlatin {x'x}, \textlatin {y'y} και Διαγώνια στο Δωμάτιο Α}}{33}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Διάταξη του δωματίου Α}}{31}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Διάταξη του δωματίου Β}}{32}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Δομή λογισμικού}}{32}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Προσανατολισμός του \textlatin {tag} ως προς τον αξονα \textlatin {x'x}, \textlatin {y'y} και διαγώνια στο δωμάτιο Α}}{33}{figure.caption.54}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Γραφική παράσταση του πειράματος \textlatin {278\_262\_xx\_A}}}{39}{figure.caption.60}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {278\_262\_xx\_A}}}{39}{figure.caption.61}%
@@ -47,7 +47,7 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Γραφική παράσταση και χρονοσειρά γωνιών του \textlatin {504\_165\_yy\_B} που διεξήχθη σε άλλη μέρα}}{41}{figure.caption.66}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Γραφική παράσταση για το πείραμα \textlatin {400\_170\_yy\_A}}}{42}{figure.caption.68}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_yy\_A}}}{42}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Τυπικές Αποκλίσεις για τα πειράματα \textlatin {278\_262\_A (επάνω αριστερά)}, \textlatin {283\_168\_A (επάνω δεξιά)}, \textlatin {400\_170\_A (κάτω αριστερά)} και \textlatin {504\_162\_A (κάτω δεξιά)} με προσανατολισμούς \textlatin {xx, yy \bbl@greek@ampersand diag}}}{43}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Τυπικές αποκλίσεις για τα πειράματα \textlatin {278\_262\_A (επάνω αριστερά)}, \textlatin {283\_168\_A (επάνω δεξιά)}, \textlatin {400\_170\_A (κάτω αριστερά)} και \textlatin {504\_162\_A (κάτω δεξιά)} με προσανατολισμούς \textlatin {xx, yy \bbl@greek@ampersand diag}}}{43}{figure.caption.71}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Χρονοσειρές γωνιών για το πείραμα \textlatin {400\_170\_diag\_B}}}{44}{figure.caption.73}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Εστιασμένη γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_B}}}{44}{figure.caption.74}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Εστιασμένη γραφική παράσταση για το πείραμα \textlatin {400\_170\_diag\_B} με το \textlatin {left anchor (αριστερά)} και χωρίς αυτό (\textlatin {δεξιά})}}{45}{figure.caption.76}%
@@ -64,16 +64,16 @@
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Χρονοσειρές γωνιών για την κίνηση αριστερά προς δεξιά}}{51}{figure.caption.93}%
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Γραφική παράσταση για την κίνηση ορθογώνιου παραλληλόγραμμου, αργή κίνηση (αριστερά) και γρήγορη κίνηση (δεξιά)}}{52}{figure.caption.95}%
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Γραφική παράσταση για τις δύο συνδυαστικές κινήσεις}}{52}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Γραφική Παράσταση (επάνω) και Χρονοσειρές Γωνιών (κάτω) για Κίνηση Αριστερά προς Δεξιά με Ανθρώπινο Εμπόδιο}}{53}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Γραφική Παράσταση για Κίνηση Αριστερά προς Δεξιά με Ανθρώπινο Εμπόδιο χωρίς το \textlatin {left anchor}}}{53}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Γραφική Παράσταση (επάνω) και Χρονοσειρές Γωνιών (κατώ) για Κίνηση Δεξιά προς Αριστερά με Ανθρώπινο Εμπόδιο}}{54}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Γραφική Παράσταση για Κίνηση Δεξιά προς Αριστερά με Ανθρώπινο Εμπόδιο χωρίς το \textlatin {right anchor}}}{55}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Γραφικές Παραστάσεις για την Κίνηση Παραλληλόγραμμου με Ανθρώπινο Εμπόδιο}}{55}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Παραλληλόγραμμη Κίνηση στο Δωμάτιο Β, Αριστερόστροφα (αριστερά) και Δεξιόστροφα (δεξιά)}}{56}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Παραλληλόγραμμη Κίνηση στο Δωμάτιο Β με Ανθρώπινο Εμπόδιο}}{57}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Στατικές Μετρήσεις (αριστερά) και Κυκλική Κίνηση (δεξιά) Γύρω από την Κολώνα}}{57}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στις Γωνίες για Παράθυρο μισού (επάνω αριστερά), ενός (επάνω δεξιά) και δύο Δευτερολέπτων (κάτω)}}{58}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στα Αποτελέσματα για Παράθυρο μισού και ενός Δευτερολέπτου}}{59}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στις Γωνίες και στα Αποτελέσματα για Παράθυρο ενός Δευτερολέπτου}}{59}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Γραφική παράσταση (επάνω) και χρονοσειρές γωνιών (κάτω) για κίνηση αριστερά προς δεξιά με ανθρώπινο εμπόδιο}}{53}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Γραφική παράσταση για κίνηση αριστερά προς δεξιά με ανθρώπινο εμπόδιο χωρίς το \textlatin {left anchor}}}{53}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Γραφική παράσταση (επάνω) και χρονοσειρές γωνιών (κατώ) για κίνηση δεξιά προς αριστερά με ανθρώπινο εμπόδιο}}{54}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Γραφική παράσταση για κίνηση δεξιά προς αριστερά με ανθρώπινο εμπόδιο χωρίς το \textlatin {right anchor}}}{55}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Γραφικές παραστάσεις για την κίνηση παραλληλόγραμμου με ανθρώπινο εμπόδιο}}{55}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Παραλληλόγραμμη κίνηση στο δωμάτιο Β, αριστερόστροφα (αριστερά) και δεξιόστροφα (δεξιά)}}{56}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Παραλληλόγραμμη κίνηση στο δωμάτιο Β με ανθρώπινο εμπόδιο}}{57}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Στατικές μετρήσεις (αριστερά) και κυκλική κίνηση (δεξιά) γύρω από την κολώνα}}{57}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Κίνηση παραλληλογράμμου με φιλτράρισμα στις γωνίες για παράθυρο μισού (επάνω αριστερά), ενός (επάνω δεξιά) και δύο δευτερολέπτων (κάτω)}}{58}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Κίνηση παραλληλογράμμου με φιλτράρισμα στα αποτελέσματα για παράθυρο μισού και ενός δευτερολέπτου}}{59}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Κίνηση παραλληλογράμμου με φιλτράρισμα στις γωνίες και στα αποτελέσματα για παράθυρο ενός δευτερολέπτου}}{59}{figure.caption.113}%
 \addvspace {10\p@ }
 \babel@toc {english}{}\relax 
