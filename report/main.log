@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.22)  19 MAR 2026 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.22)  19 MAR 2026 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1844,62 +1844,62 @@ q_H_2.png>]
 <pictures/roomb_sq2.png, id=977, 416.9979pt x 455.301pt>
 File: pictures/roomb_sq2.png Graphic file (type png)
 <use pictures/roomb_sq2.png>
-Package pdftex.def Info: pictures/roomb_sq2.png  used on input line 559.
+Package pdftex.def Info: pictures/roomb_sq2.png  used on input line 560.
 (pdftex.def)             Requested size: 213.39566pt x 232.99937pt.
 <pictures/roomb_sq3.png, id=978, 416.9979pt x 452.4102pt>
 File: pictures/roomb_sq3.png Graphic file (type png)
 <use pictures/roomb_sq3.png>
-Package pdftex.def Info: pictures/roomb_sq3.png  used on input line 560.
+Package pdftex.def Info: pictures/roomb_sq3.png  used on input line 561.
 (pdftex.def)             Requested size: 213.39566pt x 231.52pt.
 <pictures/roomb_sq4.png, id=979, 429.2838pt x 458.9145pt>
 File: pictures/roomb_sq4.png Graphic file (type png)
 <use pictures/roomb_sq4.png>
-Package pdftex.def Info: pictures/roomb_sq4.png  used on input line 570.
+Package pdftex.def Info: pictures/roomb_sq4.png  used on input line 571.
 (pdftex.def)             Requested size: 213.39566pt x 228.11922pt.
  [56 <./pictures/roomb_sq2.png> <./pictures/roomb_sq3.png>]
 <pictures/col.png, id=988, 458.1918pt x 456.0237pt>
 File: pictures/col.png Graphic file (type png)
 <use pictures/col.png>
-Package pdftex.def Info: pictures/col.png  used on input line 582.
+Package pdftex.def Info: pictures/col.png  used on input line 583.
 (pdftex.def)             Requested size: 213.39566pt x 212.38283pt.
 <pictures/col_c.png, id=989, 425.6703pt x 414.8298pt>
 File: pictures/col_c.png Graphic file (type png)
 <use pictures/col_c.png>
-Package pdftex.def Info: pictures/col_c.png  used on input line 583.
+Package pdftex.def Info: pictures/col_c.png  used on input line 584.
 (pdftex.def)             Requested size: 213.39566pt x 207.96507pt.
  [57 <./pictures/roomb_sq4.png> <./pictures/col.png> <./pictures/col_c.png>]
 <pictures/mov_sq_filt_05.png, id=998, 458.1918pt x 242.1045pt>
 File: pictures/mov_sq_filt_05.png Graphic file (type png)
 <use pictures/mov_sq_filt_05.png>
-Package pdftex.def Info: pictures/mov_sq_filt_05.png  used on input line 601.
+Package pdftex.def Info: pictures/mov_sq_filt_05.png  used on input line 602.
 (pdftex.def)             Requested size: 213.39566pt x 112.75475pt.
 <pictures/mov_sq_filt_1.png, id=999, 474.0912pt x 231.9867pt>
 File: pictures/mov_sq_filt_1.png Graphic file (type png)
 <use pictures/mov_sq_filt_1.png>
-Package pdftex.def Info: pictures/mov_sq_filt_1.png  used on input line 602.
+Package pdftex.def Info: pictures/mov_sq_filt_1.png  used on input line 603.
 (pdftex.def)             Requested size: 213.39566pt x 104.42136pt.
 <pictures/mov_sq_filt_2.png, id=1000, 456.0237pt x 238.491pt>
 File: pictures/mov_sq_filt_2.png Graphic file (type png)
 <use pictures/mov_sq_filt_2.png>
-Package pdftex.def Info: pictures/mov_sq_filt_2.png  used on input line 603.
+Package pdftex.def Info: pictures/mov_sq_filt_2.png  used on input line 604.
 (pdftex.def)             Requested size: 213.39566pt x 111.60313pt.
 <pictures/mov_sq_filt_p_05.png, id=1001, 461.0826pt x 225.4824pt>
 File: pictures/mov_sq_filt_p_05.png Graphic file (type png)
 <use pictures/mov_sq_filt_p_05.png>
-Package pdftex.def Info: pictures/mov_sq_filt_p_05.png  used on input line 617.
+Package pdftex.def Info: pictures/mov_sq_filt_p_05.png  used on input line 618.
 
 (pdftex.def)             Requested size: 213.39566pt x 104.35622pt.
 <pictures/mov_sq_filt_p_1.png, id=1002, 457.4691pt x 220.4235pt>
 File: pictures/mov_sq_filt_p_1.png Graphic file (type png)
 <use pictures/mov_sq_filt_p_1.png>
-Package pdftex.def Info: pictures/mov_sq_filt_p_1.png  used on input line 618.
+Package pdftex.def Info: pictures/mov_sq_filt_p_1.png  used on input line 619.
 (pdftex.def)             Requested size: 213.39566pt x 102.8221pt.
  [58 <./pictures/mov_sq_filt_05.png> <./pictures/mov_sq_filt_1.png> <./pictures
 /mov_sq_filt_2.png>]
 <pictures/mov_sq_filt_ap_1.png, id=1010, 456.7464pt x 247.1634pt>
 File: pictures/mov_sq_filt_ap_1.png Graphic file (type png)
 <use pictures/mov_sq_filt_ap_1.png>
-Package pdftex.def Info: pictures/mov_sq_filt_ap_1.png  used on input line 628.
+Package pdftex.def Info: pictures/mov_sq_filt_ap_1.png  used on input line 629.
 
 (pdftex.def)             Requested size: 213.39566pt x 115.47664pt.
 ) [59 <./pictures/mov_sq_filt_p_05.png> <./pictures/mov_sq_filt_p_1.png> <./pic
@@ -1987,7 +1987,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on main.pdf (69 pages, 4985770 bytes).
+Output written on main.pdf (69 pages, 4985791 bytes).
 PDF statistics:
  1197 PDF objects out of 1200 (max. 8388607)
  919 compressed objects within 10 object streams
