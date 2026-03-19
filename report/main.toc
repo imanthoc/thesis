@@ -71,7 +71,7 @@
 \contentsline {subsection}{\numberline {4.3.1}Πειράματα Κίνησης με Απρόσκοπτο \textlatin {Line of Sight}}{50}{subsection.4.3.1}%
 \contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{51}{section*.91}%
 \contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{51}{section*.94}%
-\contentsline {subsubsection}{Συνδιαστικές Κινήσεις}{52}{section*.96}%
+\contentsline {subsubsection}{Συνδυαστικές Κινήσεις}{52}{section*.96}%
 \contentsline {subsection}{\numberline {4.3.2}Πειράματα Κίνησης με Ανθρώπινο Εμπόδιο}{52}{subsection.4.3.2}%
 \contentsline {subsubsection}{Κίνηση Ευθείας Γραμμής}{52}{section*.98}%
 \contentsline {subsubsection}{Κίνηση Ορθογώνιου Παραλληλόγραμμου}{55}{section*.103}%

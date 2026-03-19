@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces \textlatin {GPS Trilateration} \blx@tocontentsinit {0}\cite {GPS_tril}}}{12}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \textlatin {Time of Flight} και \textlatin {RSSI Trilateration} \blx@tocontentsinit {0}\cite {sujata}}}{13}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces \textlatin {AoA} και \textlatin {AoD} \blx@tocontentsinit {0}\cite {bluetooth5.1guide}}}{14}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή δυο κύκλων}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Τομή δύο κύκλων}}{14}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Τομή τριών κύκλων}}{15}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Υπολογισμός \textlatin {Angle of Arrival}}}{16}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Εντοπισμός \textlatin {AoA}}}{16}{figure.caption.24}%
@@ -17,14 +17,14 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Φάσμα Λευκού Θορύβου \blx@tocontentsinit {0}\cite {whitenoise-wiki}}}{18}{figure.caption.27}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Καμπύλη Γκαουσιανής Κατανομής \blx@tocontentsinit {0}\cite {nmdst}}}{18}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ανάκλαση Ηλεκτρομαγνητικού Κύματος \blx@tocontentsinit {0}\cite {stine}}}{19}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δυο Κυμάτων με Άντίθετες Δφ}}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Καταστροφική Συμβολή δύο Κυμάτων με Άντίθετες Δφ}}{20}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Επίδραση Ανθρώπινου Σώματος στην Ισχύ Ραδιοκυμάτων 2.4\textlatin {GHz} \blx@tocontentsinit {0}\cite {januszkiewicz}}}{20}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Γεωμετρικό Βαρύκεντρο \textlatin {AoA}}}{22}{figure.caption.35}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Χρονοσειρά γωνίας με κεντρική τιμή 58 μοίρες}}{22}{figure.caption.36}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου}}{23}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημιτόνου με λευκό θόρυβο}}{24}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Θορυβόδες σήμα φιλτραρισμένο με \textlatin {Moving Average}}}{24}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Θορυβόδες σήμα φιλτραρισμένο με \textlatin {Moving Median}}}{25}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Μετασχηματισμός \textlatin {Fourier} ενός ημίτονου με λευκό θόρυβο}}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Θορυβώδες σήμα φιλτραρισμένο με \textlatin {Moving Average}}}{24}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Θορυβώδες σήμα φιλτραρισμένο με \textlatin {Moving Median}}}{25}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Φυσική Αρχιτεκτονική Συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{26}{figure.caption.43}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Αρχιτεκτονική Λογισμικού Συστήματος \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.44}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Αποτελέσματα Στατικών Πειραμάτων \textlatin {UWB} \blx@tocontentsinit {0}\cite {zhang}}}{27}{figure.caption.45}%
@@ -63,7 +63,7 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Γραφική παράσταση για τα πειράματα ευθείας γραμμής, αριστερά προς δεξιά (αριστερά) και δεξιά προς αριστερά (δεξιά)}}{51}{figure.caption.92}%
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Χρονοσειρές γωνιών για την κίνηση αριστερά προς δεξιά}}{51}{figure.caption.93}%
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Γραφική παράσταση για την κίνηση ορθογώνιου παραλληλόγραμμου, αργή κίνηση (αριστερά) και γρήγορη κίνηση (δεξιά)}}{52}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Γραφική παράσταση για τις δυο συνδιαστικές κινήσεις}}{52}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Γραφική παράσταση για τις δύο συνδυαστικές κινήσεις}}{52}{figure.caption.97}%
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Γραφική Παράσταση (επάνω) και Χρονοσειρές Γωνιών (κάτω) για Κίνηση Αριστερά προς Δεξιά με Ανθρώπινο Εμπόδιο}}{53}{figure.caption.99}%
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Γραφική Παράσταση για Κίνηση Αριστερά προς Δεξιά με Ανθρώπινο Εμπόδιο χωρίς το \textlatin {left anchor}}}{53}{figure.caption.100}%
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Γραφική Παράσταση (επάνω) και Χρονοσειρές Γωνιών (κατώ) για Κίνηση Δεξιά προς Αριστερά με Ανθρώπινο Εμπόδιο}}{54}{figure.caption.101}%
@@ -72,7 +72,7 @@
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Παραλληλόγραμμη Κίνηση στο Δωμάτιο Β, Αριστερόστροφα (αριστερά) και Δεξιόστροφα (δεξιά)}}{56}{figure.caption.106}%
 \contentsline {figure}{\numberline {4.32}{\ignorespaces Παραλληλόγραμμη Κίνηση στο Δωμάτιο Β με Ανθρώπινο Εμπόδιο}}{57}{figure.caption.108}%
 \contentsline {figure}{\numberline {4.33}{\ignorespaces Στατικές Μετρήσεις (αριστερά) και Κυκλική Κίνηση (δεξιά) Γύρω από την Κολώνα}}{57}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στις Γωνίες για Παράθυρο μισού (επάνω αριστερά), ενός (επάνω δεξιά) και δυο Δευτερολέπτων (κάτω)}}{58}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στις Γωνίες για Παράθυρο μισού (επάνω αριστερά), ενός (επάνω δεξιά) και δύο Δευτερολέπτων (κάτω)}}{58}{figure.caption.111}%
 \contentsline {figure}{\numberline {4.35}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στα Αποτελέσματα για Παράθυρο μισού και ενός Δευτερολέπτου}}{59}{figure.caption.112}%
 \contentsline {figure}{\numberline {4.36}{\ignorespaces Κίνηση Παραλληλογράμμου με Φιλτράρισμα στις Γωνίες και στα Αποτελέσματα για Παράθυρο ενός Δευτερολέπτου}}{59}{figure.caption.113}%
 \addvspace {10\p@ }
